@@ -1,0 +1,27 @@
+character:
+  name: Mr. Fixer
+  health: 28
+  deck: Mister Fixer
+  power:
+    name: Strike
+    actions:
+    - Mr
+    - Fixer deals 1 Target 1 Melee damage
+  incapacitated:
+  - Select an Equipment card in a Hero trash Put it into Play
+  - One Player may Draw 1 card now
+  - Destroy an Ongoing card
+---
+character:
+  name: 'Dark Watch: Mr. Fixer'
+  health: 29
+  deck: Mister Fixer
+  power:
+    name: Bitter Strike
+    actions:
+    - Mr Fixer does one Target 3 damage
+    - Destroy an Ongoing or Equipment Hero card
+  incapacitated:
+  - One Hero may use a Power now
+  - Destroy an Environment Card
+  - Put a Card in a Trash pile under its associated deck

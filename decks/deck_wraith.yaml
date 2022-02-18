@@ -1,0 +1,156 @@
+deck:
+  name: Wraith
+  complexity: 1
+  composition:
+  - Grappling Hook: 3
+  - Impromptu Invention: 3
+  - Inventory Barrage: 2
+  - Suture Self: 2
+  - Throat Jab: 2
+  - Trust Fund: 3
+  - Combat Stance: 2
+  - Infrared Eyepiece: 3
+  - Mega Computer: 3
+  - Stun Bolt: 3
+  - Micro Targeting Computer: 3
+  - Razor Ordnance: 3
+  - Smoke Bombs: 2
+  - Throwing Knives: 3
+  - Utility Belt: 3
+  cards:
+  - Grappling Hook:
+      actions:
+      - Destroy 1 Ongoing or Environment card
+      - You may draw a card
+      flavour:
+        text: 'Flavor-text: Being prepared is all about having the right tool for the job.'
+        source: Unattributed
+      tags:
+      - One-Shot
+  - Impromptu Invention:
+      actions:
+      - Draw a card
+      - Search your deck for an Equipment card and either put it into play or your hand
+      - Shuffle your deck
+      - You may play a card
+      flavour:
+        text: 'Flavor-text: "Wait, when did I make this thing?"'
+        source: The Wraith, Science & Progress One-Shot
+      tags:
+      - One-Shot
+  - Inventory Barrage:
+      actions:
+      - Destroy all of your Equipment cards
+      - The Wraith deals 1 Target X Projectile Damage, where X = 2 times the number of cards destroyed this way
+      flavour:
+        text: 'Flavor-text: "On occasion, quantity over quality can actually work."'
+        source: 'The Wraith, Freedom Five Annual #8'
+      tags:
+      - One-Shot
+  - Suture Self:
+      actions:
+      - The Wraith regains 3 HP
+      flavour:
+        text: 'Flavor-text: "Gah! I''ve had better days... "'
+        source: 'The Wraith, A Day in the Life: The Wraith'
+      tags:
+      - One-Shot
+  - Throat Jab:
+      actions:
+      - The Wraith deals 1 Target 2 Melee Damage
+      - The Target dealt Damage this way cannot deal Damage until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "An opportunity well taken is always a weapon of advantage."'
+        source: 'The Wraith, Freedom Five #299'
+      tags:
+      - One-Shot
+  - Trust Fund:
+      actions:
+      - Draw 4 cards, then discard 2 cards
+      flavour:
+        text: 'Flavor-text: "Mask or no mask, The Wraith is still The Wraith."'
+        source: 'Mr. Fixer, Transmission of Honor #2'
+      tags:
+      - One-Shot
+  - Combat Stance:
+      actions:
+      - The first time The Wraith is dealt Damage by a Target each turn, The Wraith deals that Target 2 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Heh, you''ll regret that!"'
+        source: 'The Wraith, Mystery Comics #190'
+      tags:
+      - Ongoing
+      - Limited
+  - Infrared Eyepiece:
+      actions:
+      - Power Reveal the top 2 cards of the Villain deck
+      - Put 1 of them on top of the Villain deck and the other on the bottom
+      - Draw a card
+      flavour:
+        text: 'Flavor-text: "Judging from the trajectory of the angle, and figuring the wind at 6 knots per hour, north by northeast as per this morning''s weather report... "'
+        source: 'The Wraith, Freedom Five #159'
+      tags:
+      - Equipment
+  - Mega Computer:
+      actions:
+      - Reduce Damage dealt by Environment cards by 1
+      flavour:
+        text: 'Flavor-text: "All the human knowledge and computation power joined in one machine... "'
+        source: 'Tachyon, Freedom Five Annual #5'
+      tags:
+      - Equipment
+  - Stun Bolt:
+      actions:
+      - Power The Wraith deals 1 Target 1 Projectile Damage
+      - Until the start of your next turn, reduce all Damage dealt by that Target by 1
+      flavour:
+        text: 'Flavor-text: "Battle is all about controlling yourself and your opponent."'
+        source: 'The Wraith, Freedom Five #199'
+      tags:
+      - Equipment
+  - Micro Targeting Computer:
+      actions:
+      - Increase Projectile Damage dealt by The Wraith by 2
+      flavour:
+        text: 'Flavor-text: "Every instrument is designed to combat crime and snare its perpetrators."'
+        source: 'The Wraith, Mystery Comics #214'
+      tags:
+      - Equipment
+      - Limited
+  - Razor Ordnance:
+      actions:
+      - Power The Wraith deals 1 Target 3 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Compassion is a weakness your enemies will not share."'
+        source: 'The Wraith, Freedom Five #540'
+      tags:
+      - Equipment
+      - Limited
+  - Smoke Bombs:
+      actions:
+      - Whenever a Villain card would deal Damage to the Hero Target with the lowest HP, redirect that Damage to the Hero Target with the highest HP
+      - Reduce Damage redirected this way by 1
+      flavour:
+        text: 'Flavor-text: Legacy: "Those must be quite handy."'
+        source: 'The Wraith: "Quite. Every crimefighter should have some."'
+      tags:
+      - Equipment
+      - Limited
+  - Throwing Knives:
+      actions:
+      - Power The Wraith deals up to 3 Targets 1 Projectile Damage each
+      flavour:
+        text: 'Flavor-text: "the wrong person in the right place can make all the difference."'
+        source: 'The Wraith, Sunrise #4'
+      tags:
+      - Equipment
+      - Limited
+  - Utility Belt:
+      actions:
+      - You may use an additional power during your power phase
+      flavour:
+        text: 'Flavor-text: Bunker: "A live fish?!"'
+        source: 'The Wraith: "The true crimefighter always carries everything she needs in her utility belt, Tyler."'
+      tags:
+      - Equipment
+      - Limited

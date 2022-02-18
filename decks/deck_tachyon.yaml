@@ -1,0 +1,157 @@
+deck:
+  name: Tachyon
+  complexity: 2
+  composition:
+  - Hypersonic Assault: 3
+  - Lightning Reflexes: 2
+  - Lightspeed Barrage: 3
+  - Sonic Vortex: 2
+  - Accelerated Assault: 3
+  - Blinding Speed: 3
+  - Fleet of Foot: 3
+  - Nimble Strike: 3
+  - Quick Insight: 2
+  - Sucker Punch: 3
+  - Supersonic Response: 2
+  - Research Grant: 2
+  - Synaptic Interruption: 3
+  - Pushing the Limits: 3
+  - HUD Goggles: 3
+  cards:
+  - Hypersonic Assault:
+      actions:
+      - Tachyon deals each non-Hero Target 1 Sonic Damage
+      - Targets dealt Damage this way cannot deal Damage until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "Staydownstaydownstaydownstaydownstaydownstaydownstaydown!"'
+        source: 'Tachyon, Freedom Five Annual #11'
+      tags:
+      - One-Shot
+  - Lightning Reflexes:
+      actions:
+      - You may play up to 2 cards now
+      flavour:
+        text: 'Flavor-text: "We''re under attack! Suit up!"'
+        source: 'Tachyon, Freedom Five Annual #4'
+      tags:
+      - One-Shot
+  - Lightspeed Barrage:
+      actions:
+      - Tachyon deals 1 Target X Melee Damage, where X = the number of Burst cards in your trash
+      flavour:
+        text: 'Flavor-text: "10 seconds ago, I was in a different time zone. Guess how many times I''m going to hit you in the next 10 seconds."'
+        source: 'Tachyon, Lightspeed #8'
+      tags:
+      - One-Shot
+  - Sonic Vortex:
+      actions:
+      - Tachyon deals up to X Targets 3 Sonic Damage, where X = the number of Burst cards in your trash
+      flavour:
+        text: 'Flavor-text: "Gottakeepmovingnotimetowaste!"'
+        source: 'Tachyon, Freedom Five #336'
+      tags:
+      - One-Shot
+  - Accelerated Assault:
+      actions:
+      - Tachyon deals each non-Hero Target 1 Melee Damage
+      flavour:
+        text: 'Flavor-text: "And you! And you! And you! And you! And you! Whew! Did I forget anyone?"'
+        source: 'Tachyon, Freedom Five #112'
+      tags:
+      - One-Shot
+      - Burst
+  - Blinding Speed:
+      actions:
+      - Destroy 1 Environment card or 1 Ongoing card
+      flavour:
+        text: 'Flavor-text: "Did you know that localized winds of over 300 knots will pretty much instantly put out any flame?"'
+        source: 'Tachyon, Freedom Five #91'
+      tags:
+      - One-Shot
+      - Burst
+  - Fleet of Foot:
+      actions:
+      - Each player may draw a card
+      - You may play a card
+      flavour:
+        text: 'Flavor-text: "Dude, you are not my nemesis!"'
+        source: 'Tachyon, Lightspeed #2'
+      tags:
+      - One-Shot
+      - Burst
+  - Nimble Strike:
+      actions:
+      - Tachyon deals 1 Target 1 Melee Damage
+      - You may draw a card
+      flavour:
+        text: 'Flavor-text: "Hah!Takethatdon''tworrythere''smore!"'
+        source: 'Tachyon, Freedom Five #271'
+      tags:
+      - One-Shot
+      - Burst
+  - Quick Insight:
+      actions:
+      - Draw 3 cards, discard 2 cards
+      flavour:
+        text: 'Flavor-text: "Goodness, look at my wrist! I gotta go!"'
+        source: 'Tachyon, Freedom Five #479'
+      tags:
+      - One-Shot
+      - Burst
+  - Sucker Punch:
+      actions:
+      - Destroy 1 Target with 2 or fewer HP
+      flavour:
+        text: 'Flavor-text: "Thought you had me, didn''t you?"'
+        source: 'Tachyon, Mystery Comics #206'
+      tags:
+      - One-Shot
+      - Burst
+  - Supersonic Response:
+      actions:
+      - Tachyon deals 1 Target 2 Melee Damage
+      - If that Target dealt Tachyon Damage since your last turn, she deals that Target 2 Sonic Damage
+      flavour:
+        text: 'Flavor-text: "Seriously, I''ve got fairly decent reaction time."'
+        source: 'Tachyon, Freedom Five #626'
+      tags:
+      - One-Shot
+      - Burst
+  - Research Grant:
+      actions:
+      - Power Draw 2 cards
+      - Discard a card
+      flavour:
+        text: 'Flavor-text: "So close! Just a few weeks from a real tangible conclusion."'
+        source: Tachyon, Science & Progress One-Shot
+      tags:
+      - Ongoing
+  - Synaptic Interruption:
+      actions:
+      - If Tachyon would be dealt 3 or more Damage from a single source, you may redirect that Damage to a Target of your choice and destroy this card
+      flavour:
+        text: 'Flavor-text: "Whenever I feel like slowing down, I speed up instead. True Story."'
+        source: 'Tachyon, Freedom Five #490'
+      tags:
+      - Ongoing
+      - Burst
+  - Pushing the Limits:
+      actions:
+      - You may play an additional card during your play phase and draw an additional card during your draw phase
+      - At the start of your turn, Tachyon may deal herself 2 Sonic Damage
+      - If she takes no Damage this way, this card is destroyed
+      flavour:
+        text: 'Flavor-text: "Yeah, she can run at legendary speeds, but its not easy."'
+        source: Unity, Science & Progress One-Shot
+      tags:
+      - Ongoing
+      - Limited
+  - HUD Goggles:
+      actions:
+      - You may play an additional card during your play phase
+      flavour:
+        text: 'Flavor-text: "Diagnostic info, streaming updates from the team, plus it keeps the bugs out of my eyes at mach 8."'
+        source: Tachyon, Science & Progress One-Shot
+      tags:
+      - Equipment
+      - Limited

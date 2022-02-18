@@ -1,0 +1,169 @@
+deck:
+  name: Scholar
+  complexity: 3
+  composition:
+  - '"Get Out of the Way!"': 3
+  - Don't Dismiss Anything: 2
+  - Grace Under Fire: 3
+  - Keep Moving: 4
+  - Know When to Hold Fast: 25
+  - Know When to Turn Loose: 2
+  - Offensive Transmutation: 2
+  - Proverbs and Axioms: 2
+  - Transmutative Recovery: 3
+  - Alchemical Redirection: 2
+  - Flesh to Iron: 3
+  - Mortal Form to Energy: 3
+  - Solid to Liquid: 3
+  - Bring What You Need: 2
+  - Expect the Worst: 2
+  - Truth Seeker: 2
+  cards:
+  - '"Get Out of the Way!"':
+      actions:
+      - The Scholar deals each non-Hero Target 1 Fire Damage
+      - Then, The Scholar regains X HP, where X = the number of Targets dealt Damage this way
+      flavour:
+        text: 'Flavor-text: "You''d better hope you can move fast enough!"'
+        source: 'The Scholar, Vengeance #2'
+      tags:
+      - One-Shot
+  - Don't Dismiss Anything:
+      actions:
+      - Each Player may either move 1 card from their trash to the top of their deck, or put the top card of their deck into play
+      flavour:
+        text: 'Flavor-text: "What I want to find is the truth. What are you looking for?"'
+        source: 'The Scholar, Emigrant''s Song #2'
+      tags:
+      - One-Shot
+  - Grace Under Fire:
+      actions:
+      - The Scholar deals 1 Target X Radiant Damage, where X = the number of non-Hero Targets in play
+      flavour:
+        text: 'Flavor-text: "If life gives you lemons, make a lemon cannon."'
+        source: 'The Scholar, Stranger in a Strange World #9'
+      tags:
+      - One-Shot
+  - Keep Moving:
+      actions:
+      - Search your deck for an Elemental card and put it into play
+      - Shuffle your deck
+      - You may play a card
+      flavour:
+        text: 'Flavor-text: "Come on! Seriously! Give me something to work with here!"'
+        source: 'The Scholar, Vagabond''s Tale #5'
+      tags:
+      - One-Shot
+  - Know When to Hold Fast:
+      actions:
+      - Art The Scholar relaxing in a chair with a beer in his right hand;
+      flavour:
+        text: 'Flavor-text: "What do you mean, ''lazy''? I''m preparing. Planning. Strategizing."'
+        source: 'The Scholar, Virutoso of the Void #11'
+      tags:
+      - One-Shot
+  - Know When to Turn Loose:
+      actions:
+      - Discard your hand
+      - The Scholar deals 1 Target X Lightning Damage, where X = the number of cards discarded this way
+      flavour:
+        text: 'Flavor-text: "In a lot of ways, this would have benefited from planning."'
+        source: 'The Scholar, Virutoso of the Void #12'
+      tags:
+      - One-Shot
+  - Offensive Transmutation:
+      actions:
+      - The Scholar deals 1 Target 2 Infernal Damage
+      - A Target dealt Damage this way cannot deal Damage until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "Stop. Just stop. Don''t you think you''ve done enough?"'
+        source: 'The Scholar, Nightmist #8'
+      tags:
+      - One-Shot
+  - Proverbs and Axioms:
+      actions:
+      - Each Player draws 1 card
+      - Each Hero Character card may either regain 2 HP or deal themselves 3 Psychic Damage and use a Power
+      flavour:
+        text: 'Flavor-text: "Listen, I didn''t come here to talk about legacy. Who are you?"'
+        source: 'The Scholar, Mystery Comics #28'
+      tags:
+      - One-Shot
+  - Transmutative Recovery:
+      actions:
+      - The Scholar regains 2 HP
+      - Draw 2 cards
+      flavour:
+        text: 'Flavor-text: "Never underestimate the value of forty winks. Or eighty."'
+        source: 'The Scholar, The Savage Haka #40'
+      tags:
+      - One-Shot
+  - Alchemical Redirection:
+      actions:
+      - Redirect all Damage that would be deal to Hero Targets to The Scholar
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "A lot of people die'
+        source: that doesn't mean you're going to die."
+      tags:
+      - Ongoing
+  - Flesh to Iron:
+      actions:
+      - At the start of your turn, either discard 1 card or destroy this card
+      - Reduce Damage dealt to The Scholar by 2
+      flavour:
+        text: 'Flavor-text: "Show me your worst. I have weathered more than you could guess."'
+        source: 'The Scholar, Nightmare World #5'
+      tags:
+      - Ongoing
+      - Elemental
+  - Mortal Form to Energy:
+      actions:
+      - At the start of your turn, either discard 1 card or destroy this card
+      - Whenever The Scholar regains HP, The Scholar also deals 1 Target that much Energy Damage
+      flavour:
+        text: 'Flavor-text: "Pay attention: I am not a ghost. Do not be alarmed."'
+        source: 'The Scholar, Tome of the Bizarre #36'
+      tags:
+      - Ongoing
+      - Elemental
+  - Solid to Liquid:
+      actions:
+      - At the start of your turn, either discard 1 card or destroy this card
+      - Whenever The Scholar would regain HP, increase the amount of HP regained by 1
+      flavour:
+        text: 'Flavor-text: "Qu''est-ce que c''est?!"'
+        source: 'Ambuscade, Temporal Targets #5'
+      tags:
+      - Ongoing
+      - Elemental
+  - Bring What You Need:
+      actions:
+      - Power Reveal the top 3 cards of your deck
+      - Put 2 in your hand and 1 on the bottom of your deck
+      flavour:
+        text: 'Flavor-text: "Ah, simple treasures. They tell the story of a man''s life."'
+        source: 'The Scholar, Vagabond''s Tale #1'
+      tags:
+      - Ongoing
+      - Limited
+  - Expect the Worst:
+      actions:
+      - Whenever The Scholar would be dealt Damage, reduce that Damage to 0
+      - At the start of your turn, The Scholar regains 2 HP and destroys this card
+      flavour:
+        text: 'Flavor-text: "He stood, wreathed in flame, but he did not burn."'
+        source: 'Fanatic, Mystery Comics #281'
+      tags:
+      - Ongoing
+      - Limited
+  - Truth Seeker:
+      actions:
+      - Power The Scholar deals 1 Target 2 Melee Damage
+      - Draw 1 card
+      flavour:
+        text: 'Flavor-text: "The truth is power! Your lies are feeble at best."'
+        source: 'The Scholar, The Fabric of Despair #5'
+      tags:
+      - Ongoing
+      - Limited

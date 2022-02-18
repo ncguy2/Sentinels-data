@@ -1,0 +1,53 @@
+character:
+  name: Wraith
+  health: 26
+  deck: Wraith
+  power:
+    name: Stealth
+    actions:
+    - Reduce the next damage that would be dealt to The Wraith by 2
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - Tried Wraith, First Edition and Wraith, First Edition
+---
+character:
+  name: Rook City Wraith
+  health: 27
+  deck: Wraith
+  power:
+    name: Sleuth
+    actions:
+    - Reveal the top card of the Environment Deck
+    - Discard it or play it
+  incapacitated:
+  - Select an Equipment card in a Hero trash Put it into Play
+  - Select a Hero That Hero regains 2 HP
+  - Destroy an Environment card
+---
+character:
+  name: 'Freedom Six: Wraith'
+  health: 25
+  deck: Wraith
+  power:
+    name: Last Stand
+    actions:
+    - The Wraith deals up to 2 targets 1 melee damage each
+  incapacitated:
+  - One Player draws 1 card now
+  - Destroy 1 Environment card
+  - Put 1 Ongoing card on top of it's associated Deck
+---
+character:
+  name: 'Freedom Five: Wraith'
+  health: 28
+  deck: Wraith
+  power:
+    name: Clandestine Funding
+    actions:
+    - Draw a card
+    - Until the end of your next turn, whenever you Draw a card, you may Discard a card
+    - If you do, another Player Draws a card
+  incapacitated:
+  - One Player may Draw 2 cards If they do, they Discard a card
+  - Select a Target Reduce the next damage dealt to that Target by 2
+  - One Player searches their deck for an Equipment card, puts it into their hand, then shuffles their deck

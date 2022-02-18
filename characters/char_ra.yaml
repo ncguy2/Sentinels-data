@@ -1,0 +1,40 @@
+character:
+  name: Ra
+  health: 30
+  deck: Ra
+  power:
+    name: Pyre
+    actions:
+    - Ra deals 1 target 2 fire damage
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - Tried Ra, First Edition and Ra, First Edition
+---
+character:
+  name: 'Ra: Horus of the Two Horizons'
+  health: 29
+  deck: Ra
+  power:
+    name: Sunrise
+    actions:
+    - Draw 3 cards
+    - Discard 2 cards
+  incapacitated:
+  - One player may Draw a card now
+  - Destroy an Ongoing card
+  - Move a Villain Card from the Villain trash to the top of the Villain Deck
+---
+character:
+  name: 'Ra: Setting Sun'
+  health: 28
+  deck: Ra
+  power:
+    name: Sunset
+    actions:
+    - Ra deals each Non-Hero Target and himself 2 Irreducible Fire damage
+    - Destroy one of your Ongoing cards
+    - Remove the top 2 cards of your Deck and Trash from the game
+  incapacitated:
+  - One Player may either Draw or Play a card
+  - One Hero deals 1 Target 10 Irreducible Fire damage Remove Ra from the game
+  - Destroy each Non-Hero Target with 4 or fewer HP Remove Ra from the game

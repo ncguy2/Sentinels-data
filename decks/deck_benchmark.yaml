@@ -1,0 +1,246 @@
+deck:
+  name: Benchmark
+  complexity: 3
+  composition:
+  - Flash Installation Drive: 1
+  - '"Inferno" Missile Pod': 1
+  - Legion-Core Processor: 1
+  - Micro Fabricator: 1
+  - Onboard Cooling Systems: 1
+  - Reinforced Chassis: 1
+  - Secondary Cannon: 1
+  - Subcutaneous Cybernetics: 1
+  - Upgraded Memory Unit: 1
+  - Deployment Actuation: 4
+  - Fly-By: 4
+  - Overhaul Loadout: 3
+  - Ally Matrix: 2
+  - Auto-Targeting Protocol: 2
+  - Countermeasures: 2
+  - Intel Analyzer: 2
+  - Intervening Path Calculator: 2
+  - Load On Initialization: 2
+  - Multi-Point HUD: 2
+  - Shunt Energy: 2
+  - Tactical Communicator: 2
+  - Threat Neutralizer: 2
+  cards:
+  - Flash Installation Drive:
+      actions:
+      - At the end of your turn, discard the top card of your deck
+      - Then, you may put a Software card from your trash into play
+      flavour:
+        text: 'Flavor-text: "Sir, I''m sure this isn''t part of the job description. In fact, I checked."'
+        source: 'Benchmark, RevoCorp Presents #9'
+      tags:
+      - Equipment
+      - Hardware
+  - '"Inferno" Missile Pod':
+      actions:
+      - Whenever you discard a card from your hand, you may put it under this card
+      - At the end of your turn, destroy all the cards under this card
+      - Then, Benchmark deals 1 target 1 Fire Damage X times, where X = the number of cards destroyed
+      flavour:
+        text: 'Flavor-text: "Comin'' atcha! Yeah! Way better than that ''new standard'' crap!"'
+        source: 'Benchmark, The Deadliest Game #12'
+      tags:
+      - Equipment
+      - Hardware
+  - Legion-Core Processor:
+      actions:
+      - At the start of your turn, you may either move one Software card from your trash into your hand, or you may use a Power
+      flavour:
+        text: 'Flavor-text: "It''s got dozens of ultra-tiny processors inside every microprocessor! I want twenty of ''em."'
+        source: 'Benchmark, RevoCorp Presents #9'
+      tags:
+      - Equipment
+      - Hardware
+  - Micro Fabricator:
+      actions:
+      - At the end of your turn, you may play a Hardware card or draw a card
+      - Then, you may discard a card
+      flavour:
+        text: 'Flavor-text: "Fascinating. You have no idea how any of this works, do you? A living puppet!"'
+        source: 'Biomancer, Time & Time Again #9'
+      tags:
+      - Equipment
+      - Hardware
+  - Onboard Cooling Systems:
+      actions:
+      - The first time a Software card enters play each turn, Benchmark deals up to 2 targets 2 Cold Damage each
+      - You may use an additional Power during your Power phase
+      flavour:
+        text: 'Flavor-text: "Look, man. I''m not saying I''m the only one who can have cold hoses and a metal suit, but come on."'
+        source: 'Absolute Zero, Freedom Five #760'
+      tags:
+      - Equipment
+      - Hardware
+  - Reinforced Chassis:
+      actions:
+      - Reduce damage dealt to Benchmark by 1
+      flavour:
+        text: 'Flavor-text: "Remember? I''m the new standard. With or without your contract."'
+        source: 'Benchmark, RevoCorp Presents #12'
+      tags:
+      - Equipment
+      - Hardware
+  - Secondary Cannon:
+      actions:
+      - Whenever Benchmark uses a Power, you may discard a card
+      - If you do, Benchmark deals 1 target 1 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Kapow? Blammo? Zap? Bleh, none of those are really working for me."'
+        source: 'Benchmark, Mystery Comics #467'
+      tags:
+      - Equipment
+      - Hardware
+  - Subcutaneous Cybernetics:
+      actions:
+      - The first time Benchmark is dealt damage each turn, you may discard a card
+      - If you do, Benchmark regains 1 HP
+      - At the end of your turn, Benchmark regains 1 HP
+      flavour:
+        text: 'Flavor-text: "Huh. Well, I''d say I didn''t sign up for this, but that''s obviously not the case."'
+        source: 'Benchmark, RevoCorp Presents #1'
+      tags:
+      - Equipment
+      - Hardware
+  - Upgraded Memory Unit:
+      actions:
+      - Increase HP recovery by Benchmark by 1
+      - At the end of your turn, if you have 5 or fewer cards in hand, draw a card
+      - If you do not draw a card this way, you may play a Software card
+      flavour:
+        text: 'Flavor-text: "I''m sorry, I really don''t know-- er, wait, I do know now. Fancy that!" Benchmark, Freedom Five #761'
+        source: ''
+      tags:
+      - Equipment
+      - Hardware
+  - Deployment Actuation:
+      actions:
+      - Reveal cards from the top of your deck until a Hardware card is revealed
+      - Put it into play
+      - Discard the other revealed cards
+      - You may move a Hardware or Software card from your trash to your hand
+      flavour:
+        text: 'Flavor-text: "Falling! Falling! Oh, OK, cool. Everything''s good here. Right. Stay on target."'
+        source: 'Benchmark, RevoCorp Presents #1'
+      tags:
+      - One-Shot
+  - Fly-By:
+      actions:
+      - Benchmark deals up to 3 targets 2 Energy Damage each
+      - You may either play a card or return this card to your hand
+      flavour:
+        text: 'Flavor-text: "Look! Up there! Is it Legacy? Or a robot?!"'
+        source: 'Innocent Bystander, Freedom Five #760'
+      tags:
+      - One-Shot
+  - Overhaul Loadout:
+      actions:
+      - Draw up to 3 cards
+      - Move any number of Hardware and Software cards in play to your hand
+      - Play up to X Hardware and/or Software cards, where X = the number of cards you moved to your hand this way
+      flavour:
+        text: 'Flavor-text: "I''m not here to do a job. I''m here to do what''s right."'
+        source: 'Bencmark, Freedom Five Annual #30'
+      tags:
+      - One-Shot
+  - Ally Matrix:
+      actions:
+      - Power Discard a card
+      - If you do, one other player may draw a card and use a Power
+      flavour:
+        text: 'Flavor-text: "There! She''s open'
+        source: take the shot before it's too late!"
+      tags:
+      - Ongoing
+      - Software
+  - Auto-Targeting Protocol:
+      actions:
+      - Power Benchmark deals up to 5 targets 1 Energy Damage each
+      flavour:
+        text: 'Flavor-text: "I''ve got each and every one of you in my sights. Literally."'
+        source: 'Benchmark, The Deadliest Game #12'
+      tags:
+      - Ongoing
+      - Software
+  - Countermeasures:
+      actions:
+      - Whenever Benchmark would be dealt damage by a non-Hero target with 2 or fewer HP, destroy that target instead
+      - At the start of your turn, if you have more Software than Hardware in play, draw a card and destroy 2 Software cards
+      flavour:
+        text: 'Flavor-text: "I''m not in charge here or anything, but I''m pretty sure this is a no-fly zone."'
+        source: 'Benchmark, RevoCorp Presents #5'
+      tags:
+      - Ongoing
+      - Software
+  - Intel Analyzer:
+      actions:
+      - Power Draw 2 cards
+      - Discard 2 cards
+      - You may play a Software card
+      flavour:
+        text: 'Flavor-text: "You''ll find that we are, in fact, able to see it from your point of view."'
+        source: 'Revenant, RevoCorp Presents #7'
+      tags:
+      - Ongoing
+      - Software
+  - Intervening Path Calculator:
+      actions:
+      - Whenever the Hero with the lowest HP would be dealt damage, you may redirect that damage to Benchmark
+      - At the start of your turn, if you have more Software than Hardware in play, draw a card and destroy 2 Software cards
+      flavour:
+        text: 'Flavor-text: "Meet the new standard! ...I am so sorry. I''m contractually obligated to say that."'
+        source: 'Benchmark, Freedom Five #761'
+      tags:
+      - Ongoing
+      - Software
+  - Load On Initialization:
+      actions:
+      - At the start of your turn, you may either draw a card or play a Software card
+      - Then, if you have more Software than Hardware in play, draw a card and destroy 2 Software cards
+      flavour:
+        text: 'Flavor-text: "Come on, come on, come on... you''re making me look bad in front of all the REAL heroes!"'
+        source: 'Benchmark, Freedom Five #761'
+      tags:
+      - Ongoing
+      - Software
+  - Multi-Point HUD:
+      actions:
+      - Power Increase damage dealt by Benchmark this turn by 1
+      flavour:
+        text: 'Flavor-text: "Ah, team? Someone? I could really use a hand, here! Preferably not one made of rocks!"'
+        source: 'Tachyon, Freedom Five Annual #30'
+      tags:
+      - Ongoing
+      - Software
+  - Shunt Energy:
+      actions:
+      - Power Benchmark deals himself 1 Energy Damage and deals 1 target 4 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Yeah, sure. Get in close, pal. I don''t just shoot lazers!"'
+        source: 'Benchmark, The Hero in the Arena #5'
+      tags:
+      - Ongoing
+      - Software
+  - Tactical Communicator:
+      actions:
+      - Power Select a target
+      - The next damage dealt to that target is irreducible and increased by 2
+      flavour:
+        text: 'Flavor-text: "I''ve certainly gotten her attention! Someone want to take advantage of that? Anyone?"'
+        source: 'Benchmark, Scion Strike #3'
+      tags:
+      - Ongoing
+      - Software
+  - Threat Neutralizer:
+      actions:
+      - Power Destroy an Ongoing card, an Environment card, or a target with 1 HP
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "How do you like that?! No, that was uncalled for. Even after messing with my brain."'
+        source: 'Benchmark, The Deadliest Game #12'
+      tags:
+      - Ongoing
+      - Software

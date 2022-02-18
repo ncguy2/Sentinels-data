@@ -1,0 +1,206 @@
+deck:
+  name: Mister Fixer
+  complexity: 2
+  composition:
+  - Charge: 3
+  - Meditation: 3
+  - Overdrive: 4
+  - Salvage Yard: 2
+  - Bloody Knuckles: 4
+  - Harmony: 2
+  - Alternating Tiger Claw: 2
+  - Driving Mantis: 2
+  - Grease Monkey Fist: 2
+  - Riveting Crane: 2
+  - Grease Gun: 2
+  - Tool Box: 2
+  - Dual Crowbars: 2
+  - Hoist Chain: 2
+  - Jack Handle: 2
+  - Pipe Wrench: 2
+  - Tire Iron: 2
+  cards:
+  - Charge:
+      actions:
+      - Mr
+      - Fixer deals 1 Target 2 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Their eyes beg me for mercy. I grant with my fist."'
+        source: 'Mr. Fixer, Transmission of Honor #9'
+      tags:
+      - One-Shot
+  - Meditation:
+      actions:
+      - Search your trash or your deck for a Style card and put it either into your hand or into play
+      flavour:
+        text: 'Flavor-text: "Like a mountain, unmoving, unshakable. Like the ocean, deep, unfathomable."'
+        source: 'The Visionary, Freedom Five Annual #15'
+      tags:
+      - One-Shot
+  - Overdrive:
+      actions:
+      - You may use Mr
+      - Fixer's "Strike" power twice this turn
+      flavour:
+        text: 'Flavor-text: "Strike a blow for freedom, and strike one for the land!"'
+        source: 'Mr. Fixer, Mystery Comics #145'
+      tags:
+      - One-Shot
+  - Salvage Yard:
+      actions:
+      - Move all Equipment cards from each Hero's trash into their Player's hands
+      - If there is a copy of the card Overdrive in your trash, you may put it into play now
+      flavour:
+        text: 'Flavor-text: "A trip to the junk yard is a journey to the past that makes way for the future."'
+        source: 'Mr. Fixer, Transmission of Honor #1'
+      tags:
+      - One-Shot
+  - Bloody Knuckles:
+      actions:
+      - Increase all Damage dealt to Mr
+      - Fixer by 2
+      - Increase all Damage dealt by Mr
+      - Fixer by 2
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "When Mr. Fixer strikes a blow, there''s iron in his hand."'
+        source: 'Fanatic, Freedom Five Annual #15'
+      tags:
+      - Ongoing
+  - Harmony:
+      actions:
+      - When both a Tool card and a Style card are in play, increase Damage dealt by Mr
+      - Fixer by 1
+      flavour:
+        text: 'Flavor-text: "Courage first; power second; technique third."'
+        source: 'Black Fist, Mystery Comics #146'
+      tags:
+      - Ongoing
+      - Limited
+  - Alternating Tiger Claw:
+      actions:
+      - Damage dealt by Mr
+      - Fixer is irreducible
+      - When this card enters play, destroy all other Style cards
+      flavour:
+        text: 'Flavor-text: No Retreat'
+        source: No Surrender
+      tags:
+      - Ongoing
+      - Style
+  - Driving Mantis:
+      actions:
+      - The first time each turn that Mr
+      - Fixer would be  dealt 2 or less Damage, you may redirect that Damage to a Target of your choice
+      - When this card enters play, destroy all other Style cards in play
+      flavour:
+        text: 'Flavor-text: Hard, But Not Stiff; Soft, But With Power; Fast, But Without Disorder'
+        source: Unattributed
+      tags:
+      - Ongoing
+      - Style
+  - Grease Monkey Fist:
+      actions:
+      - Whenever Mr
+      - Fixer deals Damage, you may choose the type of that Damage
+      - Increase Damage dealt by Mr
+      - Fixer by 1
+      - When this card enters play, destroy all other Style cards in play
+      flavour:
+        text: 'Flavor-text: Attack Suddenly; Attack Violently; Attack Without End'
+        source: Unattributed
+      tags:
+      - Ongoing
+      - Style
+  - Riveting Crane:
+      actions:
+      - After Mr
+      - Fixer Damages a Target, all Damage dealt to that Target is irreducible until the start of your next turn
+      - When this card enters play, destroy all other Style cards in play
+      flavour:
+        text: 'Flavor-text: Out Maneuver; Out Distance; Out Last'
+        source: Unattributed
+      tags:
+      - Ongoing
+      - Style
+  - Grease Gun:
+      actions:
+      - Non-Hero Targets cannot deal Damage
+      - You may not use Powers
+      - You may not draw cards
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "Being an auto mechanic is not exactly a precise business."'
+        source: 'Mr. Fixer, Engine Block Blues #2'
+      tags:
+      - Equipment
+  - Tool Box:
+      actions:
+      - When this card enters play, draw 2 cards
+      - At the start of your turn, return this card to your hand
+      flavour:
+        text: 'Flavor-text: "A toolbox is not a toy."'
+        source: 'Mr. Fixer, Engine Block Blues #4'
+      tags:
+      - Equipment
+  - Dual Crowbars:
+      actions:
+      - Whenever Mr
+      - Fixer deals Damage, he may deal that Damage to 1 other Target as well
+      - Increase Damage dealt by Mr
+      - Fixer by 1
+      - When this card enters play, return any other Tool cards in play to your hand
+      flavour:
+        text: 'Flavor-text: "Yup, one for each hand. Just in case, you know?"'
+        source: 'Mr. Fixer, Engine Block Blues #1'
+      tags:
+      - Equipment
+      - Tool
+  - Hoist Chain:
+      actions:
+      - Whenever Mr
+      - Fixer deals Damage to a Target, reduce all Damage dealt by that Target by 1 until the start of your next turn
+      - When this card enters play, return any other Tool cards in play to your hand
+      flavour:
+        text: 'Flavor-text: "It''s a good old chain. Held up many a block in its day."'
+        source: 'Mr. Fixer, Transmission of Honor #6'
+      tags:
+      - Equipment
+      - Tool
+  - Jack Handle:
+      actions:
+      - Whenever Mr
+      - Fixer would deal Damage to a Target, he deals that much Damage to all non-Hero targets
+      - When this card enters play, return any other Tool cards in play to your hand
+      flavour:
+        text: 'Flavor-text: "Never know when you''ll need an extra long lever."'
+        source: 'Mr. Fixer, Mystery Comics #146'
+      tags:
+      - Equipment
+      - Tool
+  - Pipe Wrench:
+      actions:
+      - Increase Damage dealt by Mr
+      - Fixer by 1
+      - Reduce Damage dealt to Mr
+      - Fixer by 1
+      - When this card enters play, return any other Tool cards in play to your hand
+      flavour:
+        text: 'Flavor-text: "Good forged steel! Not like those modern cast aluminum ones."'
+        source: 'Mr. Fixer, Freedom Five #617'
+      tags:
+      - Equipment
+      - Tool
+  - Tire Iron:
+      actions:
+      - All Damage dealt by Mr
+      - Fixer is Projectile Damage
+      - After Mr
+      - Fixer Damages a Target, if that Target has 2 or fewer HP, destroy it
+      - When this card enters play, return any other Tool cards in play to your hand
+      flavour:
+        text: 'Flavor-text: "He threw a what at you?!"'
+        source: 'The Fence, Justice Comics #634'
+      tags:
+      - Equipment
+      - Tool

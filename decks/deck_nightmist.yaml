@@ -1,0 +1,198 @@
+deck:
+  name: NightMist
+  complexity: 3
+  composition:
+  - Mist-Fueled Recovery: 2
+  - Call Forth: 3
+  - Enlightenment: 3
+  - Heedless Lash: 3
+  - Mistbound: 2
+  - Mists of Time: 2
+  - Oblivion: 4
+  - Planar Banishment: 3
+  - Scouring Mists: 3
+  - Astral Premonition: 2
+  - Master of Magic: 2
+  - Mist Form: 2
+  - Tome of Elder Magic: 2
+  - Amulet of the Elder Gods: 2
+  - Elder Ring: 3
+  - Starshield Necklace: 2
+  cards:
+  - Mist-Fueled Recovery:
+      actions:
+      - Shuffle a Hero's trash into that Hero's deck
+      - Nightmist regains 1 HP for each 2 cards shuffled into that Hero's deck by this card
+      - Immediately end your turn
+      flavour:
+        text: 'Flavor-text: "I am more than mere shadow'
+        source: I am the mists themselves!"
+      tags:
+      - One-Shot
+  - Call Forth:
+      actions:
+      - Discard a card
+      - Reveal cards from the top of your deck until the discarded card's  Relics are revealed
+      - Put the Relics into your hand
+      - Shuffle the other revealed cards back into your deck
+      flavour:
+        text: 'Flavor-text: "I hear your summons'
+        source: I come to both impart and exact."
+      tags:
+      - One-Shot
+      - Spell
+  - Enlightenment:
+      actions:
+      - Reveal the top card of your deck
+      - Nightmist deals herself that card's  Infernal Damage
+      - One player may draw that card's  cards
+      - Put the revealed card into your trash
+      flavour:
+        text: 'Flavor-text: "Life and death. Space and time. Fate and chance. These are the forces of the universe."'
+        source: 'Nightmist, Virtuoso of the Void #12'
+      tags:
+      - One-Shot
+      - Spell
+  - Heedless Lash:
+      actions:
+      - Reveal the top card of your deck
+      - Nightmist deals herself and 1 other Target that card's  Infernal Damage
+      - Put the revealed card into your hand or into play
+      flavour:
+        text: 'Flavor-text: "By the light of the stars and the power of untold gods!"'
+        source: 'Nightmist, Tome of the Bizaree #6'
+      tags:
+      - One-Shot
+      - Spell
+  - Mistbound:
+      actions:
+      - Discard 2 cards
+      - If you do, you may select a deck
+      - Cards from that deck cannot be played until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "You have not heard the last of me!"'
+        source: 'Grand Warlord Voss, Nightmist #51'
+      tags:
+      - One-Shot
+      - Spell
+  - Mists of Time:
+      actions:
+      - Nightmist deals herself 2 Infernal Damage
+      - Switch your trash and Hero deck
+      - Shuffle your deck
+      flavour:
+        text: 'Flavor-text: "I can feel the bridge between this timeline and many others."'
+        source: 'Nightmist, Nightmist #31'
+      tags:
+      - One-Shot
+      - Spell
+  - Oblivion:
+      actions:
+      - Reveal the top 2 cards of your deck
+      - Nightmist deals each Target one of the revealed card's  Infernal Damage, then deals each non-Hero Target the other revealed card's  Infernal Damage
+      - Put the revealed cards into your trash
+      flavour:
+        text: 'Flavor-text: "You shall not enter this world!"'
+        source: 'Nightmist, Nightmist #22'
+      tags:
+      - One-Shot
+      - Spell
+  - Planar Banishment:
+      actions:
+      - Reveal the top card of your deck
+      - Nightmist deals herself that card's  Infernal Damage
+      - You may destroy up to that card's  Ongoing and/or Environment cards
+      - Put the revealed card into your trash
+      flavour:
+        text: 'Flavor-text: "I cast thee through the gates of R''lyeh!"'
+        source: 'Nightmist, Freedom Five #559'
+      tags:
+      - One-Shot
+      - Spell
+  - Scouring Mists:
+      actions:
+      - Reveal the top card of your deck
+      - Nightmist deals herself that card's  Infernal Damage
+      - Nightmist deals up to that card's  Targets 2 Infernal Damage each
+      - Put the revealed card into your trash
+      flavour:
+        text: 'Flavor-text: "You have not yet faced true terror... "'
+        source: 'Nightmist, Freedom Five #559'
+      tags:
+      - One-Shot
+      - Spell
+  - Astral Premonition:
+      actions:
+      - Power Discard 1 card
+      - If you do, reveal the top 2 cards of a deck
+      - Put 1 on the top of that deck and 1 on the bottom of that deck
+      flavour:
+        text: 'Flavor-text: "I shall not allow you to ravage this world as you have others!"'
+        source: 'Nightmist, Absolution #18'
+      tags:
+      - Ongoing
+  - Master of Magic:
+      actions:
+      - Whenever you play a Spell card, Nightmist regains that card's  HP
+      flavour:
+        text: 'Flavor-text: "Touching sources of arcane power can both strengthen and destroy."'
+        source: 'Nightmist, The Curse #4'
+      tags:
+      - Ongoing
+      - Limited
+  - Mist Form:
+      actions:
+      - Nightmist is immune to Damage
+      - You cannot play cards or use Powers
+      - You may draw an additional card during your draw phase
+      - At the start of your turn, you may destroy this card
+      flavour:
+        text: 'Flavor-text: "Uhh, is someone there?"'
+        source: 'Burglar, Nightmist #7'
+      tags:
+      - Ongoing
+      - Limited
+  - Tome of Elder Magic:
+      actions:
+      - Power Reveal cards from the top of your deck until a Spell is revealed
+      - Put it into your hand
+      - Shuffle the other revealed cards back into your deck
+      flavour:
+        text: 'Flavor-text: "You cannot open this book without losing something."'
+        source: 'The Master, The Curse #3'
+      tags:
+      - Equipment
+      - Relic
+  - Amulet of the Elder Gods:
+      actions:
+      - The first time Nightmist would be dealt Damage each turn, you may discard 2 cards
+      - If you do, you may redirect that Damage to a Target of your choice
+      flavour:
+        text: 'Flavor-text: "This accursed amulet shall serve in my quest for redemption!"'
+        source: 'Nightmist, The Curse #1'
+      tags:
+      - Equipment
+      - Relic
+      - Limited
+  - Elder Ring:
+      actions:
+      - Power Draw a card
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "No one is master of the ring'
+        source: it chooses whom it will serve."
+      tags:
+      - Equipment
+      - Relic
+      - Limited
+  - Starshield Necklace:
+      actions:
+      - At the end of your turn, you may discard a card
+      - If you do, Nightmist regains that card's  HP
+      flavour:
+        text: 'Flavor-text: "It is a charm against the evil which lurks in your dreams."'
+        source: 'Nightmist, The Fabric of Despair #2'
+      tags:
+      - Equipment
+      - Relic
+      - Limited

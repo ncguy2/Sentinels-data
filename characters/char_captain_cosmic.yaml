@@ -1,0 +1,55 @@
+character:
+  name: Captain Cosmic
+  health: 27
+  deck: Captain Cosmic
+  power:
+    name: Fabrication
+    actions:
+    - Reveal the top Card of your Deck
+    - Put it into play or into your hand
+  incapacitated:
+  - One Player may play a Card
+  - One Hero may use a Power
+  - Until the start of your next turn, reduce all Damage dealt by 1
+---
+character:
+  name: 'Prime Wardens: Captain Cosmic'
+  health: 28
+  deck: Captain Cosmic
+  power:
+    name: Absorption
+    actions:
+    - Until the start of your next turn, whenever a Construct is destroyed, you may shuffle it into your Deck and either Draw or Play a Card
+  incapacitated:
+  - One Player may Draw a Card
+  - One Target regains 2 HP
+  - One Player may discard a Card If they do, they may Draw 3 Cards
+---
+character:
+  name: 'Captain Cosmic: Requital'
+  health: 29
+  deck: Captain Cosmic
+  power:
+    name: Requital
+    actions:
+    - Reveal the top 3 Cards of your deck
+    - Put them into play in any order
+    - Then, if there are 4 or more Constructs in play, each Construct deals Captain Cosmic 2 Psychic Damage
+  incapacitated:
+  - Move 1 Construct or the top Card under this Card to a new play area
+  - A Construct deals 1 Target 1 Energy Damage
+  - Each Construct regains 1 HP
+---
+character:
+  name: 'XTREME Prime Wardens: Captain Cosmic'
+  health: 26
+  deck: Captain Cosmic
+  power:
+    name: Play With Madness
+    actions:
+    - Captain Cosmic deals 1 Target 1 Energy Damage
+    - Each Construct deals that Target 1 Energy Damage
+  incapacitated:
+  - One Hero may use a Power now
+  - One Hero Target regains 1 HP
+  - One Hero deals themselves up to 3 Energy Damage They either play or Draw X Cards, where X = the amount of Energy Damage dealt to them this turn

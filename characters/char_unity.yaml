@@ -1,0 +1,42 @@
+character:
+  name: Unity
+  health: 26
+  deck: Unity
+  power:
+    name: Bot Hack
+    actions:
+    - Destroy 1 Equipment Card
+    - If you do, put a Mechanical Golem from your hand into Play
+  incapacitated:
+  - One Player may draw a card now
+  - One Player may play a card now=
+  - The Hero Target with the lowest HP regains 2 hp
+---
+character:
+  name: 'Termi-Nation: Unity'
+  health: 27
+  deck: Unity
+  power:
+    name: Reconfigure
+    actions:
+    - Destroy a Mechanical Golem, then shuffle it into your deck
+    - Move a Mechanical Golem from your Trash into Play
+    - You may Draw a card
+  incapacitated:
+  - One Hero may use a Power now
+  - Destroy 1 Ongoing card
+  - Reduce Damage dealt to Non-Character cards by 2 until the start of your next turn
+---
+character:
+  name: 'Freedom Six: Unity'
+  health: 25
+  deck: Unity
+  power:
+    name: Golem-Spawn
+    actions:
+    - Unity deals herself 4 Energy damage
+    - Put a Mechanical Golem from your hand into Play
+  incapacitated:
+  - One Player draws 1 card now
+  - One Player may Play 1 card now
+  - Destroy a Non-Character card Device card

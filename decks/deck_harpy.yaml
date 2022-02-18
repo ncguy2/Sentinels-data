@@ -1,0 +1,188 @@
+deck:
+  name: Harpy
+  complexity: 3
+  composition:
+  - Huginn & Muninn: 91
+  - Ancient Tome: 3
+  - Arcane Explosion: 3
+  - Calling The Flock: 3
+  - Directed Strike: 3
+  - Eldritch Training: 3
+  - Lash of the Elements: 3
+  - Mystical Outburst: 3
+  - Tenuous Focus: 3
+  - Magical Bequest: 2
+  - Swift Summoning: 2
+  - Uncontrollable Flock: 2
+  - Applied Numerology: 2
+  - Conjured Aura: 2
+  - Harpy Hex: 3
+  - The Flock's Care: 2
+  cards:
+  - Huginn & Muninn:
+      actions:
+      - If there are 3 or more  Control tokens, increase Projectile Damage dealt by the Harpy by 1
+      - At the end of your turn, either flip a Control token or this card deals 1 target 1 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "They have been with you all along- dual aspects of your personality and your power."'
+        source: 'The Scholar, Tome of the Bizarre #74'
+      tags:
+      - Avian Companions
+  - Ancient Tome:
+      actions:
+      - Power Reveal cards from the top of your deck until 2 Ongoing cards are revealed
+      - Put one into your hand
+      - Discard the other revealed cards
+      - If there are 3 or more  Control tokens, you may play an Ongoing card
+      flavour:
+        text: 'Flavor-text: "Someday, you should pass this collection on to a pupil of your own, Ms. Diamond."'
+        source: 'The Master, Nightmist #73'
+      tags:
+      - Equipment
+  - Arcane Explosion:
+      actions:
+      - Flip a  Control token
+      - The Harpy deals each non-Hero target Infernal Damage equal to the number of  Control tokens
+      - The Harpy deals each target Infernal Damage equal to the number of  Control tokens
+      flavour:
+        text: 'Flavor-text: "Everything the magic can touch, it can burn. And magic touches everything."'
+        source: 'The Harpy, Dark Watch #8'
+      tags:
+      - One-Shot
+  - Calling The Flock:
+      actions:
+      - Search your deck or trash for the card Huginn & Muninn
+      - Put it into play
+      - Shuffle your trash into your deck
+      - The card Huginn & Muninn regains 5 HP
+      - The Harpy deals each non-Hero target 1 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Come to me, my feathered friends. Today is a good day to be a hero."'
+        source: 'The Harpy, Dark Watch #11'
+      tags:
+      - One-Shot
+  - Directed Strike:
+      actions:
+      - Flip two  Control tokens
+      - Draw 2 cards
+      - Discard up to as many cards as there are  Control tokens
+      - Whenever you discard a card this way, the Harpy deals 1 target 1 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Form under construction damaged by bird strike. Illogical. Error. Error."'
+        source: 'Omnitron IV, Freedom Five #786'
+      tags:
+      - One-Shot
+  - Eldritch Training:
+      actions:
+      - Flip a  Control token
+      - You may destroy one of your cards
+      - If you do, flip a Control token
+      - Draw a card
+      - You may use a Power
+      flavour:
+        text: 'Flavor-text: "No, you can''t use the mask. You don''t need it. But it needs you. Who is in charge here?"'
+        source: 'Nightmist, Dark Watch #7'
+      tags:
+      - One-Shot
+  - Lash of the Elements:
+      actions:
+      - The Harpy deals up to X targets 1 Lightning, 1 Fire, and 1 Cold damage each, where X = the number of  Control tokens
+      - Then, the Harpy deals herself 1 Infernal Damage for each  Control token
+      flavour:
+        text: 'Flavor-text: "Take that, you fiend! Oh! I did not expect to get your attention so easily."'
+        source: 'The Harpy, Freedom Five Annual #29'
+      tags:
+      - One-Shot
+  - Mystical Outburst:
+      actions:
+      - Flip all  Control tokens except one
+      - The Harpy deals 1 target X Infernal Damage, where X = the number of Control tokens flipped this way plus 1
+      flavour:
+        text: 'Flavor-text: "This world is not your plaything! Reality shall survive, but you won''t be around to see it!"'
+        source: 'The Harpy, Freedom Five #799'
+      tags:
+      - One-Shot
+  - Tenuous Focus:
+      actions:
+      - Flip a  Control token
+      - Draw 2 cards
+      - Reveal the top card of your deck
+      - Either play it or discard it
+      - If you discard it, flip a  Control token
+      flavour:
+        text: 'Flavor-text: "I must persevere. They''re depending on me to finish this, no matter the cost."'
+        source: 'The Harpy, Tome of the Bizarre #77'
+      tags:
+      - One-Shot
+  - Magical Bequest:
+      actions:
+      - Power You may draw 1 card or play 1 Ongoing card
+      - Flip a  Control token
+      flavour:
+        text: 'Flavor-text: "Thank you, my friend and mentor. I only wish I could have done more to aid you."'
+        source: 'The Harpy, Dark Watch #24'
+      tags:
+      - Ongoing
+  - Swift Summoning:
+      actions:
+      - Power Reveal the top card of 1 Hero deck
+      - Play a card revealed this way
+      - Discard any other revealed cards
+      - If a One-Shot is played this way, flip 1  Control token
+      flavour:
+        text: 'Flavor-text: "Yes, but you do not have to fight alone now. Remember your allies. You are part of a team."'
+        source: 'Nightmist, Dark Watch #7'
+      tags:
+      - Ongoing
+  - Uncontrollable Flock:
+      actions:
+      - At the start of your turn, flip a  Control token
+      - If you cannot, destroy this card
+      - Then, if all Control tokens are , destroy an Ongoing or Environment card
+      - At the end of your turn, the Harpy deals X targets 1 Projectile Damage each, where X = the number of  Control tokens
+      flavour:
+        text: 'Flavor-text: "This portal is not for you. You may be right about the chaos inside me, but it is my chaos!"'
+        source: 'The Harpy, Tome of the Bizarre #81'
+      tags:
+      - Ongoing
+  - Applied Numerology:
+      actions:
+      - The first time each Hero target would be dealt damage by a Hero target each turn, you may reduce that damage by 1
+      - Whenever you use a Power in the Harpy's play area, you may increase by 1 or reduce by 1 one of the numerals in the text of that Power
+      flavour:
+        text: 'Flavor-text: "The count of reality is entirely subject to observation. Which can be twisted."'
+        source: 'The Harpy, Freedom Five #759'
+      tags:
+      - Ongoing
+      - Limited
+  - Conjured Aura:
+      actions:
+      - At the start of your turn, the Harpy deals up to 3 targets 1 Infernal Damage each
+      - Then, if there are 3 or more  Control tokens, destroy this card
+      - The first time the Harpy is dealt damage each turn, you may flip a Control token
+      flavour:
+        text: 'Flavor-text: "You must learn to control your power, Lillian. Or else it will control you."'
+        source: 'Nightmist, Dark Watch #7'
+      tags:
+      - Ongoing
+      - Limited
+  - Harpy Hex:
+      actions:
+      - When this card enters play, the Harpy deals 1 target 1 Infernal Damage
+      - Whenever you flip a Control token, the Harpy deals 1 target 1 Infernal Damage
+      flavour:
+        text: 'Flavor-text: "Silence your anguish, creature. Your existence is a lie of creation!"'
+        source: 'The Harpy, Tome of the Bizarre #76'
+      tags:
+      - Ongoing
+      - Limited
+  - The Flock's Care:
+      actions:
+      - When there are 3 or more  Control tokens, reduce damage dealt to the Harpy by non-Hero targets by 1
+      - After the Harpy is dealt damage by a non-Hero target, if there are 3 or more  Control tokens, she deals that target 1 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "She now walks with a confidence born of experience and uprightness."'
+        source: 'Mr. Fixer, Dark Watch #23'
+      tags:
+      - Ongoing
+      - Limited

@@ -1,0 +1,197 @@
+deck:
+  name: Sky-Scraper
+  complexity: 3
+  composition:
+  - Catch A Ride: 2
+  - Linking Incursion: 4
+  - Undetectable Relinking: 3
+  - Emergency Evac: 2
+  - Explosive Reveal: 3
+  - Rest And Recover: 3
+  - Colossal Left Hook: 3
+  - Tectonic Chokeslam: 3
+  - Thorathian Monolith: 3
+  - Proportionist: 2
+  - Aggression Modulator: 2
+  - Compulsion Cannister: 2
+  - Cortex Hyperstimulator: 2
+  - Micro-Assembler: 2
+  - Neutralizing Resonator: 2
+  - Rebounding Debilitator: 2
+  cards:
+  - Catch A Ride:
+      actions:
+      - Switch to Sky-Scraper's Tiny character card
+      - A hero target other than Sky-Scraper deals 1 target 2 projectile damage
+      - Sky-Scraper deals 1 target dealt damage that way 2 irreducible melee damage
+      flavour:
+        text: 'Flavor-text: "I hope you know what you''re doing here. Because I think you''re crazy."'
+        source: 'Parse, The Hero in the Arena #6'
+      tags:
+      - One-Shot
+      - Tiny
+  - Linking Incursion:
+      actions:
+      - Switch to Sky-Scraper's Tiny character card
+      - Reveal cards from the top of your deck until 2 link cards have been revealed
+      - You may put each of those cards either into your hand or into play
+      - Shuffle the other revealed cards into your deck
+      flavour:
+        text: 'Flavor-text: "All in the work of a lunar cycle, Wait, that is not quite right."'
+        source: 'Sky-Scraper, Under Cover #1'
+      tags:
+      - One-Shot
+      - Tiny
+  - Undetectable Relinking:
+      actions:
+      - Switch to Sky-Scraper's Tiny character card
+      - Put any number of Link cards in play back in your hand
+      - You may play X Link and/or Tiny cards now, where X = the number of link cards returned to your hand by this card
+      flavour:
+        text: 'Flavor-text: "It is good to dispose of multiple avian beasts with just one rock."'
+        source: 'Sky-Scraper, Vengeance #6'
+      tags:
+      - One-Shot
+      - Tiny
+  - Emergency Evac:
+      actions:
+      - Switch to Sky-Scraper's Normal character card
+      - Destroy all link cards, all environment cards, and up to 2 villain ongoing cards
+      - Each hero target regains 1 hp
+      flavour:
+        text: 'Flavor-text: "I must go! I have other less dangerous places to be."'
+        source: 'Sky-Scraper, Under Cover #3'
+      tags:
+      - One-Shot
+      - Normal
+  - Explosive Reveal:
+      actions:
+      - Switch to Sky-Scraper's Normal character card
+      - Destroy any number of link cards
+      - Sky-Scraper deals up to X targets 2 projectile damage and 2 fire damage each, where X = the number of cards destroyed this way
+      flavour:
+        text: 'Flavor-text: "Just got a report from the wee un. It''s done."'
+        source: 'KNYFE, Under Cover #6'
+      tags:
+      - One-Shot
+      - Normal
+  - Rest And Recover:
+      actions:
+      - Switch to Sky-Scraper's Normal character card
+      - Sky-Scraper regains 1 hp
+      - Draw 1 card and move 1 card other than Rest and Recover from your trash to your hand
+      flavour:
+        text: 'Flavor-text: "I am not good feeling. I need some units of time."'
+        source: 'Sky-Scraper, Freedom Five #756'
+      tags:
+      - One-Shot
+      - Normal
+  - Colossal Left Hook:
+      actions:
+      - Switch to Sky-Scraper's Huge character card
+      - Sky-Scraper deals 1 target 3 melee damage
+      - You may discard a card
+      - If you do, you may play a card
+      flavour:
+        text: 'Flavor-text: "You are big. I like that. It is good to undo the leash."'
+        source: 'Sky-Scraper, Virtuoso of the Void #12'
+      tags:
+      - One-Shot
+      - Huge
+  - Tectonic Chokeslam:
+      actions:
+      - Switch to Sky-Scraper's Huge character card
+      - Sky-Scraper deals 1 target 4 melee damage
+      - Sky-Scraper deals each target 1 projectile damage
+      flavour:
+        text: 'Flavor-text: "You put me in chains. I will put you in the ground!"'
+        source: 'Sky-Scraper, The Hero in the Arena #6'
+      tags:
+      - One-Shot
+      - Huge
+  - Thorathian Monolith:
+      actions:
+      - When this card enters play, switch to Sky-Scraper's Huge character card
+      - Reduce damage dealt to Sky-Scraper by 2
+      - Redirect any damage that would be dealt to a hero target to Sky-Scraper
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "I am who you will fight. Leave my friends alone."'
+        source: 'Sky-Scraper, Freedom Five Annual #30'
+      tags:
+      - Ongoing
+      - Huge
+  - Proportionist:
+      actions:
+      - Increase sonic damage dealt by Sky-Scraper by 1
+      - When Sky-Scraper's character card is switched to a larger size, Sky-Scraper deals each non-hero target 1 melee damage
+      - When Sky-Scraper's character card is switched to a smaller size, draw a card
+      flavour:
+        text: 'Flavor-text: "Oh. Well, now I just feel silly. This might actually hurt."'
+        source: 'Tantrum, Vengeance #5'
+      tags:
+      - Ongoing
+      - Limited
+  - Aggression Modulator:
+      actions:
+      - Play this card in front of an environment target
+      - Reduce damage dealt by that target to hero targets by 2
+      - Increase damage dealt by that target to villain targets by 1
+      flavour:
+        text: 'Flavor-text: "i must fight. I must fight the Ennead!"'
+        source: 'Mdjai, Freedom Five #542'
+      tags:
+      - Equipment
+      - Link
+  - Compulsion Cannister:
+      actions:
+      - Play this card in front of a target
+      - That target deals itself and one other non-hero target 2 irreducible psychic damage now
+      flavour:
+        text: 'Flavor-text: "I am told by something that they will be busy right now."'
+        source: 'Sky-Scraper, Freedom Five #542'
+      tags:
+      - Equipment
+      - Link
+  - Cortex Hyperstimulator:
+      actions:
+      - Play this card in front of a target
+      - Reduce the first damage dealt by that target each turn by 1
+      - At the end of its turn, that target deals itself 1 lightning damage
+      flavour:
+        text: 'Flavor-text: "What?! Do not attempt to stand in the way of galactic salvation!"'
+        source: 'Deadline, Freedom Five #756'
+      tags:
+      - Equipment
+      - Link
+  - Micro-Assembler:
+      actions:
+      - Power Discard a card
+      - Then, search your deck for an equipment card and put it either into your hand or into play, then shuffle your deck
+      flavour:
+        text: 'Flavor-text: "I do not understand why you think she is ''creepy''. She is so full of use!"'
+        source: 'Sky-Scraper, Vengeance #5'
+      tags:
+      - Equipment
+      - Link
+  - Neutralizing Resonator:
+      actions:
+      - Play this card in front of a villain character card and discard the top card of that villain's deck
+      - At the start of your turn, you may destroy 1 ongoing card
+      - If you do, destroy this card
+      flavour:
+        text: 'Flavor-text: "Calm down, rodent man thing! You seem very angry. It is not healthy."'
+        source: 'Sky-Scraper, Mystery Comics #403'
+      tags:
+      - Equipment
+      - Link
+  - Rebounding Debilitator:
+      actions:
+      - Play this card in front of a non-hero target
+      - When that target would deal 3 or more damage, prevent that damage, then either destroy this card or put it on top of your deck
+      flavour:
+        text: 'Flavor-text: "It appears that time is the thing that you have run out of! HAH!"'
+        source: 'Sky-Scraper, Southwest Sentinels #26'
+      tags:
+      - Equipment
+      - Link

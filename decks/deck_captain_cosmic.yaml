@@ -1,0 +1,157 @@
+deck:
+  name: Captain Cosmic
+  complexity: 2
+  composition:
+  - Conservation of Energy: 2
+  - Construct Cataclysm: 2
+  - Harsh Offense: 3
+  - Potent Disruption: 3
+  - Sustained Influence: 3
+  - Destructive Response: 2
+  - Unflagging Animation: 2
+  - Augmented Ally: 43
+  - Autonomous Blade: 43
+  - Cosmic Weapon: 43
+  - Dynamic Syphon: 43
+  - Energy Bracers: 43
+  - Vitality Conduit: 43
+  - Wounding Buffer: 43
+  - Cosmic Crest: 2
+  cards:
+  - Conservation of Energy:
+      actions:
+      - Destroy any number of construct cards
+      - You may either draw X cards or play X cards, where X = the number of construct cards destroyed this way plus 1
+      flavour:
+        text: 'Flavor-text: "Let''s try this again. But, you know, different this time."'
+        source: Captain Cosmic, Thorathian War One-Shot
+      tags:
+      - One-Shot
+  - Construct Cataclysm:
+      actions:
+      - Destroy all construct cards
+      - Captain Cosmic either deals 1 target X irreducible energy damage, or deals up to X targets 3 energy damage each, where X = the number of construct cards destroyed this way
+      flavour:
+        text: 'Flavor-text: "Incoming! Er, heads down, team..."'
+        source: 'Captain Cosmic, Freedom Five #599'
+      tags:
+      - One-Shot
+  - Harsh Offense:
+      actions:
+      - Reveal the top 3 cards of your deck
+      - Captain Cosmic deals 1 target X energy damage, where X = the number of construct cards revealed this way times 2
+      - Discard all cards revealed this way
+      flavour:
+        text: 'Flavor-text: "You bring the worst out in me. I shall return the favor."'
+        source: 'Captain Cosmic, Prime Wardens #21'
+      tags:
+      - One-Shot
+  - Potent Disruption:
+      actions:
+      - Destroy 1 construct card
+      - Captain Cosmic deals 1 target energy damage equal to the HP of the destroyed construct card plus 1
+      flavour:
+        text: 'Flavor-text: "You foolish Earthlings! You will fall before the might of EEYYEAYAEERRGHH!!"'
+        source: 'Empyreon, Cosmic Concurrence #15'
+      tags:
+      - One-Shot
+  - Sustained Influence:
+      actions:
+      - Whenever a construct card is destroyed, you may destroy this card to put that construct back into play
+      flavour:
+        text: 'Flavor-text: "Destroying pure energy is about as difficult as it sounds, actually."'
+        source: 'Captain Cosmic, Freedom Five #382'
+      tags:
+      - Ongoing
+  - Destructive Response:
+      actions:
+      - The first time a construct card is destroyed each turn, Captain Cosmic may deal up to 3 targets 1 energy damage each
+      flavour:
+        text: 'Flavor-text: "Certainly are a lot of you...Well, come and get me."'
+        source: 'Captain Cosmic, Freedom Five #472'
+      tags:
+      - Ongoing
+      - Limited
+  - Unflagging Animation:
+      actions:
+      - At the end of your turn, Captain Cosmic deals himself 1 irreducible psychic damage
+      - At the start of your turn, you may move 1 construct card from your trash into play
+      - Then, you may destroy this card
+      flavour:
+        text: 'Flavor-text: "My friends? Oh, I suspect they will be here soon enough. These will have to do for now."'
+        source: 'Captain Cosmic, Conflux #4'
+      tags:
+      - Ongoing
+      - Limited
+  - Augmented Ally:
+      actions:
+      - Play this card next to a hero character card
+      - At the start of that hero's turn, their player may discard a card
+      - If they do, they may use a power immediately
+      flavour:
+        text: 'Flavor-text: "I am used to fighting with you, my friend, but not with me as well!"'
+        source: 'Haka, Prime Wardens #30'
+      tags:
+      - Construct
+  - Autonomous Blade:
+      actions:
+      - Play this card next to a hero target
+      - The first time that target deals damage each turn, this card deals 1 target 2 energy damage
+      flavour:
+        text: 'Flavor-text: Stand and fight or give up now! You cannot escape justice."'
+        source: 'Captain Cosmic, Conflux #2'
+      tags:
+      - Construct
+  - Cosmic Weapon:
+      actions:
+      - Power This hero deals 1 target 3 energy damage
+      flavour:
+        text: 'Flavor-text: "This temporary blade will last longer than the foes we face!"'
+        source: 'Fanatic, Prime Wardens #41'
+      tags:
+      - Construct
+  - Dynamic Syphon:
+      actions:
+      - Play this card next to a hero character card
+      - Whenever this card is dealt damage, that hero may use a power
+      flavour:
+        text: 'Flavor-text: "A duet? We will play the anthems of the heavens!"'
+        source: 'Argent Adept, Prime Wardens #39'
+      tags:
+      - Construct
+  - Energy Bracers:
+      actions:
+      - Play this card next to a hero character card
+      - Reduce damage dealt to that hero character card by 1
+      flavour:
+        text: 'Flavor-text: "I will not fight for their homeworld, but I will fight for the good of the galaxy."'
+        source: Tempest, Thorathian War One-Shot
+      tags:
+      - Construct
+  - Vitality Conduit:
+      actions:
+      - Play this card next to a target
+      - After each time this card is dealt damage, that target regains 2 hp
+      flavour:
+        text: 'Flavor-text: "You should really make better friends. Friends are the best."'
+        source: 'Setback, Justice Comics #437'
+      tags:
+      - Construct
+  - Wounding Buffer:
+      actions:
+      - Play this card next to a hero character card
+      - The first time that hero character card is dealt damage by a target each turn, this card deals the source of that damage 2 energy damage
+      flavour:
+        text: 'Flavor-text: "YOUCH! Glad you got the worse of it, you blue dummy."'
+        source: 'Parse, Cosmic Concurrence #14'
+      tags:
+      - Construct
+  - Cosmic Crest:
+      actions:
+      - Power Up to 3 contructs cards regain 2 hp each
+      flavour:
+        text: 'Flavor-text: "Who put me in charge? No one. But someone must stand for the world."'
+        source: 'Captain Cosmic, Conflux #6'
+      tags:
+      - Construct
+      - Limited

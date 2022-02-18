@@ -1,0 +1,26 @@
+character:
+  name: The Naturalist
+  health: 29
+  deck: Naturalist
+  power:
+    name: Transform
+    actions:
+    - Search your Deck or Trash for a Form and put it into Play
+    - If you searched your Deck, shuffle your Deck
+  incapacitated:
+  - One Hero may Use a Power Now
+  - Destroy 1 Ongoing Card
+  - Hero Targets are immune to damage from Environment Targets until the start of your Turn
+---
+character:
+  name: The Hunted Naturalist
+  health: 27
+  deck: Naturalist
+  power:
+    name: Desperate Prey
+    actions:
+    - Select
+  incapacitated:
+  - One Player may Draw 1 card now
+  - One Player may Play 1 card now
+  - The Environment Target with the highest HP deals each Non-Hero Target 2 Melee damage

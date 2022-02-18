@@ -1,0 +1,185 @@
+deck:
+  name: Stuntman
+  complexity: 2
+  composition:
+  - Hidden Mine: 2
+  - Lance-Flammes: 2
+  - Pistolet-Mitralleur: 2
+  - Stylish Armour: 3
+  - Coup Vexant: 3
+  - In Medias Res: 1
+  - The Usual Solution: 3
+  - Training Montage: 3
+  - Violent Escalation: 3
+  - L'Embuscade: 2
+  - Coute Que Coute: 2
+  - Dramatic Cliffhanger: 3
+  - Moving Target: 3
+  - No Time To Bleed: 3
+  - Planquez-Vous!: 2
+  - Steal The Scene: 3
+  cards:
+  - Hidden Mine:
+      actions:
+      - When Stuntman is dealt damage by a non-Hero target, destroy this card
+      - When this card is destroyed, Stuntman deals each target 1 Projectile Damage, then deals each non-Hero target 3 Fire Damage
+      flavour:
+        text: 'Flavor-text: "I am not so worried about our sneaky foe. He will find the gifts I left behind."'
+        source: 'Stuntman, Prime Wardens #28'
+      tags:
+      - Equipment
+      - Limited
+  - Lance-Flammes:
+      actions:
+      - Power Stuntman deals up to 4 targets 2 Fire Damage each
+      - When this Power is used outside your turn and reduces a target to 2 or fewer HP, destroy that target
+      flavour:
+        text: 'Translation: "Lance-flammes" means "flamethrower.'
+        source: ''
+      tags:
+      - Equipment
+      - Limited
+  - Pistolet-Mitralleur:
+      actions:
+      - Power Stuntman deals each non-Hero target 1 Projectile Damage
+      - When this Power is used outside your turn, you may play a card
+      flavour:
+        text: 'Translation: "Pistolet-mitralleur" means "submachine gun.'
+        source: ''
+      tags:
+      - Equipment
+      - Limited
+  - Stylish Armour:
+      actions:
+      - Reduce damage dealt to Stuntman by 1
+      - When this card is destroyed, you may search your deck for an Equipment card
+      - Put it into your hand
+      - Shuffle your deck
+      - Then, you may play a card or use a Power
+      flavour:
+        text: 'Flavor-text: "I don''t know kung fu, but I am carrying an impressive number of guns under this coat."'
+        source: 'Stuntman, Rook City Renegades #27'
+      tags:
+      - Equipment
+      - Limited
+  - Coup Vexant:
+      actions:
+      - Stuntman deals 1 target 2 Projectile Damage
+      - Redirect the next damage dealt by that target to Stuntman
+      - Reduce that damage by 2
+      flavour:
+        text: 'Translation: "Coup Vexant" means "Vexing Blow".'
+        source: ''
+      tags:
+      - One-Shot
+  - In Medias Res:
+      actions:
+      - Go immediately to the start of Stuntman's next turn, skipping all turns in between
+      - Remove this card from the game
+      flavour:
+        text: 'Flavor-text: "Bonjour! You did not expect to see me again, did you? Quelle surprise!"'
+        source: 'Stuntman, Double-Tap #2'
+      tags:
+      - One-Shot
+  - The Usual Solution:
+      actions:
+      - Stuntman deals 1 target 2 Melee Damage
+      - Destroy an Ongoing, Equipment, or Environment card
+      - Stuntman deals up to 3 targets 1 Fire Damage each
+      flavour:
+        text: 'Flavor-text: "Catch your dance partner''s cigar for me, mon ami. I have an idea."'
+        source: Stuntman, Road Warriors
+      tags:
+      - One-Shot
+  - Training Montage:
+      actions:
+      - You may draw a card
+      - Stuntman may deal himself 2 Melee Damage
+      - If he takes damage this way, draw 2 more cards
+      - You may play an Ongoing card
+      flavour:
+        text: 'Flavor-text: "Some folk have a fire deep inside them. Something that can push them beyond their limits."'
+        source: 'The Scholar, Mystery Comics #506'
+      tags:
+      - One-Shot
+  - Violent Escalation:
+      actions:
+      - Stuntman deals up to 3 targets 1 Projectile Damage each
+      - One target dealt damage this way deals Stuntman 1 Melee Damage
+      - Stuntman deals 1 target 3 Melee Damage
+      flavour:
+        text: 'Translation: "J''aurai ta peau!" means "I will have your skin!'
+        source: ''
+      tags:
+      - One-Shot
+  - L'Embuscade:
+      actions:
+      - Whenever a non-Hero target enters play, you may destroy this card
+      - When this card is destroyed, Stuntman either deals 1 target 5 Melee Damage or you use a Power
+      flavour:
+        text: 'Translation: "L''Embuscade" means "The Ambush".'
+        source: ''
+      tags:
+      - Ongoing
+  - Coute Que Coute:
+      actions:
+      - Increase damage dealt to and by Stuntman by 1
+      - At the start of your turn, you may destroy this card
+      - When this card is destroyed, you may draw a card
+      flavour:
+        text: 'Translation: "Coute que coute" means "At any cost.'
+        source: ''
+      tags:
+      - Ongoing
+      - Limited
+  - Dramatic Cliffhanger:
+      actions:
+      - At the end of the Environment turn, you may destroy this card
+      - When this card is destroyed, you may play a card, use a Power, and draw a card in any order
+      flavour:
+        text: 'Flavor-text: "That''s it for you, loud mouth. Your pretty face and flashy tricks ain''t gonna save you now!"'
+        source: 'Char, Freedom Five #791'
+      tags:
+      - Ongoing
+      - Limited
+  - Moving Target:
+      actions:
+      - Whenever damage would be dealt by a Villain target to Stuntman but is prevented, redirected, or reduced so Stuntman takes no damage, you may use a Power
+      - When Stuntman is dealt damage by a Villain target, destroy this card and use a Power
+      flavour:
+        text: 'Flavor-text: "You''re probably right. I am most likely out of guns, out of options, and an easy target. Sure."'
+        source: 'Stuntman, Rook City Renegades #27'
+      tags:
+      - Ongoing
+      - Limited
+  - No Time To Bleed:
+      actions:
+      - Whenever Stuntman is dealt damage by a non-Hero target, he deals that target 1 Projectile Damage
+      - If Stuntman is dealt 5 or more damage in one turn, you may destroy this card
+      - When this card is destroyed, draw a card and use a Power
+      flavour:
+        text: 'Flavor-text: "Enough, you ridiculous caricature of a man! Stop fighting. Just lay down and die!"'
+        source: 'The Operative, Mystery Comics #490'
+      tags:
+      - Ongoing
+      - Limited
+  - Planquez-Vous!:
+      actions:
+      - When a Hero target would be dealt 4 or more damage, you may destroy this card to prevent that damage
+      - When this card is destroyed, you may use a Power
+      flavour:
+        text: 'Translation: "Planquez-vous!" means "hide yourself!'
+        source: ''
+      tags:
+      - Ongoing
+      - Limited
+  - Steal The Scene:
+      actions:
+      - At the start of a Hero turn other than yours, you may destroy this card
+      - When this card is destroyed, Stuntman deals 1 target 2 Projectile Damage, then may use a Power
+      flavour:
+        text: 'Flavor-text: "Apologies, ma cherie! Were you not done with that one? We''ll find you another!"'
+        source: 'Stuntman, Freedom Five Annual #30'
+      tags:
+      - Ongoing
+      - Limited

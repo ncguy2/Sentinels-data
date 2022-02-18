@@ -1,0 +1,179 @@
+deck:
+  name: Naturalist
+  complexity: 2
+  composition:
+  - Bestial Shift: 3
+  - Crafty Assault: 3
+  - Feral Fury: 3
+  - Hyperactive Senses: 2
+  - Primal Charge: 3
+  - Shifter's Strength: 3
+  - The Predator's Eye: 3
+  - Threatening Stomp: 2
+  - Cornered Beast: 2
+  - Environmental Allies: 2
+  - Indomitable Force: 3
+  - Natural Form's Power: 2
+  - Resilient Hide: 2
+  - The Deadly Crocodile: 1
+  - The Formidable Rhinoceros: 1
+  - The Nimble Gazelle: 1
+  - Blend Into the Pack: 2
+  - Natural-Born Vigor: 2
+  cards:
+  - Bestial Shift:
+      actions:
+      - The naturalist regains 3 HP
+      - You may use a Power now
+      flavour:
+        text: 'Flavor-text: "With a bellow, the gazelle transformed into a massive rhino!  I love this guy!"'
+        source: 'Haka, The Savage Haka #36'
+      tags:
+      - One-Shot
+  - Crafty Assault:
+      actions:
+      - The Naturalist deals up to 3 Targets 2 Melee Damage each
+      flavour:
+        text: 'Flavor-text: "Strength comes from will more than it does from muscle."'
+        source: 'The Naturalist, Freedom Five #717'
+      tags:
+      - One-Shot
+  - Feral Fury:
+      actions:
+      - The Naturalist deals 1 Target 2 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Stand not against nature.  It was here first.  It will be here last, as well."'
+        source: 'The Naturalist, Rook City Renegades #5'
+      tags:
+      - One-Shot
+  - Hyperactive Senses:
+      actions:
+      - Reveal the top 2 cards of any 2 decks
+      - Put them back on top of their decks in any order
+      flavour:
+        text: Pierce the veil in your mind. See clearly what is true."
+        source: 'The Argent Adept, Virtuoso of the Void #24'
+      tags:
+      - One-Shot
+  - Primal Charge:
+      actions:
+      - Draw 4 cards
+      flavour:
+        text: 'Flavor-text: "The prideful will meet defeat at the hands of the humble."'
+        source: 'The Naturalist, The Savage Haka #36'
+      tags:
+      - One-Shot
+  - Shifter's Strength:
+      actions:
+      - Discard any number of cards
+      - Draw as many cards as you discarded this way
+      - You may play a card
+      flavour:
+        text: 'Flavor-text: "Our enemy is strong.  We must be ready for anything."'
+        source: 'The Naturalist, Cosmic Concurrence #19'
+      tags:
+      - One-Shot
+  - The Predator's Eye:
+      actions:
+      - Increase Damage dealt to 1 Target by 1 until the start of your turn
+      flavour:
+        text: 'Flavor-text: "The hunter will be hunted.  But will he realize in time that he is now the prey?"'
+        source: 'The Naturalist, The Deadliest Game #6'
+      tags:
+      - One-Shot
+  - Threatening Stomp:
+      actions:
+      - The Naturalist deal 1 Target 4 Melee Damage
+      flavour:
+        text: 'Flavor-text: "And so the worm has turned. Very well. You have my attention."'
+        source: 'Citizen Dawn, Freedom Five #600'
+      tags:
+      - One-Shot
+  - Cornered Beast:
+      actions:
+      - Power Destroy a Target with 3 or fewer HP
+      flavour:
+        text: 'Flavor-text: "Whether beast or man or monster, a cornered foe is a desperate one."'
+        source: 'Fanatic, Freedom Five #690'
+      tags:
+      - Ongoing
+  - Environmental Allies:
+      actions:
+      - Reduce Damage dealt to Environment Targets by 1
+      flavour:
+        text: 'Flavor-text: "You can put me down right now, consarn it!"'
+        source: 'Doc Tusser, Vengeance #6'
+      tags:
+      - Ongoing
+  - Indomitable Force:
+      actions:
+      - Reduce Damage dealt to The Naturalist by 1
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "The protection of innocence is the purest venture."'
+        source: 'The Naturalist, Cosmic Concurrence #7'
+      tags:
+      - Ongoing
+  - Natural Form's Power:
+      actions:
+      - One Player draws 2 cards
+      flavour:
+        text: 'Flavor-text: "You faced your fears and weaknesses and harnessed each of them."'
+        source: 'The Argent Adept, Tome of the Bizarre #26'
+      tags:
+      - Ongoing
+  - Resilient Hide:
+      actions:
+      - Whenever exactly 1 Damage would be dealt to The Naturalist, prevent that Damage
+      flavour:
+        text: 'Flavor-text: "I lost a blade in the side of that beast! And it''s still moving!"'
+        source: 'The Operative, Freedom Five #723'
+      tags:
+      - Ongoing
+  - The Deadly Crocodile:
+      actions:
+      - Power The Naturalist deals 1 Target 2 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Even now, as an apex predator, you still struggle against your nature."'
+        source: 'The Argent Adept, Tome of the Bizarre #26'
+      tags:
+      - Ongoing
+      - Form
+  - The Formidable Rhinoceros:
+      actions:
+      - When this card enters play, destroy any other Form cards
+      flavour:
+        text: 'Flavor-text: "Ah, yes. Much more fitting, given your temperament."'
+        source: 'The Argent Adept, Tome of the Bizarre #25'
+      tags:
+      - Ongoing
+      - Form
+  - The Nimble Gazelle:
+      actions:
+      - Power The Naturalist regains 3 HP
+      flavour:
+        text: 'Flavor-text: "You make quite the swift gazelle. A rather dour one, though."'
+        source: 'The Argent Adept, Tome of the Bizarre #24'
+      tags:
+      - Ongoing
+      - Form
+  - Blend Into the Pack:
+      actions:
+      - The first time The Naturalist would take damage each turn, reduce that Damage by the number of Environment Targets in play
+      flavour:
+        text: 'Flavor-text: "During the fight, you might not see me, but that does not mean I am gone."'
+        source: 'The Naturalist, Freedom Five #511'
+      tags:
+      - Ongoing
+      - Limited
+  - Natural-Born Vigor:
+      actions:
+      - You may use an additional Power on your turn
+      - At the start of your turn, The Naturalist may regain 4 HP
+      - If he does, destroy this card
+      flavour:
+        text: 'Flavor-text: "Do not rely on your powers. They are merely tools, and all tools can fail."'
+        source: 'The Naturalist, Vengeance #3'
+      tags:
+      - Ongoing
+      - Limited

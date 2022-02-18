@@ -1,0 +1,25 @@
+character:
+  name: Luminary
+  health: 27
+  deck: Luminary
+  power:
+    name: Devise
+    actions:
+    - Discard the top 2 cards of your deck
+    - Move any Devices discarded this way into Play
+  incapacitated:
+  - One Player may Play a card
+  - One Player may Discard 2 cards If they do, they may Draw 2 cards
+  - Destroy 1 Hero Ongoing card If you do, Destroy up to 2 Ongoing cards
+---
+character:
+  name: 'Ivana Ramonat: Luminary'
+  health: 28
+  deck: Luminary
+  power:
+    name: Empowered Attack
+    actions:
+    - Luminary deals 1 Target X Lightning damage, where X = the number of Devices in Play
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - 'Tried Ivana Ramonat: Luminary and Luminary: Ivana Ramonat'

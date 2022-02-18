@@ -1,0 +1,54 @@
+character:
+  name: Tempest
+  health: 26
+  deck: Tempest
+  power:
+    name: Squall
+    actions:
+    - Tempest deals all Non-Hero Targets 1 Projectile Damage
+  incapacitated:
+  - One Hero may use a Power now
+  - Heroes are Immune to a damage type of your choice until the start of your next turn
+  - One Player may take an Ongoing card from their Trash into their hand
+---
+character:
+  name: 'Prime Wardens: Tempest'
+  health: 27
+  deck: Tempest
+  power:
+    name: Arc of Power
+    actions:
+    - Play up to 3 cards
+    - Each time you Play a card this way, the Environment deals Tempest 3 Lightning Damage
+  incapacitated:
+  - One Player may Draw a card now
+  - Destroy 1 Ongoing card
+  - Move one card from the Villain or Environment Trash into Play
+---
+character:
+  name: 'Freedom Six: Tempest'
+  health: 25
+  deck: Tempest
+  power:
+    name: Sacrifice
+    actions:
+    - Destroy 1 of your cards
+    - If you do, draw 3 cards
+  incapacitated:
+  - One Player Draws 1 card now
+  - One Hero may use 1 Power now
+  - Discard the top card of each Deck
+---
+character:
+  name: 'XTREME Prime Wardens: Tempest'
+  health: 24
+  deck: Tempest
+  power:
+    name: Thunderstruck
+    actions:
+    - Tempest deals 1 Target 1 Lightning damage
+    - A Non-Character Target dealt damage this way loses any "End of Turn" effects on its card until the start of Tempest's next turn
+  incapacitated:
+  - Until the start of your turn, Increase all Lightning damage by 2
+  - One Environment Target deals each Target 1 Lightning damage
+  - Destroy up to 2 Environment cards

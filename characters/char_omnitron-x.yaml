@@ -1,0 +1,27 @@
+character:
+  name: Omnitron-X
+  health: 25
+  deck: Omnitron-X
+  power:
+    name: Timeshift
+    actions:
+    - Reveal the top card of a deck
+    - Put it into play or into the trash
+  incapacitated:
+  - One Player may Draw a card now
+  - One Player may Play a card now
+  - Select a Target Reduce damage dealt to that Target by 1 until the start of your next turn
+---
+character:
+  name: Omnitron-U
+  health: 24
+  deck: Omnitron-X
+  power:
+    name: Volatile Wiring
+    actions:
+    - Until the end of your next turn, whenever one of your cards is Destroyed, Omnitron-U deals 1 Target 2 Fire damage
+    - Either Play a card or move 1 Equipment card from your Trash into your Hand
+  incapacitated:
+  - A Hero destroys one of their Equipment cards If they do, they deal 1 Target 2 Lightning and 2 Fire damage
+  - One Player moves an Equipment card from their Trash into their Hand
+  - One Player may Play a card`

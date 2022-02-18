@@ -1,0 +1,27 @@
+character:
+  name: Nightmist
+  health: 27
+  deck: NightMist
+  power:
+    name: Investigate
+    actions:
+    - Nightmist deals herself 2 infernal damage
+    - Draw 2 cards
+  incapacitated:
+  - One Hero regains 1 HP
+  - One Player may Play a card now
+  - Destroy an Ongoing card
+---
+character:
+  name: 'Dark Watch: Nightmist'
+  health: 28
+  deck: NightMist
+  power:
+    name: Attunement
+    actions:
+    - Reveal the top 3 cards of your deck
+    - Put them back on top of your deck in any order
+  incapacitated:
+  - One Player may Draw a card now
+  - One Player may Play a card now
+  - Move the top card of a Trash pile to the top of its associated deck

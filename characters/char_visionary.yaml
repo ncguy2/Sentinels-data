@@ -1,0 +1,37 @@
+character:
+  name: Visionary
+  health: 26
+  deck: Visionary
+  power:
+    name: Enlighten
+    actions:
+    - 1 Player Draws 2 cards, then Discards 1 card
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - Tried Visionary, First Edition and Visionary, First Edition
+---
+character:
+  name: Dark Visionary
+  health: 25
+  deck: Visionary
+  power:
+    name: Turmoil
+    actions:
+    - Reveal the top 2 cards of a deck
+    - Put 1 on top and 1 on the bottom of the deck
+  incapacitated:
+  - One Hero Target regains 1 HP
+  - One Player May Draw 1 card now
+  - Move 1 Environment card from the Environment Trash to the top of the Environment deck
+---
+character:
+  name: 'Visionary: Unleashed'
+  health: 27
+  deck: Visionary
+  power:
+    name: Crushing Lucidity
+    actions:
+    - The Visionary deals 1 Target X Psychic damage, where X = the number of your Ongoing cards in Play plus 1
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - 'Tried Visionary: Unleashed and Unleashed: Visionary'

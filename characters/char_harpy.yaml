@@ -1,0 +1,26 @@
+character:
+  name: The Harpy
+  health: 26
+  deck: Harpy
+  power:
+    name: Arcane Blast
+    actions:
+    - The Harpy deals 1 Target 2 Infernal Damage
+  incapacitated:
+  - One Player may Play a card
+  - One Hero may use a Power
+  - One Environment Target deals 1 Target 1 Projectile damage
+---
+character:
+  name: 'Dark Watch: The Harpy'
+  health: 27
+  deck: Harpy
+  power:
+    name: Refocus
+    actions:
+    - Flip one Control Token
+    - You may Play a card
+  incapacitated:
+  - One Hero deals 1 Target 2 Melee damage
+  - One PLayer plays up to 2 Equipment cards
+  - One Player moves a card from their Trash to the top of their Deck

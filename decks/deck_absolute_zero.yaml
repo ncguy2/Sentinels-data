@@ -1,0 +1,161 @@
+deck:
+  name: Absolute Zero
+  complexity: 3
+  composition:
+  - Frost-Bound Drain: 3
+  - Fueled Freeze: 2
+  - Hoarfire: 2
+  - Modular Realignment: 4
+  - Onboard Module Installation: 4
+  - Coolant Blast: 2
+  - Glacial Structure: 2
+  - Impale: 2
+  - Sub-zero Atmosphere: 2
+  - Cold Snap: 2
+  - Thermal Shockwave: 2
+  - Cryo Chamber: 2
+  - Focused Aperture: 3
+  - Isothermic Transducer: 4
+  - Null-point Calibration Unit: 4
+  cards:
+  - Frost-Bound Drain:
+      actions:
+      - Absolute Zero deals 1 non-Hero Target 3 Cold Damage
+      - Absolute Zero deals himself 3 Fire Damage
+      flavour:
+        text: 'Flavor-text: "Too cold? Welcome to my life."'
+        source: 'Absolute Zero, The Ice-Man Cometh #7'
+      tags:
+      - One-Shot
+  - Fueled Freeze:
+      actions:
+      - Destroy up to 3 Ongoing cards
+      - Absolute Zero deals each non-Hero Target X Cold Damage, where X = the number of Ongoing cards destroyed by this card
+      flavour:
+        text: 'Flavor Text: "Time for all of you to cool down!"'
+        source: 'Absolute Zero, The Freedom Five #201'
+      tags:
+      - One-Shot
+  - Hoarfire:
+      actions:
+      - Absolute Zero deals 1 Target 2 Cold Damage
+      - Absolute Zero deals a second Target 2 Fire Damage
+      - Absolute Zero deals himself 1 Cold Damage and 1 Fire Damage
+      flavour:
+        text: This is gonna hurt you so much more than it will hurt me!"
+        source: Absolute Zero, Science & Progress One-Shot
+      tags:
+      - One-Shot
+  - Modular Realignment:
+      actions:
+      - Select 1 Equipment card from your trash and put it either into your hand or into play
+      - Absolute Zero deals himself 1 Fire Damage and 1 Cold Damage
+      flavour:
+        text: Aw, hell. Don't shut down on me now!"
+        source: 'Absolute Zero, Freedom Five #392'
+      tags:
+      - One-Shot
+  - Onboard Module Installation:
+      actions:
+      - You may draw a card
+      - Search your deck for a Module card and put it into your hand
+      - Shuffle your deck
+      - You may play a card
+      flavour:
+        text: 'Flavor-text: "What to wear, what to wear..."'
+        source: 'Absolute Zero, Freedom Five Annual #4'
+      tags:
+      - One-Shot
+  - Coolant Blast:
+      actions:
+      - Power Absolute Zero deals 1 non-Hero Target X Cold Damage, where X = the amount of Fire Damage that has been dealt to Absolute Zero since the end of your last turn
+      flavour:
+        text: Once in a while, you just gotta improvise!"
+        source: 'Absolute Zero, The Ice-Man Cometh #3'
+      tags:
+      - Ongoing
+  - Glacial Structure:
+      actions:
+      - Power Draw 3 cards
+      - Destroy this card
+      flavour:
+        text: It's always nice to take a moment for quiet reflection."
+        source: 'The Argent Adept, Freedom Five #641'
+      tags:
+      - Ongoing
+  - Impale:
+      actions:
+      - Play this card next to a non-Hero Target
+      - At the start of your turn, Absolute Zero deals that Target 2 Cold Damage
+      - If the Target leaves play, destroy this card
+      flavour:
+        text: 'Legacy: "You''re out of line, Frost!" -- Absolute Zero: "I''m just getting started."'
+        source: 'Legacy, Absolute Zero, A Day In the Life: Absolute Zero'
+      tags:
+      - Ongoing
+  - Sub-zero Atmosphere:
+      actions:
+      - Any Villain card which would act at the end of the Villain turn instead acts at the start of the Villain turn
+      flavour:
+        text: What's the matter... cold feet?"
+        source: 'Absolute Zero, Freedom Five #142'
+      tags:
+      - Ongoing
+  - Cold Snap:
+      actions:
+      - At the start of your turn, Absolute Zero deals each non-Hero Target 1 Cold Damage
+      flavour:
+        text: This is just like whack-a-mole, but with stupider targets."
+        source: 'Absolute Zero, Freedom Five #247'
+      tags:
+      - Ongoing
+      - Limited
+  - Thermal Shockwave:
+      actions:
+      - Power Absolute Zero deals up to 3 Targets 1 Cold Damage each
+      - Absolute Zero deals himself X Fire Damage, where X = the total amount of Cold Damage dealt by Absolute Zero this turn
+      flavour:
+        text: By opening all of the apertures in his suit to let in the scorching air, Absolute Zero can produce quite a chilling effect.
+        source: Unattributed
+      tags:
+      - Ongoing
+      - Limited
+  - Cryo Chamber:
+      actions:
+      - Power Absolute Zero deals himself 5 Fire Damage
+      - Destroy this card
+      flavour:
+        text: Better bored in here than dead out there."
+        source: 'Ryan Frost, Freedom Four Annual #2'
+      tags:
+      - Equipment
+      - Limited
+  - Focused Aperture:
+      actions:
+      - Increase Cold Damage dealt by Absolute Zero by 1
+      flavour:
+        text: "Dr. Stinson\u2019s upgrades to the team\u2019s equipment led to much greater efficiency in combat\u201D"
+        source: ''
+      tags:
+      - Equipment
+      - Limited
+  - Isothermic Transducer:
+      actions:
+      - When Absolute Zero is dealt Fire Damage, Absolute Zero deals 1 Target that much Cold Damage
+      flavour:
+        text: 'Tachyon: "But the laws of thermodynamics have more to do with-" -- Absolute Zero: "Look lady, all I know is fire gets all weird around me."'
+        source: 'Tachyon, Absolute Zero, Freedom Four Annual #7'
+      tags:
+      - Equipment
+      - Limited
+      - Module
+  - Null-point Calibration Unit:
+      actions:
+      - When Absolute Zero would take Cold Damage, he regains that many HP instead
+      flavour:
+        text: Cold is all a matter of perspective.
+        source: Unattributed
+      tags:
+      - Equipment
+      - Limited
+      - Module

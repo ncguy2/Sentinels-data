@@ -1,0 +1,209 @@
+deck:
+  name: Argent Adept
+  complexity: 3
+  composition:
+  - Arcane Cadence: 4
+  - Instrumental Conjuration: 4
+  - Polyphoric Flare: 2
+  - Silver Shadow: 2
+  - Vernal Sonata: 4
+  - Rhapsody of Vigor: 2
+  - Sarabande of Destruction: 2
+  - Scherzo of Frost and Flame: 2
+  - Counterpoint Bulwark: 2
+  - Inventive Preparation: 2
+  - Syncopated Onslaught: 2
+  - Alacritous Subdominant: 2
+  - Cedistic Dissonant: 2
+  - Inspiring Supertonic: 2
+  - Akpunku's Drum: 1
+  - Drake's Pipes: 1
+  - Eydisar's Horn: 1
+  - Musaragni's Harp: 1
+  - Telamon's Lyra: 1
+  - Xu's Bell: 1
+  cards:
+  - Arcane Cadence:
+      actions:
+      - Reveal the top 5 cards of your deck
+      - Put 1 of them in your hand, 1 on the top of your deck, 1 on the bottom of your deck, 1 in your trash, and play 1
+      flavour:
+        text: 'Flavor-text: "Time for a little improvisation!"'
+        source: 'The Argent Adept, Virtuoso of the Void #21'
+      tags:
+      - One-Shot
+  - Instrumental Conjuration:
+      actions:
+      - Search your deck or trash for an Instrument card and put it into play
+      - If you searched your deck, shuffle your deck
+      - You may draw a card
+      flavour:
+        text: 'Flavor Text: "Virtuosos of the Ages, lend me your strength!"'
+        source: The Argent Adept, Mother Earth One-Shot
+      tags:
+      - One-Shot
+  - Polyphoric Flare:
+      actions:
+      - The Argent Adept deals himself 2 Energy Damage
+      - If he takes Damage this way, you may use a Power now
+      flavour:
+        text: Augh!"
+        source: 'Siege-Breaker, Vengeance #4'
+      tags:
+      - One-Shot
+  - Silver Shadow:
+      actions:
+      - Activate an Accompany text
+      - You may either draw a card or play a card now
+      flavour:
+        text: Now is the time for bold actions!"
+        source: 'The Argent Adept, Prime Wardens #1'
+      tags:
+      - One-Shot
+  - Vernal Sonata:
+      actions:
+      - Each Hero Target regains 1 HP
+      - Each Player may take 1 card other than Vernal Sonata from their trash and put it on top of their deck
+      flavour:
+        text: Our allies come in all shapes and sizes."
+        source: 'Tempest, Prime Wardens #6'
+      tags:
+      - One-Shot
+  - Rhapsody of Vigor:
+      actions:
+      - Perform Up to 5 Targets regain 1 HP each
+      flavour:
+        text: Prepare yourselves. The worst is yet to come."
+        source: 'The Argent Adept, Freedom Five Annual #10'
+      tags:
+      - Ongoing
+      - Melody
+  - Sarabande of Destruction:
+      actions:
+      - Perform Destroy 1 Ongoing or Environment card
+      flavour:
+        text: Your base machinations shall fail!"
+        source: 'The Argent Adept, Ra: God of the Sun #179'
+      tags:
+      - Ongoing
+      - Melody
+  - Scherzo of Frost and Flame:
+      actions:
+      - Perform The Argent Adept deals 1 Target 1 Cold Damage, then deals 1 Target 1 Fire Damage
+      flavour:
+        text: A touch of the elements to keep foes at bay."
+        source: 'The Argent Adept, Prime Wardens #17'
+      tags:
+      - Ongoing
+      - Melody
+  - Counterpoint Bulwark:
+      actions:
+      - Perform Select up to 2 Targets
+      - Until the start of your next turn, reduce Damage dealt to those Targets by 1
+      flavour:
+        text: Once again, evil mindlessly strives for nothing."
+        source: 'The Argent Adept, Virtuoso of the Void #17'
+      tags:
+      - Ongoing
+      - Rhythm
+  - Inventive Preparation:
+      actions:
+      - Perform Each Player may look at the top card of their Hero deck, then replace it or discard it
+      flavour:
+        text: He's noisy, but effective."
+        source: 'The Visionary, Burying the Blade #5'
+      tags:
+      - Ongoing
+      - Rhythm
+  - Syncopated Onslaught:
+      actions:
+      - Perform Select up to 2 Targets
+      - Until the start of your next turn, increase Damage dealt by those Targets by 1
+      flavour:
+        text: To me, heroes! We shall win this day!"
+        source: 'The Argent Adept, Freedom Five #629'
+      tags:
+      - Ongoing
+      - Rhythm
+  - Alacritous Subdominant:
+      actions:
+      - Perform One Player may play 1 card now
+      flavour:
+        text: Whoa! I'm keeping you around!"
+        source: 'Tachyon, Virtuoso of the Void #4'
+      tags:
+      - Ongoing
+      - Harmony
+  - Cedistic Dissonant:
+      actions:
+      - Perform Destroy an Instrument
+      - If you do, destroy any 1 card in play, other than a Character card
+      flavour:
+        text: Power for power. Be no more."
+        source: 'The Argent Adept, NightMist #61'
+      tags:
+      - Ongoing
+      - Harmony
+  - Inspiring Supertonic:
+      actions:
+      - Perform One Player may use a Power now
+      flavour:
+        text: Strike swiftly!"
+        source: 'The Argent Adept, Burying the Blade #5'
+      tags:
+      - Ongoing
+      - Harmony
+  - Akpunku's Drum:
+      actions:
+      - Power Activate the Accompany text of a Rhythm card and the Perform text of a Melody card
+      flavour:
+        text: How can this mere mortal counter my despair?!"
+        source: 'Gloomweaver, NightMist #21'
+      tags:
+      - Equipment
+      - Instrument
+  - Drake's Pipes:
+      actions:
+      - Power Activate the Perform text of up to 2 different Melody cards
+      flavour:
+        text: Ah, the pipes! My specialty!"
+        source: 'Anthony Drake, Toll of Destiny #3'
+      tags:
+      - Equipment
+      - Instrument
+  - Eydisar's Horn:
+      actions:
+      - Power Activate the Perform text of a Melody card and the Accompany text of a Harmony card
+      flavour:
+        text: The call which heralds your destruction!"
+        source: The Argent Adept, Mother Earth One-Shot
+      tags:
+      - Equipment
+      - Instrument
+  - Musaragni's Harp:
+      actions:
+      - Power Activate the Perform text of a Harmony card and the Accompany text of a Harmony card
+      flavour:
+        text: Its strings can play as quietly as a mouse, or as loud as a lion!"
+        source: 'The Argent Adept, Prime Wardens #2'
+      tags:
+      - Equipment
+      - Instrument
+  - Telamon's Lyra:
+      actions:
+      - Power Activate the Perform text of a Harmony card and the Accompany text of a Rhythm card
+      flavour:
+        text: I only hope that more virtuoso instruments have survived the ages..."
+        source: 'Anthony Drake, Toll of Destiny #4'
+      tags:
+      - Equipment
+      - Instrument
+  - Xu's Bell:
+      actions:
+      - Power Activate the Perform text of a Rhythm card and the Accompany text of either a Rhythm card or a Harmony card
+      flavour:
+        text: Hey, you can't touch that! It's a priceless artifact!"
+        source: 'Dr. Blake Washington, Toll of Destiny #4'
+      tags:
+      - Equipment
+      - Instrument

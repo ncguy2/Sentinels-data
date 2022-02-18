@@ -1,0 +1,39 @@
+character:
+  name: Tiny
+  health: 33
+  deck: Sky-Scraper
+  power:
+    name: Sneaking
+    actions:
+    - Play up to 2 Link cards
+    - You may move to your hand either 1 Link card from play or 2 Link cards from your Trash
+  incapacitated:
+  - One Hero may use a Power now
+  - Destroy 1 Ongoing card
+  - Destroy a Target with 1 HP
+---
+character:
+  name: Normal
+  health: 33
+  deck: Sky-Scraper
+  power:
+    name: Surveillance
+    actions:
+    - Draw 2 cards
+  incapacitated:
+  - One Hero may Play a card now
+  - One Hero may use a Power now
+  - One Hero may Draw a card now
+---
+character:
+  name: Huge
+  health: 33
+  deck: Sky-Scraper
+  power:
+    name: Concussive Clap
+    actions:
+    - Sky-Scraper Deals each Non-Hero Target 2 Sonic Damage and each Hero Target 0 Sonic Damage
+  incapacitated:
+  - One Player may Play a card now
+  - Destroy 1 Environment card
+  - Until the Start of your next turn, treat this card as a 1 HP Indestructible Target

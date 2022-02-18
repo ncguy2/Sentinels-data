@@ -1,0 +1,27 @@
+character:
+  name: Stuntman
+  health: 27
+  deck: Stuntman
+  power:
+    name: Tireur Incroyable
+    actions:
+    - Stuntman deals 1 Target 1 Irreducible Projectile damage
+    - Increase that damage by 2 when this Power is used outside your turn
+  incapacitated:
+  - One Player may Play a card
+  - Destroy an Environment Target
+  - One Hero Target may deal 1 Target 1 Projectile damage
+---
+character:
+  name: Action Stuntman
+  health: 28
+  deck: Stuntman
+  power:
+    name: All My Own Stunts
+    actions:
+    - Until the start of your next turn, increase damage dealt by Stuntman by 1
+    - You may play a card
+  incapacitated:
+  - One Player may draw a card
+  - One Hero may use a Power
+  - One Hero Target may deal 1 Environment Target 2 Melee damage An Environment Target dealt damage this way deals each Non-Environment Target 1 Melee damage

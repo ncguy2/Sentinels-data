@@ -1,0 +1,218 @@
+deck:
+  name: Chrono-Ranger
+  complexity: 2
+  composition:
+  - Bounty Board: 2
+  - Displaced Armory: 4
+  - Eye on the Prize: 4
+  - '"Just Doin'' My Job"': 4
+  - Ranger's Mark: 3
+  - Sudden Contract: 4
+  - Terrible Tech-Strike: 3
+  - Hunter And Hunted: 3
+  - '"By Any Means"': 1
+  - '"Dead Or Alive"': 1
+  - '"Kill On Sight"': 1
+  - '"No Executions"': 1
+  - '"The Ultimate Target"': 1
+  - '"The Whole Gang"': 1
+  - Compounded Bow: 1
+  - Danny-Boy: 1
+  - Jim's Hat: 1
+  - Neuro-Toxin Dart Thrower: 1
+  - Temporal Grenade: 2
+  - The Masadah: 1
+  cards:
+  - Bounty Board:
+      actions:
+      - Move all Bounty cards from your trash into your hand
+      - Chrono-Ranger may deal 1 Target 1 Projectile Damage
+      flavour:
+        text: 'Flavor text: "That''s it. Everything''s fine, Con. I''m done here."'
+        source: The Chrono-Ranger, Draw!
+      tags:
+      - One-Shot
+  - Displaced Armory:
+      actions:
+      - Search your deck or trash for an Equipment card and put it into play
+      - If you searched your deck, shuffle your deck
+      - Chrono-Ranger may deal 1 Target 1 Projectile Damage
+      flavour:
+        text: 'Flavor text: "Now you sit tight there a second. I''ve got just th'' thing for you."'
+        source: 'Chrono-Ranger, Mystery Comics #293'
+      tags:
+      - One-Shot
+  - Eye on the Prize:
+      actions:
+      - Chrono-Ranger may deal 1 Target 1 Projectile Damage
+      - You may draw a card
+      - You may play a card
+      flavour:
+        text: 'Flavor text: "You may take this moment to reconsider. I''ll give you that much."'
+        source: Chrono-Ranger, Draw!
+      tags:
+      - One-Shot
+  - '"Just Doin'' My Job"':
+      actions:
+      - Each Player may discard 1 card
+      - Draw X cards, where X = the number of cards discarded this way
+      - Chrono-Ranger may deal 1 Target 1 Projectile Damage
+      flavour:
+        text: 'Flavor text: "He emptied his pistol, tipped his hat, and walked through a portal as it closed."'
+        source: 'Tachyon, Freedom Five Annual #10'
+      tags:
+      - One-Shot
+  - Ranger's Mark:
+      actions:
+      - Select 1 Bounty card from your trash and put it into play
+      - Chrono-Ranger may deal 1 Target 1 Projectile Damage
+      flavour:
+        text: "Flavor text: \"Now I've got you, you mangy critter\u2026\""
+        source: 'Chrono-Ranger, The Last Hunt #2'
+      tags:
+      - One-Shot
+  - Sudden Contract:
+      actions:
+      - Search your deck for a Bounty card and put it into play
+      - Shuffle your deck
+      - Chrono-Ranger may deal 1 Target 1 Projectile Damage
+      flavour:
+        text: 'Flavor text: "Well, this is awful unexpected."'
+        source: 'Chrono-Ranger, Nightmare World #4'
+      tags:
+      - One-Shot
+  - Terrible Tech-Strike:
+      actions:
+      - Chrono-Ranger deals 1 Target 2 Melee Damage
+      - Chrono-Ranger deals 1 Target 1 Projectile Damage
+      flavour:
+        text: 'Flavor text: "Thunder and mud! Enough is enough!"'
+        source: Chrono-Ranger, Draw
+      tags:
+      - One-Shot
+  - Hunter And Hunted:
+      actions:
+      - Power Destroy this card
+      flavour:
+        text: 'Flavor text: "Time to put you down, varmint!"'
+        source: 'Chrono-Ranger, The Last Hunt #6'
+      tags:
+      - Ongoing
+      - Limited
+  - '"By Any Means"':
+      actions:
+      - Play this card next to a non-Hero Target
+      - Increase Damage dealt to that Target by 1
+      - When that Target leaves play, destroy this card
+      flavour:
+        text: 'Flavor text: "Jim, this one''s bigger than anything you''ve seen before. Make some friends."'
+        source: 'Con, Freedom Five Annual #10'
+      tags:
+      - Ongoing
+      - Bounty
+  - '"Dead Or Alive"':
+      actions:
+      - Play this card next to a non-Hero Target
+      - At the start of your turn, Chrono-Ranger regains 1 HP
+      - When that Target leaves play, draw 1 card and destroy this card
+      flavour:
+        text: 'Flavor text: "Got one that''s right up your alley. Or shooting range, I suppose."'
+        source: Con, Draw!
+      tags:
+      - Ongoing
+      - Bounty
+  - '"Kill On Sight"':
+      actions:
+      - Play this card next to a non-Hero Target
+      - When that Target leaves play, draw 3 cards and destroy this card
+      flavour:
+        text: 'Flavor text: "Another hunter, yes, but this one is as much monster as he is man."'
+        source: 'Con, Temporal Targets #1'
+      tags:
+      - Ongoing
+      - Bounty
+  - '"No Executions"':
+      actions:
+      - Play this card next to a non-Character card Target
+      - When that Target would be destroyed, put it on the bottom of its deck instead
+      - Then destroy this card
+      flavour:
+        text: 'Flavor text: "Feel free to use any methods necessary, but we want this one alive."'
+        source: 'Con, Into the Sunset #1'
+      tags:
+      - Ongoing
+      - Bounty
+  - '"The Ultimate Target"':
+      actions:
+      - Play this card next to a non-Hero Target
+      - Increase Damage dealt by Chrono-Ranger to that Target by 1
+      - The first time that Target deals Damage each turn, you may use a Power
+      flavour:
+        text: 'Flavor text: "Go make him pay for your arm!"'
+        source: 'Con, The Last Hunt #1'
+      tags:
+      - Ongoing
+      - Bounty
+  - '"The Whole Gang"':
+      actions:
+      - Play this card next to a non-Hero Target
+      - When that Target leaves play, you may destroy a Target with 4 or fewer HP
+      - Then, destroy this card
+      flavour:
+        text: 'Flavor text: "You''re sending me after a posse, now?"'
+        source: 'Chrono-Ranger, The Sentinels #17'
+      tags:
+      - Ongoing
+      - Bounty
+  - Compounded Bow:
+      actions:
+      - Power Chrono-Ranger deals 1 Target 1 Projectile Damage and 1 Damage of a type of your choice
+      flavour:
+        text: 'Flavor text: "I''d waste bullets as soon as waste words."'
+        source: 'Chrono-Ranger, Temporal Targets #4'
+      tags:
+      - Equipment
+  - Danny-Boy:
+      actions:
+      - Power Chrono-Ranger deals up to X Targets 2 Fire Damage each, where X = the number of Bounty cards in play
+      flavour:
+        text: "Flavor text: \"You might want to take a step back. Danny can get a bit\u2026 rowdy.\""
+        source: 'Chrono-Ranger, Temporal Targets #3'
+      tags:
+      - Equipment
+  - Jim's Hat:
+      actions:
+      - You may play an additional card during your play phase
+      - At the start of your turn, you may destroy a Bounty card
+      flavour:
+        text: 'Flavor text: "You don''t take a man''s gun, and you certainly don''t touch his hat."'
+        source: Chrono-Ranger, Time Cataclysm
+      tags:
+      - Equipment
+  - Neuro-Toxin Dart Thrower:
+      actions:
+      - Power Chrono-Ranger deals 1 Target 1 Toxic Damage
+      - Reduce Damage dealt by that Target by 1 until the start of your next turn
+      flavour:
+        text: 'Flavor text: "I know it''s not a pistol, but it''s fancy! And highly effective!"'
+        source: 'Con, The Last Hunt #3'
+      tags:
+      - Equipment
+  - Temporal Grenade:
+      actions:
+      - Power Chrono-Ranger deals up to 3 Targets 1 Energy Damage each
+      - You may destroy 1 Ongoing or Environment card
+      - Destroy this card
+      flavour:
+        text: 'Flavor text: "Don''t interfere with nothin'' beyond your scope."'
+        source: 'Chrono-Ranger, Temporal Targets #5'
+      tags:
+      - Equipment
+  - The Masadah:
+      actions:
+      - Power Chrono-Ranger deals 1 Target X Irreducible Energy Damage, where X = the number of Bounty cards in play
+      flavour:
+        text: 'Flavor text: "As much as I prefer my six-gun this is a fine piece of work."'
+        source: 'Chrono-Ranger, Temporal Targets #2'
+      tags:
+      - Equipment

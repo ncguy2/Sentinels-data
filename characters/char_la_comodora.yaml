@@ -1,0 +1,28 @@
+character:
+  name: La Comodora
+  health: 29
+  deck: La Comodora
+  power:
+    name: Time's Lessons
+    actions:
+    - Shuffle a Hero Deck
+    - Select a card from that Deck's Trash
+    - Put it under the top card of the Deck
+  incapacitated:
+  - One Player may Play a card
+  - One Hero may use a Power
+  - Reveal the bottom card of a Deck You may discard it or put it into Play
+---
+character:
+  name: 'La Comodora: The Curse of the Black Spot'
+  health: 28
+  deck: La Comodora
+  power:
+    name: Backtrack Shot
+    actions:
+    - La Comodora deals 1 Target 2 Energy damage
+    - Discard the top card of a Deck
+  incapacitated:
+  - One Player may draw a card
+  - Destroy a Target with 1 HP
+  - Shuffle a Trash into its Deck

@@ -1,0 +1,27 @@
+character:
+  name: Benchmark
+  health: 31
+  deck: Benchmark
+  power:
+    name: The New Standard
+    actions:
+    - Draw a Card
+    - Benchmark deals 1 Target 1 Energy Damage
+  incapacitated:
+  - One Player may play a Card now
+  - One Hero may use a Power now
+  - One Player may Draw a Card now
+---
+character:
+  name: 'Benchmark: Supply and Demand'
+  health: 29
+  deck: Benchmark
+  power:
+    name: 'Desperate Measures '
+    actions:
+    - Benchmark regains 1 HP
+    - Play the top Card of your Deck
+  incapacitated:
+  - One Target regains 2 HP
+  - Destroy an Ongoing Card
+  - Destroy an Environment Card

@@ -1,0 +1,42 @@
+character:
+  name: Guise
+  health: 27
+  deck: Guise
+  power:
+    name: Tough Choices
+    actions:
+    - Draw a Card or play a Card, How to choose?! Also Guise deals 1 Target 1 Melee Damage
+    - But who?!
+  incapacitated:
+  - One player Discards 1 Card If the Discarded Card was a One-Shot, that player may Draw 2 Cards If the Discarded Card was an Ongoing or Equipment Card, 1 Hero Target regains 2 HP
+  - Reveal the Bottom 3 Cards of the Villain Deck Put one on Top of the Villain Deck, One in the Trash, and One into Play
+  - If there are (H) or fewer Environment Cards In Play, Destroy 1 of them If there are more than (H) Environment Cards in play, Destroy 2 of them Then if there are no Environment Cards in Play, stand up and do a funky dance! Really get down with your Bad Self!
+    Shake your groove thang! Okay, stop (Obscured) shaking! Careful (Obscured) say about too much (Obscured)
+---
+character:
+  name: Santa Guise
+  health: 25
+  deck: Guise
+  power:
+    name: It's Gift-mas Time!
+    actions:
+    - Put the top Card of each Hero Deck face-down in their play area
+    - / One Player may flip all face-down Cards in their play area, treating them as if they were just put into play
+  incapacitated:
+  - War rages on! One Hero uses a Power, then turns one Hero non-character Card in play face-down
+  - Turn the tables! Flip 1 face-down Card, treating it as if it was put into play
+---
+character:
+  name: Completionist Guise
+  health: 26
+  deck: Guise
+  power:
+    name: Impressive Collection
+    actions:
+    - Replace a Hero Character Card in play with a variant of that Hero
+    - Put the replaced Card safely under this Card
+    - Either use the Power on the replaced Card (treating any Hero names on that Card as "Guise") or Guise deals 1 Target 2 Psychic Damage
+  incapacitated:
+  - Switch a Card under your Card with a Character Card in play with the same Hero name
+  - Remove a Card under your Card from the Game A Hero with the same name as that Card uses a Power now
+  - Remove all variants in your collection of an active Hero from the Game If any Cards are removed from the Game this way, that Hero may take a full turn now

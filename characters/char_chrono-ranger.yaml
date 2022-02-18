@@ -1,0 +1,26 @@
+character:
+  name: Chrono-Ranger
+  health: 28
+  deck: Chrono-Ranger
+  power:
+    name: Quick Shot
+    actions:
+    - Chrono-Ranger deals 1 Target 1 Projectile Damage
+  incapacitated:
+  - One Player may play a Card
+  - One Hero may use a Power
+  - One Hero may deal 1 Target 1 Projectile Damage
+---
+character:
+  name: 'Chrono-Ranger: The Best of Times'
+  health: 29
+  deck: Chrono-Ranger
+  power:
+    name: True Purpose
+    actions:
+    - Select a non-Hero Target
+    - Until after the next time you use a Power, all Bounty Cards also affect that Target and are not destroyed when that Target leaves play
+  incapacitated:
+  - One Player may Draw a Card now
+  - One Hero may use a Power now
+  - Until the start of your next turn, at the start of a Player's turn, they may discard 1 Card to play 1 Card

@@ -1,0 +1,186 @@
+deck:
+  name: Luminary
+  complexity: 1
+  composition:
+  - Backlash Generator: 53
+  - Disposable Defender: 53
+  - Regression Turret: 53
+  - Repair Nanites: 53
+  - Sabre Battle Drone: 53
+  - Explosive Reconstructor: 51
+  - Orbital Death-Laser: 51
+  - Terralunar Translocator: 51
+  - Bared Blade: 3
+  - Brilliant Inventor: 3
+  - '"Consider the Price of Defeat!"': 2
+  - Dangerous Vision: 2
+  - Hasten Victory: 3
+  - Technologically Stable: 3
+  - Timely Disruption: 2
+  - Triple Cross: 2
+  - All According to Plan: 2
+  cards:
+  - Backlash Generator:
+      actions:
+      - The first time any Device is dealt damage by a non-Hero target each turn, this card deals the source of that damage 1 Lightning Damage
+      flavour:
+        text: 'Flavor-text: "I learned a valuable lesson from you. There will always be someone to punch my inventions."'
+        source: 'Luminary, Burying The Blade #7'
+      tags:
+      - Device
+  - Disposable Defender:
+      actions:
+      - Power You may play a Device
+      - Move a Device from your trash into play
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "Everything has a grand purpose. For some, that purpose is to be destroyed for the cause!"'
+        source: 'Luminary, Mystery Comics #525'
+      tags:
+      - Device
+  - Regression Turret:
+      actions:
+      - Power This card deals up to 3 targets 1 Projectile Damage each
+      - Until the start of your turn, reduce damage dealt by targets dealt damage this way by 1
+      flavour:
+        text: 'Flavor-text: "Bah, that formula was far too unstable. This new experimental mixture is just the thing!"'
+        source: 'Luminary, Freedom Five #793'
+      tags:
+      - Device
+  - Repair Nanites:
+      actions:
+      - This card is immune to Melee Damage
+      - At the end of your turn, either Luminary regains 1 HP or up to 3 Devices regain 1 HP each
+      flavour:
+        text: 'Flavor-text: "I do feel the slightest tickle. Not entirely unpleasant."'
+        source: 'Luminary, Burying The Blade #12'
+      tags:
+      - Device
+  - Sabre Battle Drone:
+      actions:
+      - At the end of your turn, this card deals 1 target 1 Melee Damage
+      - Then, you may destroy one of your devices
+      - If you do, this card deals 1 target 3 fire damage
+      flavour:
+        text: 'Flavor-text: "While you were playing with your toys, I was preparing for the eventuality of combat!"'
+        source: 'Luminary, Mystery Comics #515'
+      tags:
+      - Device
+  - Explosive Reconstructor:
+      actions:
+      - Power If there are 15 or more cards in your trash, move all Devices from your trash into play and this card deals each non-Hero target 2 Fire Damage
+      - Then, shuffle your trash into your deck and destroy this card
+      flavour:
+        text: 'Flavor-text: "I don''t even want to know what it does. But I feel strongly that we should shut it down."'
+        source: 'Tachyon, Freedom Five #793'
+      tags:
+      - Device
+      - Doomsday
+  - Orbital Death-Laser:
+      actions:
+      - Power If there are 15 or more cards in your trash, this card deals 1 target X irreducible Energy Damage, where X = the number of cards in your trash
+      - Then, shuffle your trash into your deck and destroy this card
+      flavour:
+        text: 'Flavor-text: "You all might want to step back. Further. Quite a bit further."'
+        source: 'Luminary, Freedom Five #799'
+      tags:
+      - Device
+      - Doomsday
+  - Terralunar Translocator:
+      actions:
+      - Power If there are 15 or more cards in your trash, for every 2 cards in your trash you may destroy one non-Character card other than this card
+      - Then, shuffle your trash into your deck and destroy this card
+      flavour:
+        text: 'Flavor-text: "That madman... he''s actually done it. That''s a piece of the moon!"'
+        source: 'Tachyon, Freedom Five #799'
+      tags:
+      - Device
+      - Doomsday
+  - Bared Blade:
+      actions:
+      - Luminary deals 1 target 2 Melee Damage
+      - You may draw a card
+      - You may use a Power
+      flavour:
+        text: 'Flavor-text: "I am certain that you are the best and the worst of wherever you are from. Come, learn what this world has to offer."'
+        source: 'Luminary, Scion Strike #4'
+      tags:
+      - One-Shot
+  - Brilliant Inventor:
+      actions:
+      - Reveal the top 4 cards of your deck
+      - Put any Devices revealed this way into play
+      - Discard the other revealed cards
+      flavour:
+        text: 'Flavor-text: "I still do not see why we are not pulling the moon into it! It would have worked!"'
+        source: 'Luminary, Burying The Blade #9'
+      tags:
+      - One-Shot
+  - '"Consider the Price of Defeat!"':
+      actions:
+      - Each player may draw a card
+      - Each Hero target regains 1 HP
+      - Discard the top card of your deck
+      flavour:
+        text: 'Flavor-text: "With all due respect, Mr. Parsons, sir, he has a point. Let''s hear him out."'
+        source: 'Bunker, Freedom Five Annual #30'
+      tags:
+      - One-Shot
+  - Dangerous Vision:
+      actions:
+      - Destroy any number of your Devices
+      - If at least 1 Device is destroyed this way, search your deck or trash for a Doomsday or Ongoing card and put it into play
+      - Shuffle your deck
+      flavour:
+        text: 'Flavor-text: "Surely not even this cosmic force could withstand such an assault. Hmmm..."'
+        source: 'Luminary, Burying The Blade #8'
+      tags:
+      - One-Shot
+  - Hasten Victory:
+      actions:
+      - Luminary deals each Villain target 1 Lightning Damage
+      - You may play the top card of your deck
+      flavour:
+        text: 'Flavor-text: "Can you feel it, heroes? With the brilliant Luminary at your side, success is within your reach!"'
+        source: 'Luminary, Burying the Blade #7'
+      tags:
+      - One-Shot
+  - Technologically Stable:
+      actions:
+      - You may draw a card
+      - Move a Device from your trash to your hand
+      - You may play a card
+      flavour:
+        text: 'Flavor-text: "Never again shall you hear the name Ivan Ramonat."'
+        source: 'Ivan Grigori Ramonat, Moonfall #2'
+      tags:
+      - One-Shot
+  - Timely Disruption:
+      actions:
+      - Destroy up to 3 non-Character Card Devices and/or Ongoing cards
+      - You may draw a card for each card destroyed this way
+      flavour:
+        text: 'Flavor-text: "What?! Arrogant mortal! Your existence is as doomed as all reality."'
+        source: 'OblivAeon, Freedom Five #800'
+      tags:
+      - One-Shot
+  - Triple Cross:
+      actions:
+      - Destroy 1 Hero non-Character card
+      - Destroy up to 3 targets with 5 or fewer HP
+      - One target deals itself 2 Psychic Damage
+      flavour:
+        text: 'Flavor-text: "And so, we have an accord. You always had such... vision."'
+        source: 'Rainek Kel''Voss, Burying The Blade #11'
+      tags:
+      - One-Shot
+  - All According to Plan:
+      actions:
+      - Increase damage dealt by Devices by 1
+      - Whenever a Device is destroyed, either discard the top card of your deck or Luminary deals 1 target 1 toxic damage
+      flavour:
+        text: 'Flavor-text: "Enough of your foolish toys-- aargh!"'
+        source: 'Kaargra Warfang, Freedom Five #713'
+      tags:
+      - Ongoing
+      - Limited

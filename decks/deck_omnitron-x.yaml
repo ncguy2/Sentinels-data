@@ -1,0 +1,187 @@
+deck:
+  name: Omnitron-X
+  complexity: 2
+  composition:
+  - Disruptive Flechettes: 3
+  - Reset: 4
+  - Self Sabotage: 2
+  - Singularity: 2
+  - Technological Advancement: 4
+  - Bio-Engineering Beam: 2
+  - Defensive Blast: 2
+  - Reactive Plating Subroute: 3
+  - Slip Through Time: 2
+  - Rocket Punch: 2
+  - Electro-Deployment Unit: 2
+  - Focused Plasma Cannon: 2
+  - Gaussian Coil Blaster: 2
+  - Innervation Ray: 2
+  - Ablative Coating: 2
+  - Elemental Exochassis: 2
+  - Temporal Shielding: 2
+  cards:
+  - Disruptive Flechettes:
+      actions:
+      - Destroy up to 2 Ongoing cards
+      - Omnitron-X deals each non-Hero Target 2 Projectile Damage
+      flavour:
+        text: 'Flavor text: "Manipulation of chemical triggers can neutralize organic and inorganic targets."'
+        source: 'Omnitron-X, Freedom Five #717'
+      tags:
+      - One-Shot
+  - Reset:
+      actions:
+      - Shuffle your trash into your deck
+      - You may draw a card
+      - You may play a card
+      flavour:
+        text: 'Flavor text: "Reloading core memory files. Cycling primary servos. Initializing startup subroutines."'
+        source: 'Omnitron-X, Freedom Five Annual #30'
+      tags:
+      - One-Shot
+  - Self Sabotage:
+      actions:
+      - Destroy any number of Component cards
+      - Omnitron-X deals 1 Target X Energy Damage, where X = the number of Component cards destroyed by this card times 2
+      flavour:
+        text: 'Flavor text: "The survival of the living far outweighs the existence of one."'
+        source: 'Omnitron-X, Singularity #8'
+      tags:
+      - One-Shot
+  - Singularity:
+      actions:
+      - Destroy any number of Equipment cards
+      - Omnitron-X deals each non-Hero Target X Lightning Damage, where X = the number of Equipment cards destroyed by this card
+      flavour:
+        text: 'Flavor text: "Its sacrifice was far greater than most could comprehend."'
+        source: 'Fanatic, Singularity #8'
+      tags:
+      - One-Shot
+  - Technological Advancement:
+      actions:
+      - Search your deck for a Plating card or a Component card
+      - Put it into play
+      - Shuffle your deck
+      - You may draw a card
+      flavour:
+        text: 'Flavor text: "It reversed the polarity of the latent antineutrino field and recalibrated its alignment with a recursive algorithm. It''s really quite simple."'
+        source: 'Tachyon, Justice Comics #604'
+      tags:
+      - One-Shot
+  - Bio-Engineering Beam:
+      actions:
+      - Power Destroy an Environment card
+      - Omnitron-X deals 1 non-Hero Target 2 Energy Damage
+      flavour:
+        text: 'Flavor text: "Threat recognized. Deploying appropriate response."'
+        source: 'Omnitron-X, Freedom Five #716'
+      tags:
+      - Ongoing
+  - Defensive Blast:
+      actions:
+      - Power Discard a Plating card
+      - If you do, Omnitron-X deals each non-Hero Target 1 Damage of each type currently reduced by a Plating card
+      flavour:
+        text: 'Flavor text: "End-times? I have seen many times. These are merely your end-times."'
+        source: 'Omnitron-X, Terminus #3'
+      tags:
+      - Ongoing
+      - Limited
+  - Reactive Plating Subroute:
+      actions:
+      - Whenever Omnitron-X is dealt Damage of a type currently reduced by a Plating card, Omnitron-X deals 1 Target 2 Damage of that type
+      flavour:
+        text: 'Flavor text: "Augh! What trickery is this?!"'
+        source: 'Apostate, Mystery Comics #370'
+      tags:
+      - Ongoing
+      - Limited
+  - Slip Through Time:
+      actions:
+      - At the end of your turn, you may play a card and you may use a Power
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor text: "The time continuum''s unidirectionality makes this unlikely. Here we go."'
+        source: 'Omnitron-X, Time and Again #1'
+      tags:
+      - Ongoing
+      - Limited
+  - Rocket Punch:
+      actions:
+      - Power Omnitron-X deals 1 Target 2 Projectile Damage
+      - Omnitron-X may deal 1 Target 1 Projectile Damage
+      flavour:
+        text: 'Flavor text: "Ha-hah! That robot just shot its arm off!"'
+        source: 'Haka, Freedom Five #717'
+      tags:
+      - Equipment
+  - Electro-Deployment Unit:
+      actions:
+      - At the start of your turn, either draw a card or play a card
+      - If Omnitron-X is dealt 5 or more Damage in one turn, destroy this card
+      flavour:
+        text: 'Flavor text: "Yeah, yeah, it can make stuff, but that shoulder unit is adorbs!"'
+        source: 'Unity, Justice Comics #604'
+      tags:
+      - Equipment
+      - Component
+  - Focused Plasma Cannon:
+      actions:
+      - At the start of your turn, Omnitron-X may deal 1 Target 2 Irreducible Fire Damage
+      - If Omnitron-X is dealt 5 or more Damage in one turn, destroy this card
+      flavour:
+        text: 'Flavor text: "Superheated plasma has many industrial applications. This is not one of them."'
+        source: 'Omnitron-X, Time and Again #6'
+      tags:
+      - Equipment
+      - Component
+  - Gaussian Coil Blaster:
+      actions:
+      - At the start of your turn, Omnitron-X deals up to 3 Targets 1 Lightning Damage each
+      - If Omnitron-X is dealt 5 or more Damage in one turn, destroy this card
+      flavour:
+        text: 'Flavor text: "Error. Damage sustained. Damage origin impossible."'
+        source: 'Omnitron, Singularity #7'
+      tags:
+      - Equipment
+      - Component
+  - Innervation Ray:
+      actions:
+      - At the start of your turn, up to 3 Hero Targets regain 1 HP each
+      - If Omnitron-X is dealt 5 or more Damage in one turn, destroy this card
+      flavour:
+        text: 'Flavor text: "Revitalizing one''s allies is as important as protecting yourself."'
+        source: 'Omnitron-X, Vengeance #3'
+      tags:
+      - Equipment
+      - Component
+  - Ablative Coating:
+      actions:
+      - Reduce Melee, Projectile, and Toxic Damage dealt to Omnitron-X by 2
+      - When this card enters play, return all other Plating cards to your hand
+      flavour:
+        text: 'Flavor text: "Strike acknowledged. Form unharmed."'
+        source: 'Omnitron-X, The Tides of Time #2'
+      tags:
+      - Equipment
+      - Plating
+  - Elemental Exochassis:
+      actions:
+      - Reduce Cold, Fire, Lightning, and Energy Damage dealt to Omnitron-X by 2
+      - When this card enters play, return all other Plating cards to your hand
+      flavour:
+        text: 'Flavor text: "The flames of the past cannot consume the tech of the future."'
+        source: 'Omnitron-X, Time and Again #14'
+      tags:
+      - Equipment
+      - Plating
+  - Temporal Shielding:
+      actions:
+      - Reduce Psychic, Infernal, Radiant, and Sonic Damage dealt to Omnitron-X by 2
+      - When this card enters play, return all other Plating cards to your hand
+      flavour:
+        text: 'Flavor text: "Luck is fallacy. There is only cause and effect."'
+        source: 'Tachyon, Run of Luck #4'
+      tags:
+      - Equipment
+      - Plating

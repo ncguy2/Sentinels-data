@@ -1,0 +1,154 @@
+deck:
+  name: Legacy
+  complexity: 1
+  composition:
+  - '"Thokk!"': 3
+  - Back-Fist Strike: 2
+  - Bolster Allies: 3
+  - Flying Smash: 2
+  - Danger Sense: 3
+  - Heroic Interception: 3
+  - Next Evolution: 3
+  - Take Down: 2
+  - Fortitude: 3
+  - Inspiring Presence: 3
+  - Lead from the Front: 3
+  - Motivational Charge: 3
+  - Superhuman Durability: 2
+  - Surge of Strength: 3
+  - The Legacy Ring: 2
+  cards:
+  - '"Thokk!"':
+      actions:
+      - Legacy deals 1 Target 3 Melee Damage
+      - Draw a card
+      flavour:
+        text: 'Flavor-text: "Sometimes, all it takes is a little brute force!"'
+        source: 'Legacy, America''s Finest Legacy #81'
+      tags:
+      - One-Shot
+  - Back-Fist Strike:
+      actions:
+      - Legacy deals 1 Target 4 Melee Damage
+      flavour:
+        text: 'Flavor-text: The best offense is knowing what''s right behind you.'
+        source: Unattributed
+      tags:
+      - One-Shot
+  - Bolster Allies:
+      actions:
+      - Each player draws a card
+      flavour:
+        text: 'Flavor-text: "We fight this day... for freedom!"'
+        source: 'Legacy, Freedom Five Annual #8'
+      tags:
+      - One-Shot
+  - Flying Smash:
+      actions:
+      - Legacy deals up to 3 Targets 3 Melee Damage each
+      flavour:
+        text: 'Flavor-text: "As you can see, we are untouch-... what was that?"'
+        source: 'Baron Blade, Moonfall #9'
+      tags:
+      - One-Shot
+  - Danger Sense:
+      actions:
+      - Legacy is immune to Damage from Environment cards
+      flavour:
+        text: 'Flavor-text: "Too close! Too close for comfort!"'
+        source: 'Legacy, Justice Comics #98'
+      tags:
+      - Ongoing
+  - Heroic Interception:
+      actions:
+      - When this card enters play, Legacy deals himself 3 Melee Damage
+      - Hero Targets other than Legacy are immune to Damage
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "No sacrifice too great."'
+        source: 'Young Legacy, Freedom Five Annual #12'
+      tags:
+      - Ongoing
+  - Next Evolution:
+      actions:
+      - Power Legacy is immune to the Damage type of your choice until the start of your next turn
+      flavour:
+        text: 'Flavor-text: Like her father, Pauline Felicia Parsons inherited all of the Legacy powers, and also developed some new abilities...'
+        source: Narrator
+      tags:
+      - Ongoing
+  - Take Down:
+      actions:
+      - Villain cards cannot be played
+      - At the end of your turn, the Villain Target with the highest HP deals Legacy 2 Energy Damage
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "Your injustices end here!"'
+        source: 'Legacy, America''s Finest Legacy #128'
+      tags:
+      - Ongoing
+  - Fortitude:
+      actions:
+      - Reduce Damage dealt to Legacy by 1
+      flavour:
+        text: 'Flavor-text: Legacy took times like these to ponder what dinner might involve tonight.'
+        source: Narrator
+      tags:
+      - Ongoing
+      - Limited
+  - Inspiring Presence:
+      actions:
+      - When this card enters play, each Hero Target regains 1 HP
+      - Increase Damage dealt by Hero Targets by 1
+      flavour:
+        text: 'Flavor-text: "... for freedom, for liberty, for justice... for America!"'
+        source: 'Legacy, Legacy Independance Day Spectacular #2'
+      tags:
+      - Ongoing
+      - Limited
+  - Lead from the Front:
+      actions:
+      - Whenever a Hero Target would be dealt Damage by a Villain card, you may redirect that Damage to Legacy
+      flavour:
+        text: 'Flavor-text: "I''d much rather follow a leader than follow orders."'
+        source: 'Bunker, Freedom Five #501'
+      tags:
+      - Ongoing
+      - Limited
+  - Motivational Charge:
+      actions:
+      - Power Legacy deals 1 Target 2 Melee Damage
+      - Each Hero Target regains 1 HP
+      flavour:
+        text: 'Flavor-text: "Yeah! Take that!"'
+        source: 'The Wraith, Freedom Five #209'
+      tags:
+      - Ongoing
+      - Limited
+  - Superhuman Durability:
+      actions:
+      - Whenever Legacy would be dealt 5 or more Damage from a single source, reduce that Damage by 3
+      flavour:
+        text: 'Flavor-text: "You will never defeat freedom or the human spirit!"'
+        source: 'Legacy, Justice Comics #602'
+      tags:
+      - Ongoing
+      - Limited
+  - Surge of Strength:
+      actions:
+      - Increase Damage dealt by Legacy by 1
+      flavour:
+        text: 'Flavor-text: "Excuse me, I have a train to catch."'
+        source: 'Paul Parsons, A Day in the Life: Legacy'
+      tags:
+      - Ongoing
+      - Limited
+  - The Legacy Ring:
+      actions:
+      - You may use an additional power during your power phase
+      flavour:
+        text: 'Flavor-text: "Furthering your father''s legacy."'
+        source: The Legacy Ring, The Legacy Ring's Inscription
+      tags:
+      - Equipment
+      - Limited

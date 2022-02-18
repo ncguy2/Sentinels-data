@@ -1,0 +1,199 @@
+deck:
+  name: Unity
+  complexity: 2
+  composition:
+  - Brainstorm: 4
+  - Flash Forge: 2
+  - Hasty Augmentation: 2
+  - Inspired Repair: 2
+  - Powered Shock Wave: 2
+  - Robot Reclamation: 2
+  - Construction Pylon: 3
+  - Modular Workbench: 2
+  - Scrap Metal: 2
+  - Supply Crate: 3
+  - Volatile Parts: 2
+  - Bee Bot: 13
+  - Champion Bot: 81
+  - Cryo Bot: 71
+  - Platform Bot: 33
+  - Raptor Bot: 23
+  - Stealth Bot: 51
+  - Swift Bot: 51
+  - Turret Bot: 91
+  cards:
+  - Brainstorm:
+      actions:
+      - Draw 2 cards
+      - Unity deals up to 3 Targets 1 Lightning Damage each
+      flavour:
+        text: 'Flavor-text: "The stuff I make up is way better than most actual facts."'
+        source: 'Unity, Freedom Five Annual #11'
+      tags:
+      - One-Shot
+  - Flash Forge:
+      actions:
+      - Discard any number of cards
+      - Search your deck for X Mechanical Golems and/or Equipment cards and put them into your hand, where X = the number of cards you discarded
+      - Shuffle your deck
+      flavour:
+        text: 'Flavor-text: "I think I can do better than this'
+        source: hold on."
+      tags:
+      - One-Shot
+  - Hasty Augmentation:
+      actions:
+      - One Hero may use a Power now
+      - If that Power deals Damage, increase that Damage by 2
+      flavour:
+        text: 'Flavor-text: "What?! Young lady, you are seriously testing my nonexistent patience."'
+        source: 'Absolute Zero, Freedom Five Annual #12'
+      tags:
+      - One-Shot
+  - Inspired Repair:
+      actions:
+      - You may draw a card
+      - You may play a card
+      - Each Mechanical Golem regains 3 HP
+      flavour:
+        text: 'Flavor-text: "So, do you think you''re ready to meet the whole gang?"'
+        source: 'Unity, Freedom Five #541'
+      tags:
+      - One-Shot
+  - Powered Shock Wave:
+      actions:
+      - Unity deals each Villain Target X Lightning Damage, where X = the number of Mechanical Golems in play plus 1
+      flavour:
+        text: 'Flavor-text: "All together now!"'
+        source: 'Unity, Mystery Comics #391'
+      tags:
+      - One-Shot
+  - Robot Reclamation:
+      actions:
+      - Move up to 5 Mechanical Golems from your trash to the top of your deck
+      - Draw a card
+      flavour:
+        text: 'Flavor-text: "Yeah, you''re right, champ. It''s been a long day."'
+        source: 'Unity, A Day in the Life: Unity'
+      tags:
+      - One-Shot
+  - Construction Pylon:
+      actions:
+      - Power Put up to 2 Mechanical Golems from hand into play and destroy this card
+      flavour:
+        text: 'Flavor-text: "Ha ha! I need about a dozen more of these!"'
+        source: 'Unity, Freedom Five #542'
+      tags:
+      - Equipment
+  - Modular Workbench:
+      actions:
+      - Power Discard 1 card
+      - If you do, put 1 Mechanical Golem from hand into play
+      flavour:
+        text: 'Flavor-text: "of course I built it myself! I mean, Tacky helped... but still!"'
+        source: 'Unity, Freedom Five #541'
+      tags:
+      - Equipment
+  - Scrap Metal:
+      actions:
+      - At the end of your turn, either take 1 Mechanical Golem from play back into your hand, or destroy this card
+      - At the start of your turn, you may play a card
+      - If you do, destroy this card
+      flavour:
+        text: 'Flavor-text: "Alrighty, big fella. We''ll get you back into action soon enough."'
+        source: 'Unity, Justice Comics #604'
+      tags:
+      - Equipment
+  - Supply Crate:
+      actions:
+      - When this card enters play, draw a card
+      - At the start of your turn, you may destroy this card to draw 2 cards
+      flavour:
+        text: 'Flavor-text: "Spare parts?! Awww, you shouldn''t have!"'
+        source: 'Unity, Freedom Five #540'
+      tags:
+      - Equipment
+  - Volatile Parts:
+      actions:
+      - Whenever a Mechanical Golem is destroyed, Unity deals the non-Hero Target with the lowest HP 2 Fire Damage
+      flavour:
+        text: 'Flavor-text: "What? Don''t look at me that way! Look, I can always rebuild you."'
+        source: 'Unity, Mystery Comics #391'
+      tags:
+      - Equipment
+  - Bee Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - When this card is destroyed, Unity deals 1 Target 2 Projectile Damage, and you may destroy 1 Ongoing or Environmental card
+      flavour:
+        text: 'Flavor-text: Tachyon:"Technically, it''s more of a hornet-"'
+        source: 'Unity: "Bee Bot is more fun to say!"'
+      tags:
+      - Mechanical Golem
+  - Champion Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - Increase Damage dealt by Unity and by Mechanical Golems by 1
+      flavour:
+        text: 'Flavor-text: "Let''s go save the world, Champion Bot!"'
+        source: 'Unity, Freedom Five Annual #12'
+      tags:
+      - Mechanical Golem
+  - Cryo Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - This card is immune to Cold Damage
+      - Whenever this card is dealt Damage, it deals each non-Hero Target 1 Cold Damage
+      flavour:
+        text: 'Flavor-text: "Don''t be sad, Cryo Bot! Everyone loves you!"'
+        source: 'Unity, Freedom Five Annual #12'
+      tags:
+      - Mechanical Golem
+  - Platform Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - Reduce Damage dealt to this card by 1
+      - At the end of your turn, this card deals 1 Target 3 Energy Damage
+      flavour:
+        text: 'Flavor-text: "Pew pew! Lasers! Just like the real thing, right?"'
+        source: 'Unity, Vengeance #2'
+      tags:
+      - Mechanical Golem
+  - Raptor Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - At the end of your turn, this card deals 1 Target X Melee Damage, where X = the number of Mechanical Golems in play plus 1
+      flavour:
+        text: 'Flavor-text: "Hi there, Mr. Chomps! Where are all your friends?"'
+        source: 'Unity, Freedom Five #540'
+      tags:
+      - Mechanical Golem
+  - Stealth Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - Reduce Damage dealt to this card by 1
+      - Whenever a Hero Target would be dealt Damage, you may redirect it to this card
+      flavour:
+        text: 'Flavor-text: "So sneaky! Go get ''em!"'
+        source: 'Unity, Freedom Five Annual #12'
+      tags:
+      - Mechanical Golem
+  - Swift Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - You may play an additional card during your play phase
+      - You may draw an additional card during your draw phase
+      flavour:
+        text: 'Flavor-text: "I am uptight about science and hate explosions in the lab."'
+        source: 'Swift Bot, Freedom Five Annual #12'
+      tags:
+      - Mechanical Golem
+  - Turret Bot:
+      actions:
+      - This card cannot be played during your play phase
+      - At the start of your turn, this card deals 1 Target 3 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Budda budda budda!"'
+        source: 'Turret Bot, Freedom Five Annual #12'
+      tags:
+      - Mechanical Golem

@@ -1,0 +1,191 @@
+deck:
+  name: Lifeline
+  complexity: 2
+  composition:
+  - Infernal Detonator: 1
+  - Orphic Repository: 1
+  - Terminarch's Casing: 1
+  - Vitality Battery: 1
+  - Nordidian Sulph-Axe: 1
+  - Calculated Action: 3
+  - Enclave's Tech: 3
+  - Harrow: 3
+  - Haunting Memories: 3
+  - Ley-Line Shift: 3
+  - Repair Ley-Line: 3
+  - Unleash Energy: 3
+  - Unnatural Upheaval: 3
+  - Alien Arcana: 2
+  - Cosmic Immolation: 2
+  - Cryptic Alignment: 2
+  - Discharge Lifeforce: 2
+  - Matter Manipulator: 3
+  cards:
+  - Infernal Detonator:
+      actions:
+      - Power Destroy this card
+      flavour:
+        text: 'Flavor-text: "I am holding an artifact of ultimate destruction. Are you listening now, Warfang?:'
+        source: 'Lifeline, Deepest Space #4'
+      tags:
+      - Equipment
+  - Orphic Repository:
+      actions:
+      - Power Destroy all cards under this card
+      - Lifeline deals X targets 2 Infernal Damage each, where X = the number of cards destroyed this way plus 1
+      flavour:
+        text: 'Flavor-text: "I was unable to save their people. But I have this, and they would want you to have it."'
+        source: 'Jansa di Vero, Deepest Space #2'
+      tags:
+      - Equipment
+  - Terminarch's Casing:
+      actions:
+      - Reduce damage dealt to Lifeline by 1
+      - At the end of your turn, Lifeline either regains 1 HP or deals 1 target 1 lightning damage
+      flavour:
+        text: 'Flavor-text: "The Enclave''s engineers have crafted this for you. Wear it as a reminder."'
+        source: 'Jansa vi Dero, Deepest Space #2'
+      tags:
+      - Equipment
+  - Vitality Battery:
+      actions:
+      - Power Lifeline deals 1 target 3 Fire Damage and 3 Energy Damage
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "I will breathe in your essence, and it will fuel the downfall of your allies."'
+        source: 'Lifeline, Scion Strike #4'
+      tags:
+      - Equipment
+  - Nordidian Sulph-Axe:
+      actions:
+      - Power Lifeline deals 1 target 2 Melee Damage and 1 Fire Damage
+      - If that damage destroys a target, Lifeline deals each Villain target 1 Infernal Damage
+      flavour:
+        text: 'Flavor-text: "It is not mine, but I wield it for its owner. In their name, I act this day."'
+        source: 'Lifeline, Freedom Five Annual #30'
+      tags:
+      - Equipment
+      - Relic
+  - Calculated Action:
+      actions:
+      - Lifeline deals himself 1 Infernal Damage
+      - Either play 2 cards or draw 3 cards
+      flavour:
+        text: 'Flavor-text: "I take no action lightly. All has a cost, and I am glad to pay the price myself."'
+        source: 'Lifeline, Tome of the Bizarre #81'
+      tags:
+      - One-Shot
+  - Enclave's Tech:
+      actions:
+      - Reveal cards from the top of your deck until an Equipment card is revealed
+      - Put it into play
+      - Discard the other revealed cards
+      - Shuffle your trash into your deck
+      flavour:
+        text: 'Flavor-text: "Not care what you did. Care what you will do. Who you will be."'
+        source: Urdid, Cosmic Redemption
+      tags:
+      - One-Shot
+  - Harrow:
+      actions:
+      - Lifeline deals himself and up to 3 other targets 3 Infernal Damage each
+      flavour:
+        text: 'Flavor-text: "This pain you feel? It is the truth of existence. Entropy at an accelerated rate."'
+        source: 'Lifeline, Freedom Five Annual #30'
+      tags:
+      - One-Shot
+  - Haunting Memories:
+      actions:
+      - Lifeline deals himself 2 Psychic Damage
+      - Move up to 3 cards from your trash to your hand
+      flavour:
+        text: 'Flavor-text: "This goes beyond the natural order. You could be forgiven, but never forgotten."'
+        source: The Naturalist, Cosmic Redemption
+      tags:
+      - One-Shot
+  - Ley-Line Shift:
+      actions:
+      - Lifeline deals himself 1 Infernal Damage
+      - Discard the top card of each deck
+      - Put the top card of one trash into play
+      flavour:
+        text: 'Flavor-text: "I can restore this, yes. But its spirit has been lost to the Void."'
+        source: 'Lifeline, Virtuoso of the Void #68'
+      tags:
+      - One-Shot
+  - Repair Ley-Line:
+      actions:
+      - Each Hero target regains 1 HP
+      - Each player may draw a card
+      - Play the top card of the Environment deck
+      - One Hero other than Lifeline may use a Power
+      flavour:
+        text: 'Flavor-text: "For the many horrors I brought upon this world, upon reality'
+        source: I must make reparations."
+      tags:
+      - One-Shot
+  - Unleash Energy:
+      actions:
+      - Lifeline deals himself and each non-Hero target 2 Energy Damage
+      - You may either draw a card or play a card
+      flavour:
+        text: 'Flavor-text: "My weapon is my vitality. Your strikes would fall well after you do."'
+        source: 'Lifeline, Tome of the Bizarre #79'
+      tags:
+      - One-Shot
+  - Unnatural Upheaval:
+      actions:
+      - Destroy up to 3 Ongoing cards
+      - Lifeline deals 1 target X Infernal Damage, where X = the number of cards destroyed this turn plus 1
+      flavour:
+        text: 'Flavor-text: "You are created of blood magic. But blood magic is not for creating. It is for destroying."'
+        source: 'Lifeline, Dark Watch #18'
+      tags:
+      - One-Shot
+  - Alien Arcana:
+      actions:
+      - The first time an Ongoing card other than this one enters Lifeline's play area each turn, draw a card
+      - At the end of your turn, Lifeline deals 1 target 1 Infernal Damage
+      flavour:
+        text: 'Flavor-text: "Sing to me of your essense, false being. My power can read the truth."'
+        source: 'Lifeline, Scion Strike #1'
+      tags:
+      - Ongoing
+  - Cosmic Immolation:
+      actions:
+      - Increase damage dealt by Lifeline by 2
+      - Increase damage dealt to Lifeline by non-Hero targets by 2
+      - At the start of your turn, you may destroy this card
+      - If you do not, you may draw a card
+      flavour:
+        text: 'Flavor-text: "Be careful not to do yourself in, oh hasty combatant. The hottest fires burn out the quickest."'
+        source: 'Kaargra Warfang, Deepest Space #3'
+      tags:
+      - Ongoing
+  - Cryptic Alignment:
+      actions:
+      - Power Discard a card
+      - If you do, Lifeline deals 1 target X Energy Damage, where X = the number of Ongoing cards in Lifeline's play area
+      flavour:
+        text: 'Flavor-text: "Your magic... it is delicious! You could grow with our gifts."'
+        source: 'Blood Countess Bathory, Tome of the Bizarre #71'
+      tags:
+      - Ongoing
+  - Discharge Lifeforce:
+      actions:
+      - Power Destroy 1 Environment card
+      - If that card was a target, Lifeline deals up to 3 targets 1 Infernal Damage each
+      flavour:
+        text: 'Flavor-text: "Wrong Magman! Though, I will say, that was still spectacular. And painful."'
+        source: 'Ambuscade, Mystery Comics #392'
+      tags:
+      - Ongoing
+  - Matter Manipulator:
+      actions:
+      - The first time you would draw a card each turn, you may use a Power instead
+      flavour:
+        text: 'Flavor-text: "All forms of fuel can burn, and my power is making the most of any fire."'
+        source: 'Lifeline, Freedom Five #799'
+      tags:
+      - Ongoing
+      - Limited

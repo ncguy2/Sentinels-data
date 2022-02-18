@@ -1,0 +1,172 @@
+deck:
+  name: Setback
+  complexity: 3
+  composition:
+  - '"Whoops! Sorry!"': 3
+  - Cash Out: 3
+  - Cause and Effect: 2
+  - Exceeded Expectations: 3
+  - Fumbling Fool: 3
+  - Karmic Retribution: 3
+  - Plucky Break: 3
+  - Reckless Rush: 4
+  - Turn of Events: 2
+  - Friendly Fire: 2
+  - High Risk Behavior: 2
+  - Looking Up: 3
+  - Silver Lining: 2
+  - Surprising Fortune: 2
+  - Uncharmed Life: 2
+  - Wrong Time and Place: 1
+  cards:
+  - '"Whoops! Sorry!"':
+      actions:
+      - Destroy 1 non-Character card belonging to another Hero
+      - You may destroy 1 Ongoing or Environment card
+      - Add or remove 3 Tokens from your Unlucky Pool
+      flavour:
+        text: 'Flavor-text: "I really had no idea that was there, sir! I, ah, I should go."'
+        source: 'Setback, Freedom Five #591'
+      tags:
+      - One-Shot
+  - Cash Out:
+      actions:
+      - Remove any number of Tokens from your Unlucky Pool
+      - Draw that many cards
+      - Each player may discard 1 card
+      - If (H) minus 1 cards are discarded this way, each Hero Target regains 2 HP
+      flavour:
+        text: 'Flavor-text: "Hahahaha! Things never turn out your way, do they?" '
+        source: 'Kismet, Run of Luck #1'
+      tags:
+      - One-Shot
+  - Cause and Effect:
+      actions:
+      - You may destroy 1 Ongoing or Environment card
+      - Setback deals 1 Target and himself as much Psychic Damage as there are Tokens in your Unlucky Pool
+      flavour:
+        text: 'Flavor-text: "Ok, look -- ow! Hey, that''s really not at all nice!"'
+        source: 'Setback, Freedom Five Annual #30'
+      tags:
+      - One-Shot
+  - Exceeded Expectations:
+      actions:
+      - Remove any number of Tokens from your Unlucky Pool
+      - Setback deals that many Targets 3 Melee Damage each
+      flavour:
+        text: 'Flavor-text: "... there is no way that should have worked."'
+        source: 'The Visionary, Vengeance #3'
+      tags:
+      - One-Shot
+  - Fumbling Fool:
+      actions:
+      - Discard the top card of each deck
+      - You may add or remove (H) Tokens from your Unlucky Pool
+      flavour:
+        text: 'Flavor-text: "Gosh! Sorry, Maia, er, I mean, The Wraith!"'
+        source: 'Setback, Mystery Comics #291'
+      tags:
+      - One-Shot
+  - Karmic Retribution:
+      actions:
+      - If you have fewer than 7 Tokens in your Unlucky Pool, remove 1 of them
+      - If you do, Setback regains 2 HP
+      - If you have 7 or more Tokens in your Unlucky Pool, remove 7 of them and Setback deals 1 Target 7 Melee Damage
+      flavour:
+        text: 'Flavor-text: *yawn* "What a night! I sure hope today goes better than yesterday!"'
+        source: 'Setback, Mystery Comics #370'
+      tags:
+      - One-Shot
+  - Plucky Break:
+      actions:
+      - Remove 2 Tokens from your Unlucky Pool
+      - If you do, draw 1 card and Setback deals 1 target 2 Melee Damage
+      - If there are zero Tokens in your Unlucky Pool, Setback regains 3 HP
+      flavour:
+        text: 'Flavor-text: "Hey look! A new penny! These new coins are looking pretty sweet!"'
+        source: 'Setback, Mystery Comics #212'
+      tags:
+      - One-Shot
+  - Reckless Rush:
+      actions:
+      - Setback deals 1 Target 2 Melee Damage
+      - Setback deals himself 2 Melee Damage
+      - Add 2 Tokens to your Unlucky Pool
+      flavour:
+        text: 'Flavor-text: "Alrighty, smelly and bitey! Down we go!" '
+        source: 'Setback, Mystery Comics #270'
+      tags:
+      - One-Shot
+  - Turn of Events:
+      actions:
+      - Remove (H) Tokens from your Unlucky Pool
+      - If you do, each other player may use a Power now
+      - Setback deals himself 2 Psychic Damage
+      flavour:
+        text: 'Flavor-text: "Alright now, fidgety one. Hold him steady... "'
+        source: 'Ra, Mystery Comics #270'
+      tags:
+      - One-Shot
+  - Friendly Fire:
+      actions:
+      - Whenever a Hero Target deals a non-Hero Target Damage, that Hero may also deal Setback 2 Damage of the same type
+      - Whenever Setback is dealt Damage this way, add 2 Tokens to your Unlucky Pool
+      flavour:
+        text: 'Flavor-text: "You keep standing right next to me. Why do you think this keeps happening?"'
+        source: 'Tempest, Freedom Five #421'
+      tags:
+      - Ongoing
+  - High Risk Behavior:
+      actions:
+      - Increase Damage dealt to and by Setback to and by Villain Targets by 1 for every 3 Tokens in your Unlucky Pool
+      - At the start of your turn, you may add or remove 1 Token from your Unlucky Pool
+      flavour:
+        text: 'Flavor-text: "Oh, hello there! Have you considered, say, NOT hitting me?"'
+        source: 'Setback, Freedom Five #592'
+      tags:
+      - Ongoing
+  - Looking Up:
+      actions:
+      - Power Add 3 Tokens to your Unlucky Pool
+      - Setback deals 1 Target 3 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Man, good thing that window was there to break my fall! And these guys, too!"'
+        source: 'Setback, Rook City Renegades #5'
+      tags:
+      - Ongoing
+  - Silver Lining:
+      actions:
+      - If Setback would be reduced to 0 or fewer HP, remove all Tokens from your Unlucky Pool and restore Setback to HP equal to the amount of Tokens removed this way
+      - Then, destroy this card
+      flavour:
+        text: 'Flavor-text: "I have been experimenting with the reversed regression serum for years, and it works on this guy?!" '
+        source: 'Baron Blade, Exordium #1'
+      tags:
+      - Ongoing
+  - Surprising Fortune:
+      actions:
+      - Power Remove 2 Tokens from your Unlucky Pool
+      - If you do, Setback regains 2 HP and 1 Player may draw 2 cards
+      flavour:
+        text: 'Flavor-text: "Oof. Hi! I know you don''t particularly care, but you''re not at all soft."'
+        source: 'Setback, Cosmic Concurrence #1'
+      tags:
+      - Ongoing
+  - Uncharmed Life:
+      actions:
+      - Power Setback regains 3 HP
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "You know, this isn''t great. But better me than someone else!"'
+        source: 'Setback, Freedom Five #592'
+      tags:
+      - Ongoing
+  - Wrong Time and Place:
+      actions:
+      - The first time a Hero Target would be dealt Damage each turn, redirect that Damage to Setback, or remove X Tokens from your Unlucky Pool to redirect that Damage to a Target, where X = the amount of Damage
+      - At the start of your turn, you may shuffle this card back into your deck
+      flavour:
+        text: 'Flavor-text: "You AGAIN?!"'
+        source: 'Revenant and Setback, Vengeance #4'
+      tags:
+      - Ongoing

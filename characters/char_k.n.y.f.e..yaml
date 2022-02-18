@@ -1,0 +1,31 @@
+character:
+  name: K.N.Y.F.E.
+  health: 30
+  deck: K.N.Y.F.E.
+  power:
+    name: Energy Lance
+    actions:
+    - K
+    - N
+    - Y
+    - F
+    - E
+    - deals 1 Target 2 Energy damage
+  incapacitated:
+  - One Hero may use 1 Power now
+  - One Player may Play 1 card now
+  - Destroy 1 Ongoing card
+---
+character:
+  name: 'Rogue Agent: K.N.Y.F.E.'
+  health: 29
+  deck: K.N.Y.F.E.
+  power:
+    name: Infiltration
+    actions:
+    - Reveal the bottom card of a Deck
+    - Either put it into play or discard it
+  incapacitated:
+  - One Hero may Use a Power now
+  - Each Target regains 1 HP now
+  - Reveal the top card of a Deck Put it into Play or Discard it

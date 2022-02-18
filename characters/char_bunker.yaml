@@ -1,0 +1,68 @@
+character:
+  name: The Indestructible Bunker
+  health: 27
+  deck: Bunker
+  power:
+    name: Initialize
+    actions:
+    - Draw a Card
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - Tried The Indestructible Bunker and The Indestructible Bunker
+---
+character:
+  name: GI Bunker
+  health: 27
+  deck: Bunker
+  power:
+    name: Panzer-Buster
+    actions:
+    - Select a Target
+    - Until the start of your next turn, Damage dealt to that Target is Irreducible
+  incapacitated:
+  - One Player may use a Power
+  - Destroy an Environment Card
+  - Destroy a Target with 1 HP
+---
+character:
+  name: 'Termi-Nation: Bunker'
+  health: 26
+  deck: Bunker
+  power:
+    name: Modulize
+    actions:
+    - Destroy 1 of your Ongoing or Equipment Cards
+    - If you do, Draw a Card, play a Card, and use a Power in any order
+  incapacitated:
+  - Put a Deck in its trash
+  - One Player may discard 2 Cards If they do, they may Draw 2 Cards
+  - Destroy a Hero Ongoing or Equipment Card Play the top 2 Cards of that Hero's Deck
+---
+character:
+  name: 'Freedom Six: Bunker'
+  health: 27
+  deck: Bunker
+  power:
+    name: Locomotion
+    actions:
+    - Discard a Mode card
+    - If you do, you may destroy an Ongoing card
+  incapacitated:
+  - One Player Draws a Card
+  - Destroy an Ongoing Card
+  - Put a Card from a Hero trash on top of its Deck
+---
+character:
+  name: 'Freedom Five: Bunker'
+  health: 29
+  deck: Bunker
+  power:
+    name: Tactical Uplink
+    actions:
+    - Reveal then replace the top Card of each Hero Deck
+    - If you reveal a Mode, put it into Play
+    - Another Player may put the top Card of their Deck into Play
+  incapacitated:
+  - One Player Draws a Card now
+  - Select a Hero Until the start of your turn, reduce Damage dealt to that Hero by 1
+  - One Environment Target deals 1 Target 2 Fire Damage

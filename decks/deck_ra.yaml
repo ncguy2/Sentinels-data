@@ -1,0 +1,155 @@
+deck:
+  name: Ra
+  complexity: 1
+  composition:
+  - Excavation: 2
+  - Fire Blast: 3
+  - Flame Spike: 3
+  - Inferno: 3
+  - Scorched Earth: 3
+  - Summon Staff: 4
+  - Drawn to the Flame: 2
+  - Flesh of the Sun God: 3
+  - Living Conflagration: 3
+  - Solar Flare: 2
+  - Wrathful Gaze: 2
+  - Blazing Tornado: 2
+  - Flame Barrier: 2
+  - Imbued Fire: 2
+  - The Staff of Ra: 4
+  cards:
+  - Excavation:
+      actions:
+      - Put up to 3 cards from the Environment trash on the bottom of the Environment deck
+      - You may draw as many cards as you moved this way
+      flavour:
+        text: 'Flavor-text: "This belongs in a museum!"'
+        source: Dr. Blake Washington, Rebirth of Ra One-Shot
+      tags:
+      - One-Shot
+  - Fire Blast:
+      actions:
+      - Ra deals 1 Target 5 Fire Damage
+      flavour:
+        text: 'Flavor-text: "Not even worth my time."'
+        source: 'Ra, Ra: God of the Sun #139'
+      tags:
+      - One-Shot
+  - Flame Spike:
+      actions:
+      - Ra deals 1 target 1 Fire Damage
+      - You may use an additional power this turn
+      flavour:
+        text: 'Flavor-text: "A mere taste of the power of the sun."'
+        source: 'Ra, Baptism by Fire #2'
+      tags:
+      - One-Shot
+  - Inferno:
+      actions:
+      - Ra deals 1 target 3 Fire Damage
+      - Ra deals up to 5 other Targets 1 Fire Damage each
+      flavour:
+        text: 'Flavor-text: "Feel the all-engulfing might of the sun god!"'
+        source: 'Ra, Arcane Tales #83'
+      tags:
+      - One-Shot
+  - Scorched Earth:
+      actions:
+      - Ra deals each non-Hero Target X Fire Damage, where X = the number of Environment cards in play
+      flavour:
+        text: 'Flavor-text: "The sands of the Sahara are glass in my wake!"'
+        source: 'Ra, Ra: God of the Sun #76'
+      tags:
+      - One-Shot
+  - Summon Staff:
+      actions:
+      - Search your deck for the Staff of Ra and put it into your hand
+      - Shuffle your deck
+      - You may draw a card
+      - You may play a card
+      flavour:
+        text: 'Flavor-text: "From the fiery ether, return to me, my staff!"'
+        source: 'Ra, Ra: God of the Sun #119'
+      tags:
+      - One-Shot
+  - Drawn to the Flame:
+      actions:
+      - Power Ra deals each non-Hero Target X Fire Damage, where X = the number of Villain Ongoing cards in play
+      flavour:
+        text: 'Flavor-text: "Why won''t you just die?!"'
+        source: 'Citizen Dawn, Sunrise #11'
+      tags:
+      - Ongoing
+  - Flesh of the Sun God:
+      actions:
+      - Power Hero character cards are immune to Fire Damage until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "These flames are a mere candle in the face of the sun''s fury."'
+        source: 'Ra, Ra:God of the Sun #25'
+      tags:
+      - Ongoing
+  - Living Conflagration:
+      actions:
+      - Power Ra deals 1 Target 1 Fire Damage
+      - You may draw a card
+      flavour:
+        text: 'Flavor-text: Christopher and Adam'
+        source: 'Ra, Ra: God of the Sun #1'
+      tags:
+      - Ongoing
+  - Solar Flare:
+      actions:
+      - Increase Fire Damage dealt by Ra by 2
+      - At the end of your turn, Ra may deal himself 4 Psychic Damage
+      - If he takes no Damage this way, this card is destroyed
+      flavour:
+        text: 'Flavor-text: "As it happens, when you play with fire... "'
+        source: 'Ra, Ra: God of the Sun #290'
+      tags:
+      - Ongoing
+  - Wrathful Gaze:
+      actions:
+      - Power Destroy 1 Target with 2 or fewer HP
+      flavour:
+        text: 'Flavor-text: "Foolish creature! Stand not before Ra!"'
+        source: 'Ra, Arcane Tales #98'
+      tags:
+      - Ongoing
+  - Blazing Tornado:
+      actions:
+      - Power Ra deals 1 Target 3 Fire Damage
+      flavour:
+        text: 'Flavor-text: Naturally occurring fire tornadoes are dangerous and unpredictable. Those summoned by a sun god are much worse.'
+        source: Unattributed
+      tags:
+      - Ongoing
+      - Limited
+  - Flame Barrier:
+      actions:
+      - The first time Ra is dealt Damage by a Target each turn, Ra deals that Target 2 Fire Damage
+      flavour:
+        text: 'Flavor-text: Enveloped in the heat of the sun, those who draw too close to Ra feels its burn.'
+        source: Narrator
+      tags:
+      - Ongoing
+      - Limited
+  - Imbued Fire:
+      actions:
+      - Power Destroy this card
+      flavour:
+        text: 'Flavor-text: "Blessings of the sun are curses for those who oppose you."'
+        source: 'Ra, Baptism by Fire #5'
+      tags:
+      - Ongoing
+      - Limited
+  - The Staff of Ra:
+      actions:
+      - Power Ra deals 1 Target 3 Projectile Damage
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "The Staff of Ra? Impossible! To have survived all these centuries... "'
+        source: Dr. Blake Washington, Rebirth of Ra One-Shot
+      tags:
+      - Equipment
+      - Relic
+      - Limited

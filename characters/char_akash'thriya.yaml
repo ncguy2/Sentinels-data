@@ -1,0 +1,27 @@
+character:
+  name: Akash'Thriya
+  health: 50
+  deck: Akash'Thriya
+  power:
+    name: Dormant Essence
+    actions:
+    - Put a Primordial Seed from your Hand or Trash into the Environment Trash
+    - Draw a card
+  incapacitated:
+  - Destroy an Environment Card
+  - Until the start of your next turn, reduce damage dealt to and by Environment Targets by 2
+  - Select an Environment Target in Play Until the start of your next turn, that Target is Indestructible
+---
+character:
+  name: 'Akash''Thriya: Spirit of the Void'
+  health: 40
+  deck: Akash'Thriya
+  power:
+    name: Essence Erruption
+    actions:
+    - Either Draw a Card or Play a Card
+    - Each Primordial Seed in Play deals 1 Target 1 Toxic damage
+  incapacitated:
+  - One Environment target deals 1 target 2 melee damage
+  - Shuffle an environment card in play into the environment deck
+  - Until the start of the tour next turn, increase damage dealt by environment cards to non-hero Targets by 2

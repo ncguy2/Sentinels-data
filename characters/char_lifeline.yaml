@@ -1,0 +1,26 @@
+character:
+  name: Lifeline
+  health: 31
+  deck: Lifeline
+  power:
+    name: Extract Power
+    actions:
+    - Draw a card
+    - One Player may Draw a card
+  incapacitated:
+  - One Player may Draw a card
+  - One Player may Play a card
+  - One Hero Character card regains 2 HP If they are at their maximum HP, they may use a Power
+---
+character:
+  name: 'Blood Mage: Lifeline'
+  health: 33
+  deck: Lifeline
+  power:
+    name: Vitae Strike
+    actions:
+    - Lifeline deals himself and each Villain Target 2 Infernal damage
+  incapacitated:
+  - Each Player may Discard 2 cards Any Player that does may Play a card
+  - One Player may destroy one of their Ongoing cards If they do, they Draw 5 cards
+  - Each Hero may deal themselves 3 Infernal damage A Hero dealt damage this way may use a Power

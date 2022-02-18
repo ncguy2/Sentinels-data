@@ -1,0 +1,25 @@
+character:
+  name: Expatriette
+  health: 29
+  deck: Expatriette
+  power:
+    name: Load
+    actions:
+    - Play a Card
+  incapacitated:
+  - One Hero may use a Power
+  - Destroy a Target with 1 HP
+  - Select a Hero The next time that Hero uses a Power, that Hero also deals 1 Target 1 Projectile Damage
+---
+character:
+  name: 'Dark Watch: Expatriette'
+  health: 30
+  deck: Expatriette
+  power:
+    name: Aim
+    actions:
+    - Until the end of your next turn, increase Damage dealt by Expatriette by 1
+  incapacitated:
+  - One Hero may use a Power
+  - Destroy an Ongoing Card
+  - Reduce the next Damage dealt to a Hero Target by 1

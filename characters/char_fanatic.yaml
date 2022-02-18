@@ -1,0 +1,55 @@
+character:
+  name: Fanatic
+  health: 30
+  deck: Fanatic
+  power:
+    name: Exorcism
+    actions:
+    - Fanatic deals 1 Target 1 Melee Damage and 1 Radiant Damage
+  incapacitated:
+  - One Player may play a Card
+  - One Hero regains 2 HP
+  - Select a Hero Increase the next Damage dealt by that Hero by 2
+---
+character:
+  name: Redeemer Fanatic
+  health: 31
+  deck: Fanatic
+  power:
+    name: Redeem
+    actions:
+    - Fanatic regains 1 HP
+    - Draw a Card
+  incapacitated:
+  - One Player may Draw a Card
+  - Each Hero regains 1 HP
+  - Select a Hero Reduce the next Damage dealt to that Hero by 2
+---
+character:
+  name: 'Prime Wardens: Fanatic'
+  health: 29
+  deck: Fanatic
+  power:
+    name: Resolute
+    actions:
+    - Fanatic deals herself 3 Radiant Damage
+    - Play the top Card of your Deck
+    - One Hero may use a Power
+  incapacitated:
+  - One Player may Draw a Card
+  - One Hero may use a Power
+  - Discard the top Card of each Deck
+---
+character:
+  name: 'XTREME Prime Wardens: Fanatic'
+  health: 28
+  deck: Fanatic
+  power:
+    name: Kill the Spirit
+    actions:
+    - Fanatic deals 1 Target 1 Radiant Damage
+    - Until the end of your next turn, redirect all Damage dealt by Fanatic to that Target
+  incapacitated:
+  - Select a Target Until the start of your turn, all Hero Damage is redirected to that Target
+  - Destroy a Target with 1 HP
+  - Destroy an Ongoing Card

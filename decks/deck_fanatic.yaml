@@ -1,0 +1,199 @@
+deck:
+  name: Fanatic
+  complexity: 2
+  composition:
+  - Brutal Censure: 3
+  - Consecrated Ground: 2
+  - Divine Sacrifice: 2
+  - Final Dive: 3
+  - Holy Nova: 3
+  - Prayer of Desperation: 2
+  - Sanctifying Strike: 2
+  - Smite the Transgressor: 3
+  - Wrathful Retribution: 1
+  - Chastise: 2
+  - Embolden: 2
+  - End of Days: 2
+  - Divine Focus: 2
+  - Sacrosanct Martyr: 2
+  - Undaunted: 2
+  - Zealous Offense: 2
+  - '"Absolution"': 3
+  - Aegis of Resurrection: 2
+  cards:
+  - Brutal Censure:
+      actions:
+      - Fanatic deals 1 Target 2 Radiant Damage
+      - You may draw a card
+      flavour:
+        text: 'Flavor-text: "Know the error of thine ways."'
+        source: 'Fanatic, Fanatic #2'
+      tags:
+      - One-Shot
+  - Consecrated Ground:
+      actions:
+      - Destroy an ongoing card or an Environment card
+      - Fanatic deals up to 3 Targets 1 Radiant Damage each
+      flavour:
+        text: 'Flavor-text: When Fanatic sets out to cleanse the land, none can bar her progress.'
+        source: Unattributed
+      tags:
+      - One-Shot
+  - Divine Sacrifice:
+      actions:
+      - Fanatic deals up to 3 Targets 1 Irreducible Radiant Damage each
+      - Damage dealt by those Targets is redirected to Fanatic until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "Face me and tremble!"'
+        source: 'Fanatic, Baptism by Fire #6'
+      tags:
+      - One-Shot
+  - Final Dive:
+      actions:
+      - Destroy a Target with 4 or fewer HP, other than a Character card
+      - Fanatic deals 1 Target X Projectile Damage, where X = the destroyed Target's current HP before it was destroyed
+      flavour:
+        text: 'Flavor-text: "Meet thy maker."'
+        source: 'Fanatic, Absolution #12'
+      tags:
+      - One-Shot
+  - Holy Nova:
+      actions:
+      - Fanatic deals each non-Hero Target 1 Radiant Damage
+      - Each Hero Target regains 1 HP
+      flavour:
+        text: 'Flavor-text: "You can hide in the sun ''til you see the light."'
+        source: 'Apostate, Mystery Comics #367'
+      tags:
+      - One-Shot
+  - Prayer of Desperation:
+      actions:
+      - Draw cards until you have 6 cards in your hand
+      - Immediately end your turn
+      flavour:
+        text: 'Flavor-text: "Let this not be the last breath your servant draws."'
+        source: 'Fanatic, A Day in the LIfe: Fanatic'
+      tags:
+      - One-Shot
+  - Sanctifying Strike:
+      actions:
+      - Fanatic deals 1 Target 1 Melee Damage
+      - You may draw a card
+      - Fanatic regains 1 HP
+      flavour:
+        text: 'Flavor-text: "The team was killed by an angry human with wings and a sword! It was terrible!"'
+        source: 'Gene-Bound Soldier, Freedom Five #536'
+      tags:
+      - One-Shot
+  - Smite the Transgressor:
+      actions:
+      - Fanatic deals 1 Target 2 Melee Damage
+      - You may use an additional power this turn
+      flavour:
+        text: 'Flavor-text: "I swear on all that is holy, you shall fall."'
+        source: 'Fanatic, Mystery Comics #368'
+      tags:
+      - One-Shot
+  - Wrathful Retribution:
+      actions:
+      - Discard 3 cards
+      - If you do, Fanatic deals 1 Target X Radiant Damage, where X = Fanatic's maximum HP minus her current HP
+      flavour:
+        text: 'Flavor-text: "You have been judged and found sorely wanting. Perish!"'
+        source: 'Fanatic, Absolution #19'
+      tags:
+      - One-Shot
+  - Chastise:
+      actions:
+      - Play next to a non-Hero Target other than a Character card
+      - That Target is Immune to Damage and cannot deal Damage
+      - At the start of your turn, Fanatic may deal herself 2 Psychic Damage
+      - If she takes no Damage this way, this card is destroyed
+      flavour:
+        text: 'Flavor-text: "Be still."'
+        source: 'Fanatic, Mystery Comics #369'
+      tags:
+      - Ongoing
+  - Embolden:
+      actions:
+      - Play this card next to a Hero Character card
+      - That Hero may use an additional Power during their power phase
+      - At the end of that Hero's turn, Fanatic may deal them 2 Radiant Damage
+      - If they take no Damage this way, destroy this card
+      flavour:
+        text: 'Flavor-text: "Go, therefore, and do better."'
+        source: 'Fanatic, Freedom Five Annual #9'
+      tags:
+      - Ongoing
+  - End of Days:
+      actions:
+      - At the start of the Environment turn, destroy all cards in play, other than this card, Character cards, and Relics
+      - Then, destroy this card
+      flavour:
+        text: 'Flavor-text: "The blight upon this land be cleansed!"'
+        source: 'Fanatic, Absolution #9'
+      tags:
+      - Ongoing
+  - Divine Focus:
+      actions:
+      - At the start of every turn, you may discard a card
+      - If you do, Fanatic deals the Villain Target with the highest HP 2 Radiant Damage
+      - At the start of your turn, either Fanatic deals herself 4 Fire Damage or this card is destroyed
+      flavour:
+        text: 'Flavor-text: "Feel the undying wrath of the Lord!"'
+        source: 'Fanatic, Stranger in a Strange World #8'
+      tags:
+      - Ongoing
+      - Limited
+  - Sacrosanct Martyr:
+      actions:
+      - Power Fanatic deals herself up to 5 Radiant Damage
+      - Fanatic deals 1 Target X Radiant Damage, where X = the amount of Radiant Damage dealt to Fanatic this turn
+      flavour:
+        text: 'Flavor-text: "What you call a sacrifice, I consider a necessity."'
+        source: 'Fanatic, Fanatic #14'
+      tags:
+      - Ongoing
+      - Limited
+  - Undaunted:
+      actions:
+      - Whenever exactly 1 Damage would be dealt to Fanatic, prevent that Damage
+      - Whenever, Fanatic would be dealt 5 or more Damage from a single source, reduce that Damage by 2
+      flavour:
+        text: 'Flavor-text: Fanatic: "I am invincible!" -- Ra: "You''re a lunatic."'
+        source: 'Fanatic, Ra, Baptism by Fire #1'
+      tags:
+      - Ongoing
+      - Limited
+  - Zealous Offense:
+      actions:
+      - At the start of your turn, select up to 2 non-Character card targets
+      - Those Targets cannot deal Damage until the start of your next turn
+      - At the end of your turn, if you have not dealt at least 3 Damage this turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "Repent!"'
+        source: 'Fanatic, Fanatic #27'
+      tags:
+      - Ongoing
+      - Limited
+  - '"Absolution"':
+      actions:
+      - Power Select Melee, Fire, or Radiant as this card's Damage type
+      - Fanatic deals 1 Target 3 Damage of that type
+      flavour:
+        text: 'Flavor-text: "Absolution you are called, and absolution you shall deliver."'
+        source: 'Fanatic, Absolution #1'
+      tags:
+      - Equipment
+      - Relic
+      - Limited
+  - Aegis of Resurrection:
+      actions:
+      - When Fanatic drops to 0 or fewer HP, restore Fanatic to 10 HP, then, destroy this card
+      flavour:
+        text: 'Flavor-text: "Thine armor, it sustaineth me."'
+        source: 'Fanatic, Fanatic #19'
+      tags:
+      - Equipment
+      - Relic
+      - Limited

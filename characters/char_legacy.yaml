@@ -1,0 +1,51 @@
+character:
+  name: America's Finest Legacy
+  health: 32
+  deck: Legacy
+  power:
+    name: Galvanize
+    actions:
+    - Until the start of your next turn, increase the damage dealt by hero targets by 1
+  incapacitated:
+  - One Hero may use a Power now
+  - One Player may Draw a card now
+  - Reduce damage dealt by Environment Cards by 2 until the start of your next turn
+---
+character:
+  name: America's Newest Legacy
+  health: 30
+  deck: Legacy
+  power:
+    name: Atomic Glare
+    actions:
+    - Legacy deals 1 target 3 energy damage
+  incapacitated:
+  - Select a Hero That Hero may use a Power now
+  - Select a Player That player may Draw a card now
+  - Until the start of your next turn, increase damage dealt by Heroes by 1
+---
+character:
+  name: America's Greatest Legacy
+  health: 30
+  deck: Legacy
+  power:
+    name: Gaung-Ho
+    actions:
+    - 1 Hero regains 1 HP and may use a Power now
+  incapacitated:
+  - One Player may Draw 1 card now
+  - One Hero may use 1 Power now
+  - Discard the top card of 1 Deck
+---
+character:
+  name: 'Freedom Five: Legacy'
+  health: 32
+  deck: Legacy
+  power:
+    name: Overwatch
+    actions:
+    - You may either move an Environment card in Play to the bottom of the Environment deck, or one Player may play a card
+  incapacitated:
+  - One Player may Play a card, even if they would otherwise be prevented
+  - One Hero may use a Power, even if they would otherwise be prevented
+  - One Player may Draw a card, even if they would otherwise be prevented

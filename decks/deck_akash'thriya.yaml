@@ -1,0 +1,193 @@
+deck:
+  name: Akash'Thriya
+  complexity: 3
+  composition:
+  - Accelerate Nature's Order: 2
+  - Instantaneous Maturation: 3
+  - Rapid Growth: 2
+  - Scatter Seeds: 3
+  - Verdant Explosion: 2
+  - As the Earth Turns: 2
+  - Cultivation: 2
+  - Earth's Attunement: 2
+  - One With the Land: 2
+  - Primeval Germination: 2
+  - Thrashing Brambles: 2
+  - Creeping Mold: 33
+  - Healing Pollen: 33
+  - Noxious Pod: 33
+  - Strangling Roots: 33
+  - Vitalized Thorns: 33
+  - Akash'Flora: 31
+  cards:
+  - Accelerate Nature's Order:
+      actions:
+      - Play the top 3 cards of the Environment Deck
+      - When you play a non-target card this way, Akash'Thriya deals herself 1 Psychic Damage and destroys an Environment card
+      - When you play a target this way, that target deals 1 target 3 Toxic Damage
+      flavour:
+        text: 'Flavor-text: "The sea seems even more disturbed than usual. This is your doing, I take it?"'
+        source: 'La Comodora, Scion Strike #6'
+      tags:
+      - One-Shot
+  - Instantaneous Maturation:
+      actions:
+      - Akash'Thriya deals herself 2 Psychic Damage
+      - Search your deck for a Primordial Seed
+      - Put it on top of the Environment deck
+      - Shuffle your deck
+      - Play the top card of the Environment deck
+      - Either play a card or shuffle the Environment trash into the Environment deck
+      flavour:
+        text: 'Flavor-text: "A mighty hunter stalked this jungle, but now the jungle turns against him."'
+        source: 'The Naturalist, Mystery Comics #468'
+      tags:
+      - One-Shot
+  - Rapid Growth:
+      actions:
+      - Shuffle the Environment trash into the Environment deck
+      - Discard up to 6 cards from the top of the Environment deck
+      - Akash'Thriya deals herself and 1 target [x] Toxic Damage, where [x] = the number of cards discarded this way
+      flavour:
+        text: 'Flavor-text: "I am actually quite pleased to see this. There''s so much more we can do with those parts."'
+        source: 'Luminary, Mystery Comics #515'
+      tags:
+      - One-Shot
+  - Scatter Seeds:
+      actions:
+      - Akash'Thriya deals herself up to 4 Psychic Damage
+      - Draw X cards and discard X cards, where X = the amount of damage Akash'Thriya has dealt herself this turn
+      - Move any number of Primordial Seeds from your trash to the Environment trash
+      flavour:
+        text: 'Flavor-text: "This is a land of great mystery and greater power. A place for you to start anew, perhaps?"'
+        source: 'The Naturalist, Virtuoso of the Void #64'
+      tags:
+      - One-Shot
+  - Verdant Explosion:
+      actions:
+      - Search your deck and trash for the Primordial Tree
+      - Put it into play
+      - Shuffle your deck
+      - Destroy any number of Primordial Seeds
+      - The Primordial Tree regains X HP and Akash'Thriya deals herself X Toxic Damage, where X = the number of cards destroyed this way
+      flavour:
+        text: 'Flavor-text: "This is my future. The future of the Earth. Approach with caution."'
+        source: 'Akash''Thriya, Virtuoso of the Void #71'
+      tags:
+      - One-Shot
+  - As the Earth Turns:
+      actions:
+      - Whenever a villain card would be played, Akash'Thriya may deal herself 2 Psychic Damage
+      - If she takes damage this way, play the top card of the Environment deck instead
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "Shhh, this land is not for you. Listen to the Earth. It wants you not."'
+        source: 'Akash''Thriya, Tome of the Bizarre #81'
+      tags:
+      - Ongoing
+  - Cultivation:
+      actions:
+      - Power Shuffle either one card or all cards from the Environment trash into the Environment deck
+      - Discard or play the top card of the Environment deck
+      flavour:
+        text: 'Flavor-text: "Come alive, that which could be. Now is the time of fruition."'
+        source: 'Akash''Thriya, Virtuoso of the Void #65'
+      tags:
+      - Ongoing
+  - Earth's Attunement:
+      actions:
+      - Power Play the top card of the Environment deck
+      - You may destroy an Environment card
+      flavour:
+        text: 'Flavor-text: "Damage sustained: Overwhelming. Organic material throughout circuits. Shutting down."'
+        source: 'Omnitron IV, Freedom Five #786'
+      tags:
+      - Ongoing
+  - One With the Land:
+      actions:
+      - Whenever a Primordial Seed is destroyed, you may move it to the Environment trash
+      - Whenever a Hero target would be dealt damage by an Environment card, you may redirect that damage to a Primordial Seed
+      flavour:
+        text: 'Flavor-text: "Bringing her to another world seems risky to me. But then, I don''t think we can succeed without her."'
+        source: 'Captain Cosmic, Prime Wardens #43'
+      tags:
+      - Ongoing
+      - Limited
+  - Primeval Germination:
+      actions:
+      - The first time an Environment card enters play each turn, either play or discard the top card of the Environment deck
+      - At the end of your turn, you may shuffle a Primordial Seed from the Environment trash into the Environment deck
+      flavour:
+        text: 'Flavor-text: "Never thought I''d be glad to see you! That said, let''s make a mess of things."'
+        source: 'Mainstay, Freedom Five #796'
+      tags:
+      - Ongoing
+      - Limited
+  - Thrashing Brambles:
+      actions:
+      - Power Akash'Thriya deals herself and up to X targets 2 Melee Damage and 2 Toxic Damage each, where X = the number of Primordial Seeds in play plus 1
+      flavour:
+        text: 'Flavor-text: "Go, rat person. You have your freedom. Hide from the world and find yourself."'
+        source: 'Akash''Thriya, Freedom Five #706'
+      tags:
+      - Ongoing
+      - Limited
+  - Creeping Mold:
+      actions:
+      - When this card is played from the Environment deck, it deals up to 3 targets 2 Toxic Damage each
+      - When this card is destroyed, either destroy an Ongoing or Environment card or discard a card
+      flavour:
+        text: 'Flavor-text: "Ugh, vile plant-life! All of this filth will be the first to burn!"'
+        source: 'Prof. Pollution, Virtuoso of the Void #62'
+      tags:
+      - Primordial Seed
+  - Healing Pollen:
+      actions:
+      - When this card is played from the Environment deck, one Hero target regains 4 HP
+      - When this card is destroyed, draw a card and each Hero target regains 1 HP
+      flavour:
+        text: 'Flavor-text: "There! In that glowy cloud... that is not a rabbit!"'
+        source: 'Blade Battalion Soldier, Mystery Comics #514'
+      tags:
+      - Primordial Seed
+  - Noxious Pod:
+      actions:
+      - When this card is played from the Environment deck, you may discard any number of cards
+      - Draw as many cards as you discard this way plus 1
+      - When this card is destroyed, it first deals up to 3 targets 1 Toxic Damage each
+      flavour:
+        text: 'Flavor-text: "Entirely natural, though it may seem gross to us. Still, smells awful."'
+        source: 'The Argent Adept, Virtuoso of the Void #71'
+      tags:
+      - Primordial Seed
+  - Strangling Roots:
+      actions:
+      - When this card is played from the Environment deck, select up to 3 targets
+      - Reduce damage dealt by those targets by 2 until the start of your turn
+      - When this card is destroyed, you may destroy 1 Environment card or a target with 3 or fewer HP
+      flavour:
+        text: 'Flavor-text: "Those funny little orange men are stuck! This will be like spearing fish in a barrel."'
+        source: 'Arataki Wakarewarewa, Scion Strike #1'
+      tags:
+      - Primordial Seed
+  - Vitalized Thorns:
+      actions:
+      - If this card was not played from the Environment deck, destroy it
+      - Whenever a non-Hero target deals damage to Akash'Thriya, this card deals that target 1 Melee Damage
+      - When this card is destroyed, it first deals 1 target 3 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "A fight we will have. That much, I am strong enough to do."'
+        source: 'Akash''Thriya, Scion Strike #2'
+      tags:
+      - Primordial Seed
+  - Akash'Flora:
+      actions:
+      - This card may regain HP above its max HP
+      - At the start of your turn, each Hero may use a Power
+      - Whenever a Power is used this way, this card deals itself 2 Energy Damage
+      - At the end of your turn, this card regains 2 HP and up to 2 other targets regain 1 HP each;
+      flavour:
+        text: 'Flavor-text: "A conduit of natural power, only possible because of her new connection to the Void."'
+        source: 'The Argent Adept, Freedom Five #799'
+      tags:
+      - Primordial Tree

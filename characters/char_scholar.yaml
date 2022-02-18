@@ -1,0 +1,25 @@
+character:
+  name: The Scholar
+  health: 29
+  deck: Scholar
+  power:
+    name: Better Living
+    actions:
+    - The Scholar regains 1 HP
+  incapacitated:
+  - One Player may draw a card now
+  - One Hero may use a Power now
+  - Up to 2 Hero Targets regain 1 HP each
+---
+character:
+  name: The Scholar of the Infinite
+  health: 31
+  deck: Scholar
+  power:
+    name: Channel
+    actions:
+    - The Scholar deals himself and 1 Target X Infernal Damage, where X = the number of cards you've discarded since the end of your last turn plus 1
+  incapacitated:
+  - Destroy 1 Ongoing card
+  - One player may Discard up to 3 cards
+  - Each target regains 1 HP

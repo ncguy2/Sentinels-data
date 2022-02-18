@@ -1,0 +1,169 @@
+deck:
+  name: Parse
+  complexity: 2
+  composition:
+  - Between the Lines: 3
+  - Data-Mining: 3
+  - Impossible Shot: 3
+  - Quick Calculations: 3
+  - Recompile: 3
+  - Syntactic Analysis: 2
+  - Targeting Arrow: 3
+  - Buffer Overflow: 2
+  - Critical Multiplier: 3
+  - Exploit Vulnerability: 2
+  - Extrasensory Awareness: 2
+  - Gauge: 2
+  - Reveal the Flaws: 3
+  - Segmentation Fault: 2
+  - Snap Decision: 2
+  - Updated Intel: 2
+  cards:
+  - Between the Lines:
+      actions:
+      - One Hero may use a power now
+      - If that power deals damage, that damage is irreducible
+      flavour:
+        text: 'Flavor-text: "Good! Now, five centimetres to the left... perfect. Hit it." Parse'
+        source: 'Freedom Five #607'
+      tags:
+      - One-Shot
+  - Data-Mining:
+      actions:
+      - If there are 2 or more villain ongoing cards in play, you may destroy 1 of them
+      - If there are 2 or more environment cards in play, you may destroy 1 of them
+      flavour:
+        text: 'Flavor-text'': "AAIIIEEEE! What have you done?!"'
+        source: 'Miss Information, Freedom Five Annual #21'
+      tags:
+      - One-Shot
+  - Impossible Shot:
+      actions:
+      - Parse deals 1 target 3 irreducible projectile damage
+      - Draw 1 card
+      flavour:
+        text: 'Flavor-text: "How... I did not see that coming. Merde."'
+        source: 'Ambuscade, Freedom Five #702'
+      tags:
+      - One-Shot
+  - Quick Calculations:
+      actions:
+      - Reveal the top 3 cards of your deck
+      - Put 1 on the bottom of your deck and the other 2 in your hand
+      flavour:
+        text: 'Flavor-text: "Whoa, you''re quite the... thingamajig.  Shoo!"'
+        source: 'Parse, Cosmic Concurrence #7'
+      tags:
+      - One-Shot
+  - Recompile:
+      actions:
+      - Discard up to 3 cards
+      - Draw twice as many cards as you discarded this way
+      flavour:
+        text: 'Flavor-text: "Hold on just a tick. That''s a lot to process. Okay, got it all."'
+        source: 'Parse, Vengenace #2'
+      tags:
+      - One-Shot
+  - Syntactic Analysis:
+      actions:
+      - Select a Player
+      - That Player reveals the top 2 cards of their deck
+      - They may play, draw, or discard each of those cards in any order
+      flavour:
+        text: Flavor-text; "Here's the situation. You know what to do."
+        source: 'Parse, Vengeace, #5'
+      tags:
+      - One-Shot
+  - Targeting Arrow:
+      actions:
+      - Parse deals 1 Target 1 irreducible projectile Damage
+      - Increase Damage dealt to that Target by 1 until the start of your turn
+      flavour:
+        text: Flavor-text; "Only a few clicks away. Shouldn't be too much of a problem."
+        source: 'Parse, Cosmic Concurrence #1'
+      tags:
+      - One-Shot
+  - Buffer Overflow:
+      actions:
+      - When a villain card would enter play, you may discard it instead and destroy this card
+      - When this card is destroyed, draw a card and play the top card of the villain deck
+      flavour:
+        text: 'Flavor-text: "Well, you look like heaps of trouble. No thank you."'
+        source: 'Parse, The Hero in the Arena #3'
+      tags:
+      - Ongoing
+  - Critical Multiplier:
+      actions:
+      - Whenever you discard a card from hand, select a Hero target
+      - Increase the next damage dealt by that target by 1
+      flavour:
+        text: 'Flavor-text: "Adjustments here and there. They add up."'
+        source: 'Parse, Freedom Five #599'
+      tags:
+      - Ongoing
+  - Exploit Vulnerability:
+      actions:
+      - Whenever a non-hero target enters play, increase damage dealt to that target by 1 until the start of the environment turn
+      flavour:
+        text: 'Flavor-text: "Oh, look. Another one. They just don''t make villains like they used to."'
+        source: 'Parse, Vengeance #4'
+      tags:
+      - Ongoing
+  - Extrasensory Awareness:
+      actions:
+      - Power Look at the top 3 cards of the villain deck
+      - Discard 1 of them
+      - Put the other 2 on top of the deck in any order
+      - You may shuffle the villain deck
+      flavour:
+        text: 'Flavor-text: "You see weaknesses. What do you see before you now?"'
+        source: 'Iron Legacy, The Final Legacy #5'
+      tags:
+      - Ongoing
+  - Gauge:
+      actions:
+      - Power Look at the top card of a deck
+      - Put it on the top or bottom of that deck
+      - You may draw 1 card
+      flavour:
+        text: 'Flavor-text: "Ah, um, yes, good to meet you Ms. Twain... "'
+        source: 'Parse, Freedom Five Annual #21'
+      tags:
+      - Ongoing
+  - Reveal the Flaws:
+      actions:
+      - Damage dealt by Hero Targets is irreducible
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "There! Run to the center! It''s now or never!"'
+        source: 'Parse Freedom Five Annual #29'
+      tags:
+      - Ongoing
+  - Segmentation Fault:
+      actions:
+      - Power Discard a card
+      - If you do, you may destroy an Ongoing or Environment Card
+      flavour:
+        text: 'Flavor-text: "I think it goes without saying that you''re fired."'
+        source: 'Revenant, Vengeance #4'
+      tags:
+      - Ongoing
+  - Snap Decision:
+      actions:
+      - At the start of your turn, you may discard 1 card
+      - If you do, you may play a card
+      flavour:
+        text: 'Flavor-text: "What''s it going to be? Face it. You''re out of your league."'
+        source: 'Spite, Mystery Comics #98'
+      tags:
+      - Ongoing
+      - Limited
+  - Updated Intel:
+      actions:
+      - Whenever a Villain card enters play, you may look at the bottom card of a deck, then either put it on the top or bottom of that deck
+      flavour:
+        text: 'Flavor-text: "Good news: I have new information. Bad news: It''s not good."'
+        source: 'Parse, Tome of the Bizarre #34'
+      tags:
+      - Ongoing
+      - Limited

@@ -1,0 +1,158 @@
+deck:
+  name: Visionary
+  complexity: 2
+  composition:
+  - Brain Burn: 2
+  - Cerebral Hemorrhage: 3
+  - Mind Spike: 4
+  - Precognition: 3
+  - Prophetic Vision: 3
+  - Psychic Maelstrom: 3
+  - Suggestion: 3
+  - Mass Levitation: 2
+  - Telekinetic Cocoon: 2
+  - Twist the Ether: 2
+  - Demoralization: 2
+  - Foresight: 2
+  - Mental Divergence: 3
+  - Wrest the Mind: 3
+  - Decoy Projection: 53
+  cards:
+  - Brain Burn:
+      actions:
+      - Put the Villain trash on the bottom of the Villain deck
+      - The Visionary deals herself X Psychic Damage, where X = the number of cards removed from the Villain trash this way
+      flavour:
+        text: 'Flavor-text: Baron Blade: "What are you looking for?"'
+        source: 'The Visionary: "What are you afraid of?"'
+      tags:
+      - One-Shot
+  - Cerebral Hemorrhage:
+      actions:
+      - The Visionary deals up to 3 Targets 2 Psychic Damage each
+      flavour:
+        text: 'Flavor-text: "Oh, you think that hurts? You have no idea... "'
+        source: 'The visionary, New Memories #10'
+      tags:
+      - One-Shot
+  - Mind Spike:
+      actions:
+      - The Visionary deals 1 Target 3 Psychic Damage
+      flavour:
+        text: 'Flavor-text: "No more, Dawn! I have had enough!"'
+        source: 'The visionary, Sunrise #11'
+      tags:
+      - One-Shot
+  - Precognition:
+      actions:
+      - Look at the top 3 cards of the Villain deck
+      - Put 1 on top of the Villain deck and 2 on the bottom of the Villain deck
+      flavour:
+        text: 'Flavor-text: Even with the current crisis averted, The Visionary''s mind was quickly filled with terrible visions of a possible future.'
+        source: Narrator
+      tags:
+      - One-Shot
+  - Prophetic Vision:
+      actions:
+      - Look at the top 3 cards of the Environment deck
+      - Put 1 on top of the Environment deck and 2 on the bottom of the Environment deck
+      flavour:
+        text: 'Flavor-text: "The Legacy I remember was a much... angrier man."'
+        source: 'The Visionary, America''s Finest Legacy #201'
+      tags:
+      - One-Shot
+  - Psychic Maelstrom:
+      actions:
+      - The Visionary deals each non-Hero Target 2 Psychic Damage
+      flavour:
+        text: 'Flavor-text: "Imagine what it feels like for your brain to slowly die. It''s like that, but faster."'
+        source: The Visionary, Science & Progress One-Shot
+      tags:
+      - One-Shot
+  - Suggestion:
+      actions:
+      - Select 2 cards from the Villain trash
+      - Put 1 on the top and 1 on the bottom of the Villain deck
+      flavour:
+        text: 'Flavor-text: "Can you feel as I tear through the layers of your mind, your memories, your very self?"'
+        source: 'The Visionary, Mind Over Matter #21'
+      tags:
+      - One-Shot
+  - Mass Levitation:
+      actions:
+      - Power Until the start of your next turn, reduce Damage dealt by Environment cards by 3
+      flavour:
+        text: 'Flavor-text: "Stay close, I can only support so many for so long."'
+        source: 'The Visionary, Freedom Five Annual #16'
+      tags:
+      - Ongoing
+  - Telekinetic Cocoon:
+      actions:
+      - The Visionary is immune to Damage
+      - You cannot play cards or use powers
+      - At the start of your turn, you may destroy this card
+      flavour:
+        text: 'Flavor-text: After pushing her mind to the breaking point to read time and space, The Visionary''s powers shielded her until she recovered.'
+        source: Narrator
+      tags:
+      - Ongoing
+  - Twist the Ether:
+      actions:
+      - Play this card next to a Target
+      - Whenever that Target would deal Damage, the Damage type changes to a type of your choice and is either reduced by 1 or increased by 1, your choice
+      - If the Target leaves play, destroy this card
+      flavour:
+        text: 'Flavor-text: "Augh! What the hell is going on?"'
+        source: 'Citizen Hammer, Sunrise #3'
+      tags:
+      - Ongoing
+  - Demoralization:
+      actions:
+      - At the start of your turn, The Visionary deals each Villain Target 1 Psychic Damage
+      flavour:
+        text: 'Flavor-text: "Visions of the most awful future can be rather disheartening."'
+        source: 'The Visionary, Mind Over Matter #43'
+      tags:
+      - Ongoing
+      - Limited
+  - Foresight:
+      actions:
+      - Power Look at the top 3 cards of your deck
+      - Put 1 in your hand, 1 on the top of your deck, and 1 on the bottom of your deck
+      flavour:
+        text: 'Flavor-text: "Memories, visions, reality... they''re often quite difficult to distinguish."'
+        source: 'The Visionary, New Memories #2'
+      tags:
+      - Ongoing
+      - Limited
+  - Mental Divergence:
+      actions:
+      - Power Destroy 1 Ongoing card, or take 1 Ongoing card from a Hero trash and put it on top of that Hero's deck
+      flavour:
+        text: 'Flavor-text: "I am more than the future or the present'
+        source: I am every future that could possibly occur!"
+      tags:
+      - Ongoing
+      - Limited
+  - Wrest the Mind:
+      actions:
+      - Play this card next to a Target, other than a Character card
+      - Whenever that Target deals Damage, you may redirect that Damage to another Target
+      - If you do, The Visionary deals this card's Target and herself 3 Psychic Damage each
+      - If the Target leaves play, destroy this card
+      flavour:
+        text: 'Flavor-text: "The weak-minded are always susceptible to suggestion."'
+        source: 'The Visionary, Mind Over Matter #1'
+      tags:
+      - Ongoing
+      - Limited
+  - Decoy Projection:
+      actions:
+      - Whenever The Visionary would be dealt Damage
+      - redirect that Damage to this card
+      flavour:
+        text: 'Flavor-text: "Tsk, tsk. Trusted your eyes to tell you where I was, didn''t you?"'
+        source: 'Tachyon, Mind Over Matter #28'
+      tags:
+      - Distortion
+      - Limited

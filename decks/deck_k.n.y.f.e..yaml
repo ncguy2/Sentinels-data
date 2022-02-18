@@ -1,0 +1,147 @@
+deck:
+  name: K.N.Y.F.E.
+  complexity: 1
+  composition:
+  - Amplified Combatant: 3
+  - Energy Burn: 3
+  - For the Greater Good: 3
+  - Incidental Contact: 3
+  - Wrecking Uppercut: 4
+  - Battlefield Experience: 1
+  - Primed Punch: 3
+  - Flawless Execution: 2
+  - Inflitrate and Obfuscate: 2
+  - Kinetic Neutralizer: 2
+  - Overdo It: 3
+  - Focusing Conduit-Blade: 4
+  - Overcharged Null-Shield: 2
+  - Prototype Servo-Gauntlet: 2
+  cards:
+  - Amplified Combatant:
+      actions:
+      - KNYFE deals up to 3 targets 1 melee damage and 1 energy damage each
+      flavour:
+        text: 'Flavor-text: "Ach, yer awful. At least failin'' means yer playin''!"'
+        source: 'KNYFE., Vengeance #4'
+      tags:
+      - One-Shot
+  - Energy Burn:
+      actions:
+      - KNYFE deals 1 target 3 energy damage
+      - Then, if that target has 10 or more HP, KNYFE deals it 2 energy damage
+      flavour:
+        text: 'Flavor-text: "Too close, ye dighted clanker!"'
+        source: 'KNYFE, Freedom Five #471'
+      tags:
+      - One-Shot
+  - For the Greater Good:
+      actions:
+      - KNYFE deals herself 3 psychic damage
+      - If she takes damage this way, you may draw 1 card, play 1 card, and use 1 power now
+      flavour:
+        text: 'Flavor-text: "Ye seem like a nice lass.  Next time, make good choices."'
+        source: 'KNYFE, Vengeance #6'
+      tags:
+      - One-Shot
+  - Incidental Contact:
+      actions:
+      - KNYFE deals each target 1 energy damage
+      - KNYFE may deal any target dealt damage this way an additional 1 energy damage
+      flavour:
+        text: 'Flavor-text: "Bunchin'' up for me?  This might hurt a wee bit, team."'
+        source: 'KNYFE, Freedom Five Annual #30'
+      tags:
+      - One-Shot
+  - Wrecking Uppercut:
+      actions:
+      - KNYFE deals 1 target 3 melee damage
+      - Discard the top card of the villain deck
+      flavour:
+        text: 'Flavor-text: "Enough with the train haverin'', a''right?"'
+        source: 'KNYFE, Vengeance #6'
+      tags:
+      - One-Shot
+  - Battlefield Experience:
+      actions:
+      - Power KNYFE deals 1 target 2 melee damage and 2 energy damage, then destroy this card
+      flavour:
+        text: 'Flavor-text: "Keep formation. No firearms. By the book. Let''s go."'
+        source: 'KNYFE, Out of Time #1'
+      tags:
+      - Ongoing
+  - Primed Punch:
+      actions:
+      - Power KNYFE deals 1 target 1 melee damage and 1 energy damage
+      flavour:
+        text: 'Flavor-text: "We''ll be finishing this, one way or another.  I prefer my way!"'
+        source: 'KNYFE, Freedom Five #671'
+      tags:
+      - Ongoing
+  - Flawless Execution:
+      actions:
+      - Whenever damage dealt by KNYFE reduces a target to 1 HP, destroy that target
+      flavour:
+        text: 'Flavor-text: "Huntly to HQ. Situation: handled. Get me outta here."'
+        source: 'KNYFE, Out of Time #5'
+      tags:
+      - Ongoing
+      - Limited
+  - Inflitrate and Obfuscate:
+      actions:
+      - The first time KNYFE would be dealt damage by an environment target each turn, you may redirect that damage to the villain target with the second highest HP
+      flavour:
+        text: 'Flavor-text: "Ah''m back! Didja miss me?"'
+        source: 'KNYFE, Out of Time #6'
+      tags:
+      - Ongoing
+      - Limited
+  - Kinetic Neutralizer:
+      actions:
+      - Increase damage dealt by KNYFE to the villain target with the highest HP by 1
+      flavour:
+        text: 'Flavor-text: "Ye wanna dance? Pure dead brilliant."'
+        source: 'KNYFE, Vengeance #2'
+      tags:
+      - Ongoing
+      - Limited
+  - Overdo It:
+      actions:
+      - At the start of your turn, you may play a card
+      - At the end of your turn, KNYFE may deal herself 2 psychic damage
+      - If she does not take damage this way, destroy this card
+      flavour:
+        text: 'Flavor-text: "And that!" *huff* "is the last" *huff* "we''ll see o'' ye!"'
+        source: 'KNYFE, Freedom Five Annual #29'
+      tags:
+      - Ongoing
+      - Limited
+  - Focusing Conduit-Blade:
+      actions:
+      - Power KNYFE deals 1 target 3 energy damage
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "Sometimes, it''s nae correct to cross swords. Most times, it is."'
+        source: 'KNYFE, Out of Time #6'
+      tags:
+      - Equipment
+      - Limited
+  - Overcharged Null-Shield:
+      actions:
+      - Power Draw 2 cards
+      - Destroy this card
+      flavour:
+        text: 'Flavor-text: "Oof, yer a big one! I''ll thank ye to back off!"'
+        source: 'KNYFE, Freedom Five #511'
+      tags:
+      - Equipment
+      - Limited
+  - Prototype Servo-Gauntlet:
+      actions:
+      - Power KNYFE deals 1 target 2 melee damage
+      - If that target is destroyed, you may destroy an Ongoing card
+      flavour:
+        text: 'Flavor-text: "First thing she did with it was arm-wrestle Bunker! In the suit!"'
+        source: 'Tachyon, Freedom Five #670'
+      tags:
+      - Equipment
+      - Limited

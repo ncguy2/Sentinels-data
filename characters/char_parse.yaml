@@ -1,0 +1,26 @@
+character:
+  name: Parse
+  health: 26
+  deck: Parse
+  power:
+    name: Pinpoint Shot
+    actions:
+    - Parse deals 1 Target 2 Projectile damage
+  incapacitated:
+  - One Player may Draw a card now
+  - One Player may Shuffle their Trash into their Deck now
+  - Reveal the Top card of the Villain Deck, then replace it
+---
+character:
+  name: 'Fugue State: Parse'
+  health: 27
+  deck: Parse
+  power:
+    name: Neural Processing
+    actions:
+    - Play the bottom card of your Deck
+    - If you discarded a card this turn, one other player may Play the bottom card of their Deck
+  incapacitated:
+  - Destroy an Ongoing card
+  - One Player may Draw a card
+  - Select a Hero On their next turn, they may take their Play, Power, and Draw phases in any order

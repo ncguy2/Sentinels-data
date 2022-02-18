@@ -1,0 +1,193 @@
+deck:
+  name: Expatriette
+  complexity: 2
+  composition:
+  - Arsenal Access: 3
+  - Quick Draw: 3
+  - Reload: 3
+  - RPG Launcher: 3
+  - Unload: 2
+  - Hairtrigger Reflexes: 2
+  - Speed Loading: 2
+  - Hollow Points: 2
+  - Incendiary Rounds: 2
+  - Liquid Nitrogen Rounds: 2
+  - Shock Rounds: 2
+  - '"Prejudice"': 1
+  - '"Pride"': 1
+  - Flak Jacket: 3
+  - Assault Rifle: 3
+  - Submachine Gun: 3
+  - Tactical Shotgun: 3
+  cards:
+  - Arsenal Access:
+      actions:
+      - Reveal cards from the top of your deck until you reveal 2 Equipment cards
+      - Put one of them either into play or into your hand
+      - Shuffle the rest of the revealed cards into your deck
+      flavour:
+        text: "Flavor-text: \"Hmmm\u2026 What to wield, what to wield?\""
+        source: 'Expatriette, Terminal Ballistics #11'
+      tags:
+      - One-Shot
+  - Quick Draw:
+      actions:
+      - Search your trash of your deck for either "Pride" or "Prejudice" and put it into play
+      - If you searched your deck, shuffle your deck
+      flavour:
+        text: 'Flavor-text: "If you can''t go from unarmed to pulling the trigger in under two seconds, you''re too slow for this business."'
+        source: 'Expatriette, Double-Tap #2'
+      tags:
+      - One-Shot
+  - Reload:
+      actions:
+      - Take an Ammo card from your trash and put it into play or into your hand
+      flavour:
+        text: 'Flavor-text: "No, I''m not out of my mind. Just out of bullets!"'
+        source: 'Expatriette, Terminal Ballistics #3'
+      tags:
+      - One-Shot
+  - RPG Launcher:
+      actions:
+      - Destroy 1 Ongoing or Environment card
+      - If you do, Expatriette deals up to 2 Targets 2 Fire Damage each
+      flavour:
+        text: 'Flavor-text: "Hah! And you thought you were hunting me!"'
+        source: 'Expatriette, Emigrant''s Song #3'
+      tags:
+      - One-Shot
+  - Unload:
+      actions:
+      - This turn, you may use as many Powers as you have Guns in play
+      flavour:
+        text: 'Flavor-text: "Grand Warlord? We have lost contact with the advance troops."'
+        source: 'Expatriette, Freedom Five #536'
+      tags:
+      - One-Shot
+  - Hairtrigger Reflexes:
+      actions:
+      - Whenever a non-Hero Target enters play, Expatriette may deal that Target 1 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Get out of there! She can''t shoot all of you!"'
+        source: 'Blade Battalion Commander, Burying the Blade #2'
+      tags:
+      - Ongoing
+      - Limited
+  - Speed Loading:
+      actions:
+      - At the start of your turn, you may take 1 Ammo card from your trash and put it on the top of your deck
+      - At the start of your turn, you may play 1 Ammo card
+      flavour:
+        text: 'Flavor-text: "The peace within a warrior''s mind can make time stand still."'
+        source: 'Mr. Fixer, Rook City Renegades #2'
+      tags:
+      - Ongoing
+      - Limited
+  - Hollow Points:
+      actions:
+      - Play this card next to a Gun card
+      - Increase the Damage of that card's Power by 2
+      - After that Power is used, destroy this card
+      flavour:
+        text: 'Flavor-text: "Eat lead, metalmouth!"'
+        source: 'Expatriette, Double-Tap #2'
+      tags:
+      - Equipment
+      - Ammo
+  - Incendiary Rounds:
+      actions:
+      - Play this card next to a Gun card
+      - Increase the Damage of that card's Power by 1 and change its type to Fire
+      - After that Power is used, destroy this card
+      flavour:
+        text: 'Flavor-text: "I''ve yet to meet anyone that can outsmart a bullet."'
+        source: 'Expatriette, Emigrant''s Song #4'
+      tags:
+      - Equipment
+      - Ammo
+  - Liquid Nitrogen Rounds:
+      actions:
+      - Play this card next to a Gun card
+      - Change that card's Damage type to Cold
+      - After that card's Power is used to Damage a Target, reduce Damage dealt by that Target by 1 until the start of your next turn
+      - After that Power is used, destroy this card
+      flavour:
+        text: 'Flavor-text: "The power of the sun, mother? Let''s cool you down."'
+        source: 'Expatriette, Emigrant''s Song #5'
+      tags:
+      - Equipment
+      - Ammo
+  - Shock Rounds:
+      actions:
+      - Play this card next to a Gun card
+      - When that card's Power is used to Damage a Target, Expatriette deals each non-Hero Target 1 Lightning Damage
+      - After that Power is used, destroy this card
+      flavour:
+        text: 'Flavor-text: "How do you like me now, Twitchy?"'
+        source: 'Expatriette, Terminal Ballistics #4'
+      tags:
+      - Equipment
+      - Ammo
+  - '"Prejudice"':
+      actions:
+      - Power Expatriette deals 1 Target 2 Projectile Damage
+      - Up to 2 Ammo cards may be in play next to this card at a time
+      flavour:
+        text: 'Flavor-text:  "...And one for ruin!"'
+        source: 'Expatriette, Double Tap #1'
+      tags:
+      - Equipment
+      - Gun
+  - '"Pride"':
+      actions:
+      - Power Expatriette deals 1 Target 2 Projectile Damage
+      - If "Prejudice" is in play, you may use its Power now
+      - Up to 2 Ammo cards may be in play next to this card at a time
+      flavour:
+        text: 'Flavor-text: "One for wrath..."'
+        source: 'Expatriette, Double Tap #1'
+      tags:
+      - Equipment
+      - Gun
+  - Flak Jacket:
+      actions:
+      - If Expatriette would be dealt 3 or more Damage from a single source, prevent all of it and destroy this card
+      flavour:
+        text: 'Flavor-text: "I swear, Boss! We got her this time!"'
+        source: 'An Enforcer, Justice Comics #634'
+      tags:
+      - Equipment
+      - Limited
+  - Assault Rifle:
+      actions:
+      - Power Expatriette deals up to 3 Targets 2 Projectile Damage each
+      - Only 1 Ammo card may be in play next to this card at a time
+      flavour:
+        text: 'Flavor-text: "Aw, you missed me! I won''t miss you."'
+        source: 'Expatriette, Terminal Ballistics #8'
+      tags:
+      - Equipment
+      - Limited
+      - Gun
+  - Submachine Gun:
+      actions:
+      - Power Expatriette deals each non-Hero Target 1 Projectile Damage
+      - Only 1 Ammo card may be in play next to this card at a time
+      flavour:
+        text: 'Flavor-text: "Fastest way to eat up all those extra bullets!"'
+        source: 'Expatriette, Freedom Five Annual #10'
+      tags:
+      - Equipment
+      - Limited
+      - Gun
+  - Tactical Shotgun:
+      actions:
+      - Power Expatriette deals 1 Target 4 Projectile Damage
+      - Only 1 Ammo card may be in play next to this card at a time
+      flavour:
+        text: 'Flavor-text: "Ready for some real power?"'
+        source: 'Expatriette, Terminal Ballistics #14'
+      tags:
+      - Equipment
+      - Limited
+      - Gun

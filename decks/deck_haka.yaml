@@ -1,0 +1,144 @@
+deck:
+  name: Haka
+  complexity: 1
+  composition:
+  - Elbow Smash: 3
+  - Haka of Battle: 3
+  - Haka of Restoration: 3
+  - Haka of Shielding: 3
+  - Rampage: 3
+  - Vitality Surge: 3
+  - Dominion: 3
+  - Enduring Intercession: 3
+  - Ground Pound: 2
+  - Punish the Weak: 3
+  - Savage Mana: 2
+  - "T\u0101 moko": 3
+  - Mere: 3
+  - Taiaha: 3
+  cards:
+  - Elbow Smash:
+      actions:
+      - Haka deals 1 Target 3 Melee Damage
+      flavour:
+        text: 'Flavor-text: "You are not nearly as fearsome as your namesake."'
+        source: ' Haka, Battle Unending #8'
+      tags:
+      - One-Shot
+  - Haka of Battle:
+      actions:
+      - Draw 2 cards, then discard 1 or more cards
+      - Increase the next Damage dealt by Haka by 1 for each card discarded this way
+      flavour:
+        text: 'Flavor-text: "Ka mate! Ka mate! Ka ora! Ka ora! Hae-haea! Ha!"'
+        source: 'Haka, The Savage Haka #7'
+      tags:
+      - One-Shot
+  - Haka of Restoration:
+      actions:
+      - Draw 2 cards, then discard 1 or more cards
+      - Haka regains HP equal to the number of cards discarded this way
+      flavour:
+        text: 'Flavor-text: "A upane! Ka upane! A upane! Ka upane! Whit! Te ra! Hi!"'
+        source: 'Haka, The Savage Haka #15'
+      tags:
+      - One-Shot
+  - Haka of Shielding:
+      actions:
+      - Draw 2 cards, then discard 1 or more cards
+      - Reduce the next Damage dealt to Haka by 2 for each card discarded this way
+      flavour:
+        text: 'Flavor-text: "kia whakangawar! Au i a hau! I au-e! Hei!"'
+        source: 'Haka, Freedom Five Annual #11'
+      tags:
+      - One-Shot
+  - Rampage:
+      actions:
+      - Haka deals each non-Hero Target 5 Melee Damage and each Hero Target 2 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Ko niutirenis haururu laleish! Ala lala!"'
+        source: 'Haka, Singularity #5'
+      tags:
+      - One-Shot
+  - Vitality Surge:
+      actions:
+      - Haka regains 2 HP
+      - Draw a card
+      flavour:
+        text: 'Flavor-text: "Au au aue a!"'
+        source: 'Haka, The Savage Haka #19'
+      tags:
+      - One-Shot
+  - Dominion:
+      actions:
+      - Whenever an Environment card is destroyed, you may draw a card
+      flavour:
+        text: 'Flavor-text: The land of his people is as vital as the blood in his veins.'
+        source: Unattributed
+      tags:
+      - Ongoing
+  - Enduring Intercession:
+      actions:
+      - Power Destroy this card
+      flavour:
+        text: 'Flavor-text: "You have to get out of here!"'
+        source: 'Haka, A Day in the Life: Haka'
+      tags:
+      - Ongoing
+  - Ground Pound:
+      actions:
+      - When this card enters play, discard 2 cards or destroy this card
+      - Non-Hero cards cannot deal Damage
+      - At the start of your turn, destroy this card
+      flavour:
+        text: 'Flavor-text: "Ha ha! Bring it on!"'
+        source: 'Haka, The Savage Haka #27'
+      tags:
+      - Ongoing
+  - Punish the Weak:
+      actions:
+      - Power Destroy this card
+      flavour:
+        text: 'Flavor-text: "Hua! There is something to be said for easy targets."'
+        source: 'Haka, The Savage Haka #41'
+      tags:
+      - Ongoing
+      - Limited
+  - Savage Mana:
+      actions:
+      - Power Destroy all cards beneath this card
+      - Haka deals 1 Target X Toxic Damage, where X = the number of cards destroyed this way times 2
+      flavour:
+        text: 'Flavor-text: "The essence of defeated opponents serves well to strengthen a warrior."'
+        source: 'Ambuscade, The Deadliest Game #2'
+      tags:
+      - Ongoing
+      - Limited
+  - "T\u0101 moko":
+      actions:
+      - Reduce Damage dealt to Haka by 1
+      flavour:
+        text: 'Flavor-text: These markings I wear on my face? I did them myself. With a sharp stick and snake venom. And you''re going to punch me?"'
+        source: 'Haka, The Savage Haka #1'
+      tags:
+      - Ongoing
+      - Limited
+  - Mere:
+      actions:
+      - Power Haka deals 1 Target 2 Melee Damage
+      - Draw a card
+      flavour:
+        text: 'Flavor-text: "This club is as much me as my fist or my leg. Let me show you!"'
+        source: 'Haka, Battle Unending #3'
+      tags:
+      - Equipment
+      - Limited
+  - Taiaha:
+      actions:
+      - Power Haka deals up to 2 Targets 3 Melee Damage each
+      flavour:
+        text: 'Flavor-text: "Using the Taiaha is all about balance. It also helps to be stronger than everyone else."'
+        source: 'Haka, Battle Unending #5'
+      tags:
+      - Equipment
+      - Limited

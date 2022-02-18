@@ -1,0 +1,166 @@
+deck:
+  name: Tempest
+  complexity: 1
+  composition:
+  - Aquatic Correspondence: 2
+  - Ball Lightning: 2
+  - Chain Lightning: 3
+  - Flash Flood: 2
+  - Into the Stratosphere: 3
+  - Lightning Slash: 3
+  - Reclaim from the Deep: 3
+  - Cleansing Downpour: 2
+  - Grievous Hail Storm: 3
+  - Localized Hurricane: 2
+  - Electrical Storm: 3
+  - Otherworldly Resilience: 3
+  - Shielding Winds: 3
+  - Vicious Cyclone: 2
+  - Elemental Subwave Inducer: 2
+  - Gene-Bound Shackles: 2
+  cards:
+  - Aquatic Correspondence:
+      actions:
+      - Draw 3 cards
+      flavour:
+        text: 'Flavor-text: "So... have you seen anything going on down here? Under the water?"'
+        source: 'Tempest, Stranger in Strange World #2'
+      tags:
+      - One-Shot
+  - Ball Lightning:
+      actions:
+      - Tempest deals 1 Target 4 Lightning Damage
+      - You may destroy up to 2 Ongoing cards
+      flavour:
+        text: 'Flavor-text: "The polarizing power of electricity can produce many interesting results."'
+        source: 'Tempest, Freedom Five #618'
+      tags:
+      - One-Shot
+  - Chain Lightning:
+      actions:
+      - Tempest deals 1 Target 4 Lightning Damage
+      - Tempest may deal a second Target 3 Lightning Damage
+      - Tempest may deal a third Target 2 Lightning Damage
+      flavour:
+        text: 'Flavor-text: "Yes, by all means, clump together... "'
+        source: 'Tempest, Stranger in Strange World #6'
+      tags:
+      - One-Shot
+  - Flash Flood:
+      actions:
+      - Destroy up to 2 Environment cards
+      flavour:
+        text: 'Flavor-text: "The waters rise at my command'
+        source: begone, interloper!"
+      tags:
+      - One-Shot
+  - Into the Stratosphere:
+      actions:
+      - Select 1 non-indestructible Villain card in play, other than a Character card, and put it on top of the Villain deck
+      - Tempest deals the Villain Target with the highest HP 2 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Away with you!"'
+        source: 'Tempest, Justice Comics #597'
+      tags:
+      - One-Shot
+  - Lightning Slash:
+      actions:
+      - Tempest deals 1 Target 5 Lightning Damage
+      flavour:
+        text: 'Flavor-text: "The air itself is my weapon; its strengths are mine."'
+        source: 'The Argent Adept, Tome of the Bizarre #29'
+      tags:
+      - One-Shot
+  - Reclaim from the Deep:
+      actions:
+      - Each player may take a card from their trash and put it on top of their Hero deck
+      - You may draw a card
+      flavour:
+        text: 'Flavor-text: The detonation of Baron Blade''s platform scattered the resulting wreckage.'
+        source: Narrator
+      tags:
+      - One-Shot
+  - Cleansing Downpour:
+      actions:
+      - Power Each Hero Target regains 2 HP
+      flavour:
+        text: 'Flavor-text: "Water ionized while still in the atmosphere produces a most rejuvenating rain."'
+        source: 'Tempest, Freedom Five Annual #17'
+      tags:
+      - Ongoing
+  - Grievous Hail Storm:
+      actions:
+      - Power Tempest deals each non-Hero Target 2 Cold Damage
+      flavour:
+        text: 'Flavor-text: "Inclement weather? Weather patterns should not be able to derail our attack!"'
+        source: 'Grand Warlord Voss, Stranger in Strange World #9'
+      tags:
+      - Ongoing
+  - Localized Hurricane:
+      actions:
+      - Power Tempest deals up to 2 Targets 3 Projectile Damage each
+      - You may draw 2 cards
+      flavour:
+        text: 'Flavor-text: "The eye of the storm is a place of great power, and of great risk."'
+        source: 'Grand Warlord Voss, Stranger in Strange World #9'
+      tags:
+      - Ongoing
+  - Electrical Storm:
+      actions:
+      - At the start of your turn, Tempest deals each non-Hero Target 1 Lightning Damage
+      flavour:
+        text: 'Flavor-text: "There''s a storm brewin''... better find some cover."'
+        source: 'Bunker, Stranger in Strange World #4'
+      tags:
+      - Ongoing
+      - Limited
+  - Otherworldly Resilience:
+      actions:
+      - Reduce Damage dealt to Tempest by 1
+      flavour:
+        text: 'Flavor-text: "The weapons of this world are primitive, and their workings inelegant."'
+        source: 'Tempest, Stranger in Strange World #1'
+      tags:
+      - Ongoing
+      - Limited
+  - Shielding Winds:
+      actions:
+      - Whenever a Hero Target would be dealt 5 or more Damage from a single source, reduce that Damage by 2
+      flavour:
+        text: 'Flavor-text: "The very elements protect them from harm?!"'
+        source: 'Citizen Summer, Freedom Five #599'
+      tags:
+      - Ongoing
+      - Limited
+  - Vicious Cyclone:
+      actions:
+      - Play this card next to a Target
+      - At the start of your turn, discard up to 3 cards
+      - Tempest deals that Target 1 Projectile Damage for each card discarded this way
+      - If the Target leaves play, destroy this card
+      flavour:
+        text: 'Flavor-text: "You cannot be allowed to continue such actions!"'
+        source: 'Tempest, A Day in the Life: Tempest'
+      tags:
+      - Ongoing
+      - Limited
+  - Elemental Subwave Inducer:
+      actions:
+      - At the start of your turn, select a Damage type
+      - All Damage dealt by Tempest this turn is of that type
+      - Reduce Damage to Tempest of that type by 1 until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "Maerynian technology functions so far beyond our current capacity."'
+        source: Tachyon, Science & Progress One-Shot
+      tags:
+      - Equipment
+      - Limited
+  - Gene-Bound Shackles:
+      actions:
+      - Increase Damage dealt by Tempest to the Villain Target with the highest HP by 2
+      flavour:
+        text: 'Flavor-text: M''kk Dall''ton broke free from Voss''s clutches, but kept the shackles as a reminder... and a promise.'
+        source: Narrator
+      tags:
+      - Equipment
+      - Limited

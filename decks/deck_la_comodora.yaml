@@ -1,0 +1,189 @@
+deck:
+  name: La Comodora
+  complexity: 2
+  composition:
+  - Brig Teleporter: 2
+  - Cannon Portal: 2
+  - Future-Tech Deck Gun: 2
+  - Paradoja Figurehead: 2
+  - Rudder in the Timestream: 2
+  - Temporal Rigging: 2
+  - Timeless Treasure: 2
+  - Concordant Helm: 3
+  - Flintlock And Cutlass: 4
+  - Harnessed Anomaly: 3
+  - Run Aground: 2
+  - Take Time: 3
+  - Weigh Anchor: 3
+  - Chronological Sweetspot: 2
+  - Combat Timing: 2
+  - Maria Helena's Plot: 2
+  - Shipshape: 2
+  cards:
+  - Brig Teleporter:
+      actions:
+      - At the start of your turn, either discard a card or destroy this card
+      - At the end of your turn, La Comodora may deal 1 target 1 irreducible Energy Damage
+      - Then, if that target has 5 or fewer HP, it cannot deal damage until the start of your next turn
+      flavour:
+        text: 'Flavor-text: "Serves him right. He called me a miarlken basaboon! Not even sure what that means."'
+        source: 'Mainstay, Void Guard #8'
+      tags:
+      - Equipment
+  - Cannon Portal:
+      actions:
+      - At the start of your turn, either discard a card or destroy this card
+      - At the end of your turn, La Comodora deals 1 target 3 Projectile Damage
+      flavour:
+        text: 'Flavor-text: "Broadsides, phase in! It''s time to show them what we''re made of!"'
+        source: 'La Comodora, Scion Strike #6'
+      tags:
+      - Equipment
+  - Future-Tech Deck Gun:
+      actions:
+      - Power La Comodora deals up to 5 targets 1 irreducible Energy Damage each
+      flavour:
+        text: 'Flavor-text: "All these things to shoot in space! Whatever shall I do?"'
+        source: 'La Comodora, Void Guard #7'
+      tags:
+      - Equipment
+  - Paradoja Figurehead:
+      actions:
+      - At the start of your turn, either discard a card or destroy this card
+      - Increase damage dealt by Hero targets in this play area by 1
+      - At the end of your turn, you may move this card to a play area that doesn't contain a Paradoja Figurehead
+      flavour:
+        text: 'Flavor-text: "Majestic and inspiring! Do you feel the thrill when the figurehead comes into view?"'
+        source: 'La Comodora, Freedom Five #799'
+      tags:
+      - Equipment
+  - Rudder in the Timestream:
+      actions:
+      - Power Move 1 card from a trash to the bottom of that card's deck
+      - Then, move 1 card from a different trash to the bottom of that card's deck
+      - Draw 1 card
+      flavour:
+        text: 'Flavor-text: "I tie their essence together, disconnecting them from time. Now, they are sustained by each other."'
+        source: La Comodora, Time Trust
+      tags:
+      - Equipment
+  - Temporal Rigging:
+      actions:
+      - At the start of your turn, either discard a card or destroy this card
+      - At the end of your turn, a Hero may use a Power
+      - If none do, you may draw a card
+      flavour:
+        text: 'Flavor-text: "Stand down, villain! I''ve not seen the likes of you before, but I know evil when I see it!"'
+        source: 'Legacy, Freedom Five #800'
+      tags:
+      - Equipment
+  - Timeless Treasure:
+      actions:
+      - At the start of your turn, either discard a card or destroy this card
+      - At the end of your turn, up to three players may each draw a card
+      flavour:
+        text: 'Flavor-text: "It is yours. It always has been. Just not a you that would seem familiar to this you."'
+        source: 'La Comodora, Tome of the Bizarre #80'
+      tags:
+      - Equipment
+  - Concordant Helm:
+      actions:
+      - You may take your Play, Power, and Draw phases in any order
+      - At the end of your turn, you may either move an Equipment card from your trash to your hand or put the bottom card of yor deck in your hand
+      flavour:
+        text: "Flavor-text: \xA1Si, si! It is time to go. Or perhaps it is not time... Oh, right, it is always time!\""
+        source: Concordia, Time Trust
+      tags:
+      - Equipment
+      - Limited
+  - Flintlock And Cutlass:
+      actions:
+      - La Comodora deals 1 target 2 Projectile Damage
+      - La Comodora deals 1 target 2 Melee Damage
+      flavour:
+        text: 'Flavor-text: "Can a robot have honor? Come forward and show yourself to be worthy of combat!"'
+        source: 'La Comodora, Freedom Five #785'
+      tags:
+      - One-Shot
+  - Harnessed Anomaly:
+      actions:
+      - Shuffle one card from a trash into its deck
+      - Put the top card of that deck into play
+      - You may draw a card or play a card
+      flavour:
+        text: 'Flavor-text: "I erase this time so that others might continue to exist. This is not done lightly."'
+        source: La Comodora, Time Trust
+      tags:
+      - One-Shot
+  - Run Aground:
+      actions:
+      - Shuffle any number of Equipment cards from your trash into your deck
+      - La Comodora deals 1 target X irreducible Energy Damage, where X = the number of cards shuffled into your deck this way plus 1
+      flavour:
+        text: 'Flavor-text: "Buen viaje, OblivAeon. You and I will be gone from this time."'
+        source: 'La Comodora, Freedom Five #800'
+      tags:
+      - One-Shot
+  - Take Time:
+      actions:
+      - You may destroy an Ongoing card, an Environment card, or a target with 1 HP
+      - If a card is destroyed this way, draw cards until you have 5 cards in hand
+      flavour:
+        text: "Flavor-text: \"Calmate, ni\xF1a. You can still be useful. Just give up all that negative energy.\""
+        source: 'La Comodora, Tome of the Bizarre #80'
+      tags:
+      - One-Shot
+  - Weigh Anchor:
+      actions:
+      - Reveal the bottom card of your deck
+      - If it has the same name as a Limited card currently in play, discard it
+      - Otherwise, put it into play
+      - If an Equipment card enters play this way, repeat the text of this card
+      flavour:
+        text: 'Flavor-text: "I would say they''ll never know what hit them, but they''ll actually have a pretty good idea."'
+        source: 'La Comodora, Scion Strike #6'
+      tags:
+      - One-Shot
+  - Chronological Sweetspot:
+      actions:
+      - At the start of your turn, destroy one of your Ongoing or Equipment cards
+      - At the end of your turn, reveal the top card of each Hero deck
+      - If the revealed card is a One-Shot, play it
+      - If not, discard it
+      flavour:
+        text: 'Flavor-text: "Thank you all for joining me, amigos. We will strive to make a difference where and when it counts."'
+        source: 'La Comodora, Freedom Five Annual #30'
+      tags:
+      - Ongoing
+      - Limited
+  - Combat Timing:
+      actions:
+      - If La Comodora would be dealt 3 or more damage, prevent that damage and La Comodora deals 1 target 2 Projectile Damage
+      - Then, destroy this card
+      flavour:
+        text: 'Flavor-text: "Haha! I am not there! I was there, but that was so long ago. Who can know anymore?'
+        source: 'La Comodora, Scion Strike #5'
+      tags:
+      - Ongoing
+      - Limited
+  - Maria Helena's Plot:
+      actions:
+      - Whenever one of your Equipment cards is destroyed, either draw a card or La Comodora deals each Villain target 1 Fire Damage
+      - You may look at the bottom card of your deck at any time
+      flavour:
+        text: 'Flavor-text: "Here is where it begins. How could the corruption spread so far and so long?"'
+        source: 'La Comodora, Mystery Comics #519'
+      tags:
+      - Ongoing
+      - Limited
+  - Shipshape:
+      actions:
+      - The first time you discard a card each turn, you may draw a card
+      - At the start of your turn, you may discard a card
+      - If you do, put one of your Equipment or Ongoing cards in play on top of your deck and then play the top card of your deck
+      flavour:
+        text: 'Flavor-text: "I need more power. I must harness time itself and bend it to my will as a weapon."'
+        source: 'La Comodora, Prime Wardens #52'
+      tags:
+      - Ongoing
+      - Limited

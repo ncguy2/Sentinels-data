@@ -1,0 +1,54 @@
+character:
+  name: 'The Argent Adept: Virtuoso of the Void'
+  health: 24
+  deck: Argent Adept
+  power:
+    name: Vocalize
+    actions:
+    - Activate a Perform text
+    - Fire Damage
+  incapacitated:
+  - One Hero regains 1 HP
+  - One Hero may use a Power
+  - Select a Damage Type Until the start of your next turn, increase all Damage of that Type dealt by Hero Targets by 1
+---
+character:
+  name: 'Prime Wardens: The Argent Adept'
+  health: 25
+  deck: Argent Adept
+  power:
+    name: 'Conduct '
+    actions:
+    - Put the bottom Card of your Deck into play
+    - You may activate an Accompany text
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - 'Tried Prime Wardens: The Argent Adept and The Argent Adept: Prime Wardens'
+---
+character:
+  name: 'The Argent Adept: The Dark Conductor'
+  health: 23
+  deck: Argent Adept
+  power:
+    name: Dark Dynamics
+    actions:
+    - Reveal the top Card of any 2 Decks
+    - Put 1 Card into play and the other into the trash
+  incapacitated:
+  - One Player may Draw a Card now
+  - One Player may Play a Card now
+  - Destroy a Target with 2 or fewer HP
+---
+character:
+  name: 'XTREME Prime Wardens: Argent Adept'
+  health: 26
+  deck: Argent Adept
+  power:
+    name: Rebel Yell
+    actions:
+    - The Argent Adept deals 1 Target other than himself 2 Sonic Damage
+    - If a Hero is dealt Damage this way, they play a Card and use a Power
+  incapacitated:
+  - Up to 2 Hero Targets deal 1 Target 1 Sonic Damage each
+  - One Hero may use a Power now
+  - Destroy an Ongoing Card

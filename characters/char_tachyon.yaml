@@ -1,0 +1,56 @@
+character:
+  name: Tachyon
+  health: 27
+  deck: Tachyon
+  power:
+    name: Rapid Recon
+    actions:
+    - You may look at the top card of your Hero Deck
+    - You may discard that card
+  incapacitated:
+  - One Player may Play a card now
+  - One Player may Draw a card now
+  - One Player may take a card from their trash into their hand
+---
+character:
+  name: Super Scientific Tachyon
+  health: 26
+  deck: Tachyon
+  power:
+    name: Experiment
+    actions:
+    - Reveal the Bottom two cards of a Deck
+    - If they share a Keyword, put them into Play
+    - If not, Discard them
+  incapacitated:
+  - Destroy 1 Ongoing card
+  - One Player Plays 1 card now
+  - Move the bottom card of a deck to the top of that deck now
+---
+character:
+  name: 'Freedom Six: Tachyon'
+  health: 28
+  deck: Tachyon
+  power:
+    name: Team Leader
+    actions:
+    - Each Player draws 1 card
+  incapacitated:
+  - One Player Draws 1 Card now
+  - One Player Plays 1 Card now
+  - Shuffle a Trash into it's associated Deck
+---
+character:
+  name: 'Freedom Five: Tachyon'
+  health: 26
+  deck: Tachyon
+  power:
+    name: Blitz
+    actions:
+    - Tachyon deals 1 Target 1 melee damage
+    - You may move a Burst card from your Trash to the bottom of your deck
+    - IF you do, use this Power again now
+  incapacitated:
+  - Select a Player They may Play an extra card during their next Play phase
+  - Select a Player They may Draw an extra card during their next Draw phase
+  - Put the top card of a Hero's trash into their Players hand

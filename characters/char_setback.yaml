@@ -1,0 +1,27 @@
+character:
+  name: Setback
+  health: 31
+  deck: Setback
+  power:
+    name: Risk
+    actions:
+    - Add 1 Token to your Unlucky Pool
+    - Play the top card of your Deck
+  incapacitated:
+  - One Hero may Use a Power now
+  - One Player may Play a card now
+  - Discard the top card of every Deck
+---
+character:
+  name: 'Dark Watch: Setback'
+  health: 31
+  deck: Setback
+  power:
+    name: Mitigate
+    actions:
+    - Remove 1 Token from your Unlucky Pool
+    - Reduce the next damage dealt to a Hero Target by 2
+  incapacitated:
+  - One Player may Draw a card now
+  - One Hero may use a Power now
+  - Reveal the top card of a deck Discard it or put it on the bottom of that deck

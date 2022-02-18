@@ -1,0 +1,54 @@
+character:
+  name: The Savage Haka
+  health: 34
+  deck: Haka
+  power:
+    name: Crush
+    actions:
+    - Haka deals 1 Target 2 melee damage
+  incapacitated:
+  - Error, cannot find incapacitated info
+  - Tried The Savage Haka, First Edition and The Savage Haka, First Edition
+---
+character:
+  name: The Eternal Haka
+  health: 33
+  deck: Haka
+  power:
+    name: Haka of Knowledge
+    actions:
+    - Draw 1 card
+    - You May Discard 1 card with "Haka" in the title
+    - If you do, draw 2 cards
+  incapacitated:
+  - One Target regains 1 HP
+  - One Player may Play 1 card now>
+  - Reduce all damage dealt by 2 until the start of your next turn
+---
+character:
+  name: 'Prime Wardens: Haka'
+  health: 35
+  deck: Haka
+  power:
+    name: Guardian
+    actions:
+    - Play a Card
+    - If that card has "Haka" in the title, select one target to gain the benefit of your discarding
+  incapacitated:
+  - One Player may Draw a Card Now
+  - One Hero May use a Power Now
+  - Increase the Next Damage Dealt by 1 Target by 2
+---
+character:
+  name: 'XTREME Prime Wardens: Haka'
+  health: 32
+  deck: Haka
+  power:
+    name: Die Hard
+    actions:
+    - Select a Hero character card
+    - Until the start of your next turn, redirect damage that would be dealt to that Target to Haka instead; whenever Haka is dealt damage this way, he regains 1 HP
+  incapacitated:
+  - Each Target regains 1 HP
+  - Until the Start of your turn, this card counts as an Indestructible 0 HP Target
+  - Unil the start of your turn, Targets cannot regain HP

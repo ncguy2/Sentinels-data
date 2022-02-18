@@ -1,0 +1,187 @@
+deck:
+  name: Guise
+  complexity: 2
+  composition:
+  - Best Card Ever!: 22121
+  - Gimmicky Character: 3
+  - I Can Do That, Too!: 3
+  - Look What I Found!: 3
+  - Retcon: 3
+  - Say Cheese!: 3
+  - Where did I Leave That...: 3
+  - Blatant Reference: 2
+  - Gritty Reboot: 2
+  - Guise the Barbarian: 2
+  - Lemme See That...: 3
+  - Selling Out: 2
+  - Super Ultra Kawaii!!: 2
+  - Total Beefcake: 2
+  - Uh, Yeah, I'm That Guy!: 3
+  - X-treeeeeeeeme!!!: 2
+  cards:
+  - Best Card Ever!:
+      actions:
+      - Art Guise wearing a crown sitting in a Throne surrounded by riches and with a butler;
+      flavour:
+        text: 'Flavor-text: "It''s amazing what you can get away with if you know the right people."'
+        source: 'Guise, The Best Book #1'
+      tags:
+      - One-Shot
+  - Gimmicky Character:
+      actions:
+      - Discard the top card of every deck
+      - Guise regains HP equal to the number of target cards discarded
+      - You may play a card
+      - What's wrong with shark-jumping, anyway?
+      flavour:
+        text: 'Flavor-text: "It doesn''t count if it''s a real shark, right?"'
+        source: 'Guise, Mystery Comics #292'
+      tags:
+      - One-Shot
+  - I Can Do That, Too!:
+      actions:
+      - Guise uses a power printed on an active hero character card in play
+      - If that power has the name of a hero in it, treat that name as if it were Guise instead
+      flavour:
+        text: 'Flavor-text: "No, you''re not ''getting the hang of it''. And stop asking about wax."'
+        source: 'Mr. Fixer, Rook City Renegades #19'
+      tags:
+      - One-Shot
+  - Look What I Found!:
+      actions:
+      - Guise deals 1 target 3 melee damage
+      - Is that target still around? You should do more damage next time
+      - If that target is still in play, increase the next damage dealt by Guise by 1
+      flavour:
+        text: 'Flavor-text: "Amazing what you''ll find just lying around! Laying around? Does anyone proofread these?"'
+        source: 'Guise, The Best Book #5'
+      tags:
+      - One-Shot
+  - Retcon:
+      actions:
+      - Destroy 1 ongoing or environment card
+      - Awesome! I'm a great hero
+      - You may draw a card or play a card
+      flavour:
+        text: 'Flavor-text: "Good point, my friend and fellow hero The Wraith! We are a good team!"'
+        source: 'Guise, The Best Book #1'
+      tags:
+      - One-Shot
+  - Say Cheese!:
+      actions:
+      - Guise deals 1 target 1 cold damage
+      - Then, if that target is still in play and has 5 or fewer HP, you may play 1 card
+      flavour:
+        text: 'Flavor-text: "Who doesn''t like a good selfie?! Come on, Man! Strike a pose!"'
+        source: 'Guise, Vengeance #4'
+      tags:
+      - One-Shot
+  - Where did I Leave That...:
+      actions:
+      - Draw 2 cards
+      - Did you get what you were looking for? If so, good
+      - If not, you may discard the 2 cards you just drew to put a card from your trash in your hand
+      flavour:
+        text: 'Flavor-text: "Hold on, hold on! Seriously! I swear I had a pool cue in here!"'
+        source: 'Guise, The Best Book #3'
+      tags:
+      - One-Shot
+  - Blatant Reference:
+      actions:
+      - Look how cool I am! Just like that actor, whatshisname
+      - At the end of each hero turn, you may discard 1 card
+      - If you do, Guise deals 1 target 1 projectile damage
+      - At the start of your turn, destroy this card
+      flavour:
+        text: Say 'What again', again!"
+        source: 'Guise, Rook City Renegades #20'
+      tags:
+      - Ongoing
+      - Limited
+  - Gritty Reboot:
+      actions:
+      - I'm hard-boiled, but not like an egg
+      - Like a detective
+      - Whenever Guise is dealt damage, you may draw a card
+      - At the start of your turn, destroy this card
+      flavour:
+        text: You don't get it pal. Bad things have happened to me. It's not just lazy writing."
+        source: 'Guise, Rook City Renegades #19'
+      tags:
+      - Ongoing
+      - Limited
+  - Guise the Barbarian:
+      actions:
+      - I am mighty and fearsome, like the fabled alpaca! Increase damage dealt by Guise by 2
+      - At the start of your turn, destroy this card
+      flavour:
+        text: Crush your enemies, drive them before you, and laminate their women!"
+        source: 'Guise, Prime Wardens #31'
+      tags:
+      - Ongoing
+      - Limited
+  - Lemme See That...:
+      actions:
+      - Play this card by an equipment card
+      - That card affects Guise as if the hero name on that card were Guise and "You" on that card means Guise's player
+      - At the start of your turn, play air guitar and destroy this card
+      flavour:
+        text: That is a priceless artifact of great power. It's not for playing 'Freebird'."
+        source: 'Argent Adept, Prime Wardens #31'
+      tags:
+      - Ongoing
+      - Limited
+  - Selling Out:
+      actions:
+      - Gotta have all the best swag
+      - At the end of the environment turn, you may discard 1 card
+      - You may play up to 3 cards that share a keyword with the discarded card
+      - At the start of your turn, destroy this card
+      flavour:
+        text: Heck, yeah! Zombie pirate ninja fanboy in space!"
+        source: 'Guise, The Best Book #6'
+      tags:
+      - Ongoing
+      - Limited
+  - Super Ultra Kawaii!!:
+      actions:
+      - I'm not just a hero, I'm a magical love prince! At the end of each Hero turn, if you have more than H cards in your hand, you may play a card
+      - At the start of your turn, destroy this card
+      flavour:
+        text: Oh that Guise! He is so amaz-- wait, what? What is going on here?!"
+        source: 'Baron Blade, Freedom Five Annual #24'
+      tags:
+      - Ongoing
+      - Limited
+  - Total Beefcake:
+      actions:
+      - Who would want to hurt such a beauty? The first time Guise would be dealt damage each turn, redirect that damage to the non-hero target with the lowest HP
+      - At the start of your turn, destroy this card
+      flavour:
+        text: Oh, hi. I didn't see you there. Could you get my back for me?"
+        source: 'Guise, Prime Wardens #31'
+      tags:
+      - Ongoing
+      - Limited
+  - Uh, Yeah, I'm That Guy!:
+      actions:
+      - When this card enters play, give another player a high-five
+      - If you do, treat this card as if it had the game text of every ongoing card in that player's play area, replacing their hero's name with Guise
+      - At the start of your turn, destroy this card
+      flavour:
+        text: Why Yes, Citizen!  You've just been saved by America's Finest Legacy!"
+        source: 'Guise Freedom Five Annual #24'
+      tags:
+      - Ongoing
+      - Limited
+  - X-treeeeeeeeme!!!:
+      actions:
+      - It's hard to tell if I'm the most awesome, or the most extreme
+      - Probably both
+      - Damage dealt by Guise is irreducible and cannot be redirected
+      flavour:
+        text: I'm a soldier. I've been trained for everything. Mostly pouch-related things."
+        source: 'Guise, Rook City Renegades #20'
+      tags:
+      - Ongoing
+      - Limited
