@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sentinels-data/schemas/deck.schema",
+  "title": "Deck",
+  
+  "definitions": {
+    
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    
+    "power": {
+      "type": "object",
+      "properties": {
+        "actions": { "$ref": "#/definitions/stringArray" }
+      }
+    },
+    
+    "actionArray": {
+      "type": "array",
+      "items": {
+        "type": ["string", "object"]
+      }
+    },
+    
+    "card": {
+      "type": "object",
+      "properties": {
+        "actions": { "$ref": "#/definitions/actionArray" },
+        "flavour": {
+          "type": "object",
+          "properties": {
+            "text": { "type": "string" },
+            "source": { "type": "string" }
+          }
+        },
+        "tags": { "$ref": "#/definitions/stringArray" }
+      }
+    }
+  },
+  
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "complexity": { "type": "integer" },
+    "composition": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    
+    "stats": {
+      "type": "object",
+      "properties": {
+        "build": { "type": "integer" },
+        "charge": { "type": "integer" },
+        "heal": { "type": "integer" },
+        "multishot": { "type": "integer" },
+        "support": { "type": "integer" },
+        "tank": { "type": "integer" }
+      }
+    },
+    
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

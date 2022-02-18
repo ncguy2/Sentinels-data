@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sentinels-data/schemas/character.schema",
+  "title": "Character",
+  "definitions": {
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    
+    "implicit-power": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "actions": { "$ref": "#/definitions/stringArray" }
+      }
+    }
+  },
+  
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "health": { "type": "integer" },
+    "deck": { "type": "string" },
+    "power": { "$ref": "#/definitions/implicit-power" },
+    "incapacitated": { "$ref": "#/definitions/stringArray" },
+  }
+}
