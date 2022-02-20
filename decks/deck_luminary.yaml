@@ -2,14 +2,14 @@ deck:
   name: Luminary
   complexity: 1
   composition:
-  - Backlash Generator: 53
-  - Disposable Defender: 53
-  - Regression Turret: 53
-  - Repair Nanites: 53
-  - Sabre Battle Drone: 53
-  - Explosive Reconstructor: 51
-  - Orbital Death-Laser: 51
-  - Terralunar Translocator: 51
+  - Backlash Generator: 3
+  - Disposable Defender: 3
+  - Regression Turret: 3
+  - Repair Nanites: 3
+  - Sabre Battle Drone: 3
+  - Explosive Reconstructor: 1
+  - Orbital Death-Laser: 1
+  - Terralunar Translocator: 1
   - Bared Blade: 3
   - Brilliant Inventor: 3
   - '"Consider the Price of Defeat!"': 2

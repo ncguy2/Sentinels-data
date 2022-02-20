@@ -13,12 +13,12 @@ deck:
   - One With the Land: 2
   - Primeval Germination: 2
   - Thrashing Brambles: 2
-  - Creeping Mold: 33
-  - Healing Pollen: 33
-  - Noxious Pod: 33
-  - Strangling Roots: 33
-  - Vitalized Thorns: 33
-  - Akash'Flora: 31
+  - Creeping Mold: 3
+  - Healing Pollen: 3
+  - Noxious Pod: 3
+  - Strangling Roots: 3
+  - Vitalized Thorns: 3
+  - Akash'Flora: 1
   cards:
   - Accelerate Nature's Order:
       actions:

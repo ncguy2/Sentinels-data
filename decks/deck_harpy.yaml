@@ -2,7 +2,7 @@ deck:
   name: Harpy
   complexity: 3
   composition:
-  - Huginn & Muninn: 91
+  - Huginn & Muninn: 1
   - Ancient Tome: 3
   - Arcane Explosion: 3
   - Calling The Flock: 3

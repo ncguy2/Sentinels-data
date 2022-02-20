@@ -13,14 +13,14 @@ deck:
   - Scrap Metal: 2
   - Supply Crate: 3
   - Volatile Parts: 2
-  - Bee Bot: 13
-  - Champion Bot: 81
-  - Cryo Bot: 71
-  - Platform Bot: 33
-  - Raptor Bot: 23
-  - Stealth Bot: 51
-  - Swift Bot: 51
-  - Turret Bot: 91
+  - Bee Bot: 3
+  - Champion Bot: 1
+  - Cryo Bot: 1
+  - Platform Bot: 3
+  - Raptor Bot: 3
+  - Stealth Bot: 1
+  - Swift Bot: 1
+  - Turret Bot: 1
   cards:
   - Brainstorm:
       actions:
